@@ -1,0 +1,111 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 41,
+  "pilot": "Patrick Byrne",
+  "spicerack_archetype": "Other",
+  "moxfield_url": "https://www.moxfield.com/decks/b4pqIxgTDkaGJonUY03JuA",
+  "swiss_record": "3-3-1",
+  "final_record": "3-3-1",
+  "unchained_card": "Force of Will",
+  "mainboard": [
+    {
+      "count": 2,
+      "name": "Opt"
+    },
+    {
+      "count": 2,
+      "name": "Daze"
+    },
+    {
+      "count": 2,
+      "name": "Foil"
+    },
+    {
+      "count": 2,
+      "name": "Mishra's Factory"
+    },
+    {
+      "count": 2,
+      "name": "Chain of Vapor"
+    },
+    {
+      "count": 2,
+      "name": "Flash of Insight"
+    },
+    {
+      "count": 4,
+      "name": "Counterspell"
+    },
+    {
+      "count": 4,
+      "name": "Impulse"
+    },
+    {
+      "count": 4,
+      "name": "Vision Charm"
+    },
+    {
+      "count": 4,
+      "name": "Phyrexian Dreadnought"
+    },
+    {
+      "count": 4,
+      "name": "Force of Will"
+    },
+    {
+      "count": 4,
+      "name": "Stifle"
+    },
+    {
+      "count": 4,
+      "name": "Gush"
+    },
+    {
+      "count": 4,
+      "name": "Portent"
+    },
+    {
+      "count": 16,
+      "name": "Island"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 1,
+      "name": "Deep Analysis"
+    },
+    {
+      "count": 1,
+      "name": "Hydroblast"
+    },
+    {
+      "count": 1,
+      "name": "Powder Keg"
+    },
+    {
+      "count": 1,
+      "name": "Chain of Vapor"
+    },
+    {
+      "count": 2,
+      "name": "Tormod's Crypt"
+    },
+    {
+      "count": 2,
+      "name": "Dominate"
+    },
+    {
+      "count": 2,
+      "name": "Hurkyl's Recall"
+    },
+    {
+      "count": 2,
+      "name": "Brain Freeze"
+    },
+    {
+      "count": 3,
+      "name": "Annul"
+    }
+  ]
+}

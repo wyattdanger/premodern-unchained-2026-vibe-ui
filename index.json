@@ -1,0 +1,835 @@
+[
+  {
+    "place": null,
+    "pilot": "Jonathan Dacus",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/E_f6noX9N0auCAFLjb-tRw",
+    "filename": "000_01_jonathan_dacus.json"
+  },
+  {
+    "place": null,
+    "pilot": "Jeff Winters",
+    "spicerack_archetype": "Other",
+    "moxfield_url": "https://www.moxfield.com/decks/Dk9fEtdJikizWzn9Co8z6w",
+    "filename": "000_02_jeff_winters.json"
+  },
+  {
+    "place": null,
+    "pilot": "Chris Curtin",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/iXi2GG2U0kq8YCIElOHzsg",
+    "filename": "000_03_chris_curtin.json"
+  },
+  {
+    "place": null,
+    "pilot": "Ron Gregory",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/ikMkpiIpLk6kR1JZFKD5sA",
+    "filename": "000_04_ron_gregory.json"
+  },
+  {
+    "place": 1,
+    "pilot": "Bryson Bonham",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/vfSB1tKNBEiSgkZ9Zwzdiw",
+    "filename": "001_bryson_bonham.json"
+  },
+  {
+    "place": 2,
+    "pilot": "Ryan Sala-Bankston",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/IDqnrCRyVUqxO1zdt1ERjA",
+    "filename": "002_ryan_sala_bankston.json"
+  },
+  {
+    "place": 3,
+    "pilot": "Stephen Bush",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/hWJ31pjjXkuHENPb9QDd7Q",
+    "filename": "003_stephen_bush.json"
+  },
+  {
+    "place": 4,
+    "pilot": "Iman Motamed",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/_OnG8Fuapk-va71S0fy8IA",
+    "filename": "004_iman_motamed.json"
+  },
+  {
+    "place": 5,
+    "pilot": "Michael Vadman",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/4v5LUwEVn0u1oq571_6JZQ",
+    "filename": "005_michael_vadman.json"
+  },
+  {
+    "place": 6,
+    "pilot": "Ryan Ruth",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/koWj8tfPfEO_DhaP8_ZqGQ",
+    "filename": "006_ryan_ruth.json"
+  },
+  {
+    "place": 7,
+    "pilot": "Harlan Broughton",
+    "spicerack_archetype": "Other",
+    "moxfield_url": "https://www.moxfield.com/decks/B2c9FtMfm0Cbuu5XXY8g8Q",
+    "filename": "007_harlan_broughton.json"
+  },
+  {
+    "place": 8,
+    "pilot": "Brett Spinelli",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/_s7vQgsNm0KbAgKJWQtL5Q",
+    "filename": "008_brett_spinelli.json"
+  },
+  {
+    "place": 9,
+    "pilot": "Cory Abrams",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/DNPrse3LokqHgmJAsk3x2A",
+    "filename": "009_cory_abrams.json"
+  },
+  {
+    "place": 10,
+    "pilot": "David Raczka",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/rdZ06dvlU0KenBx-r_-FeQ",
+    "filename": "010_david_raczka.json"
+  },
+  {
+    "place": 11,
+    "pilot": "Kurt Shults",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/DSGLonLsXkqm3J4QLlvK3g",
+    "filename": "011_kurt_shults.json"
+  },
+  {
+    "place": 12,
+    "pilot": "Sergei Pourmal",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/5XawMLHhwkac99rA3xDXPw",
+    "filename": "012_sergei_pourmal.json"
+  },
+  {
+    "place": 13,
+    "pilot": "Andrew Maag",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/SQUh3rr2lUyWkWzupyLO4g",
+    "filename": "013_andrew_maag.json"
+  },
+  {
+    "place": 14,
+    "pilot": "Nate Shue",
+    "spicerack_archetype": "Other",
+    "moxfield_url": "https://www.moxfield.com/decks/3y2SmxuZQkK_GszINpjpQQ",
+    "filename": "014_nate_shue.json"
+  },
+  {
+    "place": 15,
+    "pilot": "Christopher Garcia",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/21NkeuY0yEuKUJbO_MeSYQ",
+    "filename": "015_christopher_garcia.json"
+  },
+  {
+    "place": 16,
+    "pilot": "Brian Tweedy",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/oDiAUNByjU-vOdbha6QX4Q",
+    "filename": "016_brian_tweedy.json"
+  },
+  {
+    "place": 17,
+    "pilot": "Isaac Weiner",
+    "spicerack_archetype": "Other",
+    "moxfield_url": "https://www.moxfield.com/decks/oPsDfPuCrU2Nye6TKv6ULA",
+    "filename": "017_isaac_weiner.json"
+  },
+  {
+    "place": 18,
+    "pilot": "Evan Daigle",
+    "spicerack_archetype": "Other",
+    "moxfield_url": "https://www.moxfield.com/decks/HA6NJCcjAU2FbxuceMptxA",
+    "filename": "018_evan_daigle.json"
+  },
+  {
+    "place": 19,
+    "pilot": "Ryan Marvin",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/oAbAH7_7YkORb_9vvTlHFg",
+    "filename": "019_ryan_marvin.json"
+  },
+  {
+    "place": 20,
+    "pilot": "William Booth",
+    "spicerack_archetype": "Other",
+    "moxfield_url": "https://www.moxfield.com/decks/yIz3rQ7JQEWpegGVgJR3qw",
+    "filename": "020_william_booth.json"
+  },
+  {
+    "place": 21,
+    "pilot": "Gabriel Menendez",
+    "spicerack_archetype": "Other",
+    "moxfield_url": "https://www.moxfield.com/decks/4ynNQ9oGTUyxjxC0V1msiQ",
+    "filename": "021_gabriel_menendez.json"
+  },
+  {
+    "place": 22,
+    "pilot": "Eloise Y",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/QjAOs7HnBkK1BEyVbNTTIg",
+    "filename": "022_eloise_y.json"
+  },
+  {
+    "place": 23,
+    "pilot": "Levi patton",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/j4PoG0-4YUKbQDdjKfVkUQ",
+    "filename": "023_levi_patton.json"
+  },
+  {
+    "place": 24,
+    "pilot": "Jonathan Byer",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/oHWaqpnlC025e5v0yzskEg",
+    "filename": "024_jonathan_byer.json"
+  },
+  {
+    "place": 25,
+    "pilot": "Finn Abbey",
+    "spicerack_archetype": "Other",
+    "moxfield_url": "https://www.moxfield.com/decks/f1fT9FN-okGMmiJcr_NJjA",
+    "filename": "025_finn_abbey.json"
+  },
+  {
+    "place": 26,
+    "pilot": "Samurai Funn",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/omAdO_ENUUGT2J-PkiRPfg",
+    "filename": "026_samurai_funn.json"
+  },
+  {
+    "place": 27,
+    "pilot": "Brandon T",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/Uq5N6PLWjUuBBdlNiSAqYg",
+    "filename": "027_brandon_t.json"
+  },
+  {
+    "place": 28,
+    "pilot": "Manny Moutinho",
+    "spicerack_archetype": "Other",
+    "moxfield_url": "https://www.moxfield.com/decks/gfusy7MasUGDUBF2zkEW5g",
+    "filename": "028_manny_moutinho.json"
+  },
+  {
+    "place": 29,
+    "pilot": "Nick Bliss",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/QkhTwNfhzEepm9AZYnsXsw",
+    "filename": "029_nick_bliss.json"
+  },
+  {
+    "place": 30,
+    "pilot": "Chris Hubka",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/bH_mllTgtEKFj6xFP9U3UQ",
+    "filename": "030_chris_hubka.json"
+  },
+  {
+    "place": 31,
+    "pilot": "John Penick",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/bMkZ7GFE_UKsYcmBbr83aA",
+    "filename": "031_john_penick.json"
+  },
+  {
+    "place": 32,
+    "pilot": "James Robertson",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/vsyE-PRZJ06x7ALcc90hXQ",
+    "filename": "032_james_robertson.json"
+  },
+  {
+    "place": 33,
+    "pilot": "Jared Illum",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/K60aPEW6ZkSEvQ-_KFJt9w",
+    "filename": "033_jared_illum.json"
+  },
+  {
+    "place": 34,
+    "pilot": "Todd S",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/_yw7QtqSt0yuprxzyWabwg",
+    "filename": "034_todd_s.json"
+  },
+  {
+    "place": 35,
+    "pilot": "Mark L",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/F67Us_ZS60uSTgVHzKBK6w",
+    "filename": "035_mark_l.json"
+  },
+  {
+    "place": 36,
+    "pilot": "Gabe Farkas",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/ID0gQD5ZXEKwYFMYkRiN-Q",
+    "filename": "036_gabe_farkas.json"
+  },
+  {
+    "place": 37,
+    "pilot": "Paul Mathews",
+    "spicerack_archetype": "Other",
+    "moxfield_url": "https://www.moxfield.com/decks/Gr7ZZta6CUG2oaPAu0QN-g",
+    "filename": "037_paul_mathews.json"
+  },
+  {
+    "place": 38,
+    "pilot": "Micah Greenbaum",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/40fIUHsfq0eC23dRfkNQ_A",
+    "filename": "038_micah_greenbaum.json"
+  },
+  {
+    "place": 39,
+    "pilot": "Brian Whalley",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/b0hzM_HPsk2Jo_gRG-2vZw",
+    "filename": "039_brian_whalley.json"
+  },
+  {
+    "place": 40,
+    "pilot": "william Damaskos",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/xb5UdYx40kiiRTsMZdkX_w",
+    "filename": "040_william_damaskos.json"
+  },
+  {
+    "place": 41,
+    "pilot": "Patrick Byrne",
+    "spicerack_archetype": "Other",
+    "moxfield_url": "https://www.moxfield.com/decks/b4pqIxgTDkaGJonUY03JuA",
+    "filename": "041_patrick_byrne.json"
+  },
+  {
+    "place": 42,
+    "pilot": "alex davis",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/PQlg4rcMW0y_0760ZP_JxA",
+    "filename": "042_alex_davis.json"
+  },
+  {
+    "place": 43,
+    "pilot": "Nick Rodrigues",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/mEMYMya_YkuQfoC3EP8HYg",
+    "filename": "043_nick_rodrigues.json"
+  },
+  {
+    "place": 44,
+    "pilot": "Nick Brydels",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/OGsToRt7y0qIPMkYu0Z83g",
+    "filename": "044_nick_brydels.json"
+  },
+  {
+    "place": 45,
+    "pilot": "Cameron Dodge",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/IM4kFCAo3UurI_NBoFJz_Q",
+    "filename": "045_cameron_dodge.json"
+  },
+  {
+    "place": 46,
+    "pilot": "Hannah Weinsaft",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/TWu3Q_lpeUWi5IRVFt3QQw",
+    "filename": "046_hannah_weinsaft.json"
+  },
+  {
+    "place": 47,
+    "pilot": "Sean Turley",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/_GusrKelz0yNEzPXQ0AwSA",
+    "filename": "047_sean_turley.json"
+  },
+  {
+    "place": 48,
+    "pilot": "Justin Mannix",
+    "spicerack_archetype": "Other",
+    "moxfield_url": "https://www.moxfield.com/decks/qeWnSkxePUSd0br9qgZi9w",
+    "filename": "048_justin_mannix.json"
+  },
+  {
+    "place": 49,
+    "pilot": "Eric Kubo",
+    "spicerack_archetype": "Other",
+    "moxfield_url": "https://www.moxfield.com/decks/AeOuDgSdqUiqfz5O92QFvw",
+    "filename": "049_eric_kubo.json"
+  },
+  {
+    "place": 50,
+    "pilot": "Bill Jannen",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/EnpLY5mrr0mdzIvJU9O_6Q",
+    "filename": "050_bill_jannen.json"
+  },
+  {
+    "place": 52,
+    "pilot": "Chris Roy",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/dZedlYxLf0eXcj2eDskhuQ",
+    "filename": "052_chris_roy.json"
+  },
+  {
+    "place": 53,
+    "pilot": "Nate Wellman",
+    "spicerack_archetype": "Other",
+    "moxfield_url": "https://www.moxfield.com/decks/B0lGhPhPA0mVnD8W8HJKNg",
+    "filename": "053_nate_wellman.json"
+  },
+  {
+    "place": 54,
+    "pilot": "Daniel Quirk",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/04D5THKQQ0ajiLr7lxe9RA",
+    "filename": "054_daniel_quirk.json"
+  },
+  {
+    "place": 55,
+    "pilot": "Bryan Kinsman",
+    "spicerack_archetype": "Other",
+    "moxfield_url": "https://www.moxfield.com/decks/MCa1fDTr9kqtAqzi8aFSPA",
+    "filename": "055_bryan_kinsman.json"
+  },
+  {
+    "place": 56,
+    "pilot": "Matthew Isaacs",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/CIwKclZ-lkGeDl84gdOyrA",
+    "filename": "056_matthew_isaacs.json"
+  },
+  {
+    "place": 57,
+    "pilot": "Bryan Stillwagon",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/XVmTI7O-NUmI5PiIqqUKsg",
+    "filename": "057_bryan_stillwagon.json"
+  },
+  {
+    "place": 58,
+    "pilot": "Evan Berwald",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/5UGdCNWN-kWBFwHByDKBPQ",
+    "filename": "058_evan_berwald.json"
+  },
+  {
+    "place": 59,
+    "pilot": "Evan DeWitt",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/7CdqMqdg0UGpxgGdahOURA",
+    "filename": "059_evan_dewitt.json"
+  },
+  {
+    "place": 60,
+    "pilot": "Jacob Murphy",
+    "spicerack_archetype": "Other",
+    "moxfield_url": "https://www.moxfield.com/decks/zgc0vKVZI0OZbCnDJJqNVA",
+    "filename": "060_jacob_murphy.json"
+  },
+  {
+    "place": 61,
+    "pilot": "Colin Dunlap",
+    "spicerack_archetype": "Other",
+    "moxfield_url": "https://www.moxfield.com/decks/n-ZdoJUdCUe5BAU_vIuTtA",
+    "filename": "061_colin_dunlap.json"
+  },
+  {
+    "place": 62,
+    "pilot": "Mari\u015bca Mozeleski",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/di9SSlXW90-Et3WR6SIUPw",
+    "filename": "062_mari_ca_mozeleski.json"
+  },
+  {
+    "place": 63,
+    "pilot": "Jonothon Cawley",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/5lV9E8ymY0qM7m6cCT8Clg",
+    "filename": "063_jonothon_cawley.json"
+  },
+  {
+    "place": 64,
+    "pilot": "Robert Gaudreau",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/pTu74JgG4EiKf2es9NgzIA",
+    "filename": "064_robert_gaudreau.json"
+  },
+  {
+    "place": 65,
+    "pilot": "Micah Pellegrini",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/zaoGXw86s06EdYWDHCzBGg",
+    "filename": "065_micah_pellegrini.json"
+  },
+  {
+    "place": 66,
+    "pilot": "Vasu Balakrishnan",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/eDUz4JByxUubGuAyzvODUQ",
+    "filename": "066_vasu_balakrishnan.json"
+  },
+  {
+    "place": 67,
+    "pilot": "Thomas Connolly",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/S_3IR9PKVEmx5HJh1l4srQ",
+    "filename": "067_thomas_connolly.json"
+  },
+  {
+    "place": 68,
+    "pilot": "Thomas MacDonald",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/sBdmkOzkq0KaT5eJDvvIyA",
+    "filename": "068_thomas_macdonald.json"
+  },
+  {
+    "place": 69,
+    "pilot": "Colin Smith",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/L_v1_5geT0eJ8qzuJ83lNg",
+    "filename": "069_colin_smith.json"
+  },
+  {
+    "place": 70,
+    "pilot": "J.P. Lamp",
+    "spicerack_archetype": "Other",
+    "moxfield_url": "https://www.moxfield.com/decks/FGPr2VnzUEqVpd5pHOGcsg",
+    "filename": "070_j_p_lamp.json"
+  },
+  {
+    "place": 71,
+    "pilot": "June Gilley",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/nhM8JiJb4kyI4LT7Z1EFZg",
+    "filename": "071_june_gilley.json"
+  },
+  {
+    "place": 72,
+    "pilot": "Chris Neuteboom",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/aKJlUaiijUyNNi0yf1dkZA",
+    "filename": "072_chris_neuteboom.json"
+  },
+  {
+    "place": 73,
+    "pilot": "Brett Steinbrink",
+    "spicerack_archetype": "Other",
+    "moxfield_url": "https://www.moxfield.com/decks/wG0p4Zt2T0GkgPBVCuJxzA",
+    "filename": "073_brett_steinbrink.json"
+  },
+  {
+    "place": 74,
+    "pilot": "Michael Flores",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/zX-jh3JeJ06Nw0wjDh1JVA",
+    "filename": "074_michael_flores.json"
+  },
+  {
+    "place": 75,
+    "pilot": "kinan abouzelam",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/pVn37MelkUCgfqO_-WZLkA",
+    "filename": "075_kinan_abouzelam.json"
+  },
+  {
+    "place": 77,
+    "pilot": "Joshua Smith",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/I9FsEVQerkehgjb0UzvgBw",
+    "filename": "077_joshua_smith.json"
+  },
+  {
+    "place": 78,
+    "pilot": "Bill Schlichting",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/Ase9Mrr3w0-wz8b9-6i0Pw",
+    "filename": "078_bill_schlichting.json"
+  },
+  {
+    "place": 79,
+    "pilot": "Austin Denny",
+    "spicerack_archetype": "Other",
+    "moxfield_url": "https://www.moxfield.com/decks/qwYEEKm_Nkqm0ch1aOcpkw",
+    "filename": "079_austin_denny.json"
+  },
+  {
+    "place": 80,
+    "pilot": "Stephen Datka",
+    "spicerack_archetype": "Other",
+    "moxfield_url": "https://www.moxfield.com/decks/4rBXbxTia02E-DOEXvpILg",
+    "filename": "080_stephen_datka.json"
+  },
+  {
+    "place": 81,
+    "pilot": "Penelope Cappadoro",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/uqoGHbvxEUuJh3Wd4eV2HQ",
+    "filename": "081_penelope_cappadoro.json"
+  },
+  {
+    "place": 82,
+    "pilot": "Thomas Conmy",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/Es9cNWFuaEuMWUb6j5yB-A",
+    "filename": "082_thomas_conmy.json"
+  },
+  {
+    "place": 83,
+    "pilot": "Brendan O'Dowd",
+    "spicerack_archetype": "Other",
+    "moxfield_url": "https://www.moxfield.com/decks/Lv7Yigoc_EOJmrGpKclC_g",
+    "filename": "083_brendan_o_dowd.json"
+  },
+  {
+    "place": 84,
+    "pilot": "Robert Wyatt",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/aSE86pyoWE-I8eg4Bdfwpw",
+    "filename": "084_robert_wyatt.json"
+  },
+  {
+    "place": 85,
+    "pilot": "Mike Farrell",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/RHxSwsS6kUaYS7NhOCUFig",
+    "filename": "085_mike_farrell.json"
+  },
+  {
+    "place": 86,
+    "pilot": "Christopher Paulison",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/EnZ8qPL5I0ullVo0XaScwA",
+    "filename": "086_christopher_paulison.json"
+  },
+  {
+    "place": 87,
+    "pilot": "Thomas Mesnard",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/hSupq71We0aQ3_CvEMJKug",
+    "filename": "087_thomas_mesnard.json"
+  },
+  {
+    "place": 88,
+    "pilot": "Jay Pigott",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/wp37PELwk0iDkaEh8hWdeg",
+    "filename": "088_jay_pigott.json"
+  },
+  {
+    "place": 89,
+    "pilot": "Robert McCoy",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/Es3EFLfy1UKUc4wBMAb7Gw",
+    "filename": "089_robert_mccoy.json"
+  },
+  {
+    "place": 90,
+    "pilot": "Jack Kitchen",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/vB5qAv4vekmcBk6EtpJSqA",
+    "filename": "090_jack_kitchen.json"
+  },
+  {
+    "place": 91,
+    "pilot": "Tad Gibson",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/IpMmaxkwGUeaocPQh5IVIw",
+    "filename": "091_tad_gibson.json"
+  },
+  {
+    "place": 92,
+    "pilot": "Jay Palmer",
+    "spicerack_archetype": "Other",
+    "moxfield_url": "https://www.moxfield.com/decks/_NZl0UFKt0GSV17s5oqHdg",
+    "filename": "092_jay_palmer.json"
+  },
+  {
+    "place": 93,
+    "pilot": "Aaron Lane",
+    "spicerack_archetype": "Other",
+    "moxfield_url": "https://www.moxfield.com/decks/INSf8QPc3U-D4vlEzLUUIA",
+    "filename": "093_aaron_lane.json"
+  },
+  {
+    "place": 94,
+    "pilot": "Chester Norton",
+    "spicerack_archetype": "Other",
+    "moxfield_url": "https://www.moxfield.com/decks/B0rVlCkdYUu1MyPz8CEiPg",
+    "filename": "094_chester_norton.json"
+  },
+  {
+    "place": 95,
+    "pilot": "Edward Sockol",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/w0lbHI43wEagsebkk_Qe1g",
+    "filename": "095_edward_sockol.json"
+  },
+  {
+    "place": 96,
+    "pilot": "Clara Kim",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/J0tqkNTrWU6NtoNouso3DQ",
+    "filename": "096_clara_kim.json"
+  },
+  {
+    "place": 97,
+    "pilot": "Bobby Burchard",
+    "spicerack_archetype": "Other",
+    "moxfield_url": "https://www.moxfield.com/decks/nYao2_TSskaVtHvfbf-Y_w",
+    "filename": "097_bobby_burchard.json"
+  },
+  {
+    "place": 98,
+    "pilot": "Matt Perlman",
+    "spicerack_archetype": "Other",
+    "moxfield_url": "https://www.moxfield.com/decks/DIeWdgxY20qKLH_KaMsrJA",
+    "filename": "098_matt_perlman.json"
+  },
+  {
+    "place": 99,
+    "pilot": "Joshua LaPointe",
+    "spicerack_archetype": "Other",
+    "moxfield_url": "https://www.moxfield.com/decks/8OWn3aJY8EO1NXnD5VA-YA",
+    "filename": "099_joshua_lapointe.json"
+  },
+  {
+    "place": 100,
+    "pilot": "Joe Toth",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/po3u-f3BbUmYq-XZg8emLw",
+    "filename": "100_joe_toth.json"
+  },
+  {
+    "place": 101,
+    "pilot": "Liam Fisher",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/bPpVdwQJiUqLRAfXrOBiHA",
+    "filename": "101_liam_fisher.json"
+  },
+  {
+    "place": 102,
+    "pilot": "Biel Roig Solvas",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/PU48bxT670WxlRKDYlhYQQ",
+    "filename": "102_biel_roig_solvas.json"
+  },
+  {
+    "place": 103,
+    "pilot": "Jason Smith",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/ndit3ozdnkiGseMEGCG1TQ",
+    "filename": "103_jason_smith.json"
+  },
+  {
+    "place": 104,
+    "pilot": "Christopher Baviello",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/MzURmwOX9ka3dCWG_JfyXA",
+    "filename": "104_christopher_baviello.json"
+  },
+  {
+    "place": 105,
+    "pilot": "James Hadley",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/RryjXXQ6h06jpBzG81kyYg",
+    "filename": "105_james_hadley.json"
+  },
+  {
+    "place": 106,
+    "pilot": "Drew Lesmerises",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/PISkWGaV_E2jULknFTikoQ",
+    "filename": "106_drew_lesmerises.json"
+  },
+  {
+    "place": 107,
+    "pilot": "Sunny Seelamsetty",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/jeNwGNE1P0iibspewAOMWQ",
+    "filename": "107_sunny_seelamsetty.json"
+  },
+  {
+    "place": 108,
+    "pilot": "jordan goodwin",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/NihpoVz01kS_CUhoxr5mrA",
+    "filename": "108_jordan_goodwin.json"
+  },
+  {
+    "place": 109,
+    "pilot": "Noah Mickel",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/gVttstmmi0KlvZ7WNfISzw",
+    "filename": "109_noah_mickel.json"
+  },
+  {
+    "place": 110,
+    "pilot": "Linus Williams",
+    "spicerack_archetype": "Other",
+    "moxfield_url": "https://www.moxfield.com/decks/1KBVH3K2Pkug6KK6XJNUIg",
+    "filename": "110_linus_williams.json"
+  },
+  {
+    "place": 111,
+    "pilot": "Matt Wallan",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/fBGIxjvUbkWiHZ2VaWpNhg",
+    "filename": "111_matt_wallan.json"
+  },
+  {
+    "place": 112,
+    "pilot": "Joseph Mikiewicz",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/zJARrtSBLEKXgbiUlJzWfw",
+    "filename": "112_joseph_mikiewicz.json"
+  },
+  {
+    "place": 113,
+    "pilot": "Travis Schneider",
+    "spicerack_archetype": "Other",
+    "moxfield_url": "https://www.moxfield.com/decks/psxhWUKFxUmja1b-yziHAg",
+    "filename": "113_travis_schneider.json"
+  },
+  {
+    "place": 114,
+    "pilot": "Daniel Lescouflair",
+    "spicerack_archetype": "Other",
+    "moxfield_url": "https://www.moxfield.com/decks/isC0WJGKsUGT9c9ch-BtxQ",
+    "filename": "114_daniel_lescouflair.json"
+  },
+  {
+    "place": 115,
+    "pilot": "Tessa St. Clare",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/5b9dO0WvKECkFoMMi5GG7Q",
+    "filename": "115_tessa_st_clare.json"
+  },
+  {
+    "place": 117,
+    "pilot": "shawn stroke",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/VCEt9IZ3Nku_f2fc_ZWVYg",
+    "filename": "117_shawn_stroke.json"
+  },
+  {
+    "place": 121,
+    "pilot": "Jesse Parnell",
+    "spicerack_archetype": "Archetype missing",
+    "moxfield_url": "https://www.moxfield.com/decks/1TCRoqc4CkunFDYvt9vzMw",
+    "filename": "121_jesse_parnell.json"
+  }
+]

@@ -1,0 +1,99 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 114,
+  "pilot": "Daniel Lescouflair",
+  "spicerack_archetype": "Other",
+  "moxfield_url": "https://www.moxfield.com/decks/isC0WJGKsUGT9c9ch-BtxQ",
+  "swiss_record": "0-4-0",
+  "final_record": "0-4-0",
+  "unchained_card": "Vampiric Tutor",
+  "mainboard": [
+    {
+      "count": 2,
+      "name": "Buried Alive"
+    },
+    {
+      "count": 2,
+      "name": "Squee, Goblin Nabob"
+    },
+    {
+      "count": 2,
+      "name": "Crosis, the Purger"
+    },
+    {
+      "count": 2,
+      "name": "Rorix Bladewing"
+    },
+    {
+      "count": 2,
+      "name": "Bladewing's Thrall"
+    },
+    {
+      "count": 4,
+      "name": "Zombie Infestation"
+    },
+    {
+      "count": 4,
+      "name": "Exhume"
+    },
+    {
+      "count": 4,
+      "name": "Reanimate"
+    },
+    {
+      "count": 4,
+      "name": "Putrid Imp"
+    },
+    {
+      "count": 4,
+      "name": "Cabal Therapy"
+    },
+    {
+      "count": 4,
+      "name": "Dark Ritual"
+    },
+    {
+      "count": 4,
+      "name": "Vampiric Tutor"
+    },
+    {
+      "count": 1,
+      "name": "Sickening Dreams"
+    },
+    {
+      "count": 18,
+      "name": "Swamp"
+    },
+    {
+      "count": 3,
+      "name": "Bladewing the Risen"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 3,
+      "name": "Null Rod"
+    },
+    {
+      "count": 3,
+      "name": "Tormod's Crypt"
+    },
+    {
+      "count": 4,
+      "name": "Duress"
+    },
+    {
+      "count": 1,
+      "name": "Sickening Dreams"
+    },
+    {
+      "count": 2,
+      "name": "Contagion"
+    },
+    {
+      "count": 2,
+      "name": "Ascendant Evincar"
+    }
+  ]
+}

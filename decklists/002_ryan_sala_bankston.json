@@ -1,0 +1,115 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 2,
+  "pilot": "Ryan Sala-Bankston",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/IDqnrCRyVUqxO1zdt1ERjA",
+  "swiss_record": "6-1-0",
+  "final_record": "8-2-0",
+  "unchained_card": "Goblin Recruiter",
+  "mainboard": [
+    {
+      "count": 4,
+      "name": "Goblin Matron"
+    },
+    {
+      "count": 4,
+      "name": "Goblin Warchief"
+    },
+    {
+      "count": 4,
+      "name": "Food Chain"
+    },
+    {
+      "count": 4,
+      "name": "Rishadan Port"
+    },
+    {
+      "count": 4,
+      "name": "Goblin Lackey"
+    },
+    {
+      "count": 4,
+      "name": "Karplusan Forest"
+    },
+    {
+      "count": 4,
+      "name": "Goblin Ringleader"
+    },
+    {
+      "count": 4,
+      "name": "Wooded Foothills"
+    },
+    {
+      "count": 4,
+      "name": "Goblin Recruiter"
+    },
+    {
+      "count": 2,
+      "name": "Siege-Gang Commander"
+    },
+    {
+      "count": 2,
+      "name": "City of Brass"
+    },
+    {
+      "count": 1,
+      "name": "Gempalm Incinerator"
+    },
+    {
+      "count": 1,
+      "name": "Goblin Sharpshooter"
+    },
+    {
+      "count": 1,
+      "name": "Goblin Pyromancer"
+    },
+    {
+      "count": 1,
+      "name": "Skirk Prospector"
+    },
+    {
+      "count": 1,
+      "name": "Forest"
+    },
+    {
+      "count": 3,
+      "name": "Mox Diamond"
+    },
+    {
+      "count": 3,
+      "name": "Ancient Tomb"
+    },
+    {
+      "count": 3,
+      "name": "Goblin Piledriver"
+    },
+    {
+      "count": 6,
+      "name": "Mountain"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 4,
+      "name": "Pyroblast"
+    },
+    {
+      "count": 4,
+      "name": "Tormod's Crypt"
+    },
+    {
+      "count": 4,
+      "name": "Naturalize"
+    },
+    {
+      "count": 2,
+      "name": "Goblin Tinkerer"
+    },
+    {
+      "count": 1,
+      "name": "Red Elemental Blast"
+    }
+  ]
+}

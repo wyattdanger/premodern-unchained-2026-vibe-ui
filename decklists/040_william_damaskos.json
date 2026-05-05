@@ -1,0 +1,103 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 40,
+  "pilot": "william Damaskos",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/xb5UdYx40kiiRTsMZdkX_w",
+  "swiss_record": "3-3-1",
+  "final_record": "3-3-1",
+  "unchained_card": "Force of Will",
+  "mainboard": [
+    {
+      "count": 4,
+      "name": "Counterspell"
+    },
+    {
+      "count": 4,
+      "name": "Vision Charm"
+    },
+    {
+      "count": 4,
+      "name": "Phyrexian Dreadnought"
+    },
+    {
+      "count": 4,
+      "name": "Accumulated Knowledge"
+    },
+    {
+      "count": 4,
+      "name": "Force of Will"
+    },
+    {
+      "count": 4,
+      "name": "Stifle"
+    },
+    {
+      "count": 4,
+      "name": "Portent"
+    },
+    {
+      "count": 3,
+      "name": "Daze"
+    },
+    {
+      "count": 3,
+      "name": "Impulse"
+    },
+    {
+      "count": 3,
+      "name": "Gush"
+    },
+    {
+      "count": 2,
+      "name": "Peek"
+    },
+    {
+      "count": 2,
+      "name": "Flash of Insight"
+    },
+    {
+      "count": 1,
+      "name": "Cephalid Coliseum"
+    },
+    {
+      "count": 1,
+      "name": "Brain Freeze"
+    },
+    {
+      "count": 17,
+      "name": "Island"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 2,
+      "name": "Hydroblast"
+    },
+    {
+      "count": 2,
+      "name": "Blue Elemental Blast"
+    },
+    {
+      "count": 2,
+      "name": "Powder Keg"
+    },
+    {
+      "count": 2,
+      "name": "Tsabo's Web"
+    },
+    {
+      "count": 2,
+      "name": "Brain Freeze"
+    },
+    {
+      "count": 4,
+      "name": "Annul"
+    },
+    {
+      "count": 1,
+      "name": "Thwart"
+    }
+  ]
+}

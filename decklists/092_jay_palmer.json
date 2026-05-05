@@ -1,0 +1,111 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 92,
+  "pilot": "Jay Palmer",
+  "spicerack_archetype": "Other",
+  "moxfield_url": "https://www.moxfield.com/decks/_NZl0UFKt0GSV17s5oqHdg",
+  "swiss_record": "1-1-0",
+  "final_record": "1-1-0",
+  "unchained_card": "Mind Twist",
+  "mainboard": [
+    {
+      "count": 4,
+      "name": "Mishra's Factory"
+    },
+    {
+      "count": 4,
+      "name": "Dark Ritual"
+    },
+    {
+      "count": 4,
+      "name": "Withered Wretch"
+    },
+    {
+      "count": 4,
+      "name": "Duress"
+    },
+    {
+      "count": 4,
+      "name": "Hypnotic Specter"
+    },
+    {
+      "count": 4,
+      "name": "Ravenous Rats"
+    },
+    {
+      "count": 1,
+      "name": "Plaguebearer"
+    },
+    {
+      "count": 1,
+      "name": "Snuff Out"
+    },
+    {
+      "count": 1,
+      "name": "Diabolic Edict"
+    },
+    {
+      "count": 1,
+      "name": "Graveborn Muse"
+    },
+    {
+      "count": 1,
+      "name": "Masticore"
+    },
+    {
+      "count": 2,
+      "name": "Nantuko Shade"
+    },
+    {
+      "count": 2,
+      "name": "Cursed Scroll"
+    },
+    {
+      "count": 3,
+      "name": "Knight of Stromgald"
+    },
+    {
+      "count": 3,
+      "name": "Mind Twist"
+    },
+    {
+      "count": 3,
+      "name": "Cabal Therapy"
+    },
+    {
+      "count": 18,
+      "name": "Swamp"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 2,
+      "name": "Diabolic Edict"
+    },
+    {
+      "count": 2,
+      "name": "Zuran Orb"
+    },
+    {
+      "count": 2,
+      "name": "Dystopia"
+    },
+    {
+      "count": 3,
+      "name": "Gloom"
+    },
+    {
+      "count": 1,
+      "name": "Spinning Darkness"
+    },
+    {
+      "count": 1,
+      "name": "Tormod's Crypt"
+    },
+    {
+      "count": 4,
+      "name": "Phyrexian Negator"
+    }
+  ]
+}

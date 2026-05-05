@@ -1,0 +1,75 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 14,
+  "pilot": "Nate Shue",
+  "spicerack_archetype": "Other",
+  "moxfield_url": "https://www.moxfield.com/decks/3y2SmxuZQkK_GszINpjpQQ",
+  "swiss_record": "5-2-0",
+  "final_record": "5-2-0",
+  "unchained_card": "Force of Will",
+  "mainboard": [
+    {
+      "count": 4,
+      "name": "Opt"
+    },
+    {
+      "count": 4,
+      "name": "Daze"
+    },
+    {
+      "count": 4,
+      "name": "Impulse"
+    },
+    {
+      "count": 4,
+      "name": "Foil"
+    },
+    {
+      "count": 4,
+      "name": "Vision Charm"
+    },
+    {
+      "count": 4,
+      "name": "Phyrexian Dreadnought"
+    },
+    {
+      "count": 4,
+      "name": "Force of Will"
+    },
+    {
+      "count": 4,
+      "name": "Flooded Strand"
+    },
+    {
+      "count": 4,
+      "name": "Stifle"
+    },
+    {
+      "count": 4,
+      "name": "Gush"
+    },
+    {
+      "count": 2,
+      "name": "Mishra's Factory"
+    },
+    {
+      "count": 2,
+      "name": "Telepathy"
+    },
+    {
+      "count": 2,
+      "name": "Chain of Vapor"
+    },
+    {
+      "count": 14,
+      "name": "Island"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 3,
+      "name": "Annul"
+    }
+  ]
+}

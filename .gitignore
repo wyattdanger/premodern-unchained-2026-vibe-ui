@@ -1,2 +1,4 @@
-.claude
-.playwright-mcp
+__pycache__/
+*.pyc
+.playwright-mcp/
+venv/

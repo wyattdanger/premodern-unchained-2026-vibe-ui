@@ -1,0 +1,99 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 106,
+  "pilot": "Drew Lesmerises",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/PISkWGaV_E2jULknFTikoQ",
+  "swiss_record": "0-3-0",
+  "final_record": "0-3-0",
+  "unchained_card": "Force of Will",
+  "mainboard": [
+    {
+      "count": 17,
+      "name": "Island"
+    },
+    {
+      "count": 4,
+      "name": "Opt"
+    },
+    {
+      "count": 4,
+      "name": "Counterspell"
+    },
+    {
+      "count": 4,
+      "name": "Gush"
+    },
+    {
+      "count": 4,
+      "name": "Portent"
+    },
+    {
+      "count": 4,
+      "name": "Force of Will"
+    },
+    {
+      "count": 4,
+      "name": "Phyrexian Dreadnought"
+    },
+    {
+      "count": 4,
+      "name": "Stifle"
+    },
+    {
+      "count": 4,
+      "name": "Vision Charm"
+    },
+    {
+      "count": 3,
+      "name": "Daze"
+    },
+    {
+      "count": 3,
+      "name": "Impulse"
+    },
+    {
+      "count": 2,
+      "name": "Foil"
+    },
+    {
+      "count": 2,
+      "name": "Chain of Vapor"
+    },
+    {
+      "count": 1,
+      "name": "Flash of Insight"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 2,
+      "name": "Essence Flare"
+    },
+    {
+      "count": 2,
+      "name": "Powder Keg"
+    },
+    {
+      "count": 2,
+      "name": "Brain Freeze"
+    },
+    {
+      "count": 2,
+      "name": "Tsabo's Web"
+    },
+    {
+      "count": 1,
+      "name": "Dominate"
+    },
+    {
+      "count": 3,
+      "name": "Annul"
+    },
+    {
+      "count": 3,
+      "name": "Hydroblast"
+    }
+  ]
+}

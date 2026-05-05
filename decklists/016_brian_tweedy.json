@@ -1,0 +1,127 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 16,
+  "pilot": "Brian Tweedy",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/oDiAUNByjU-vOdbha6QX4Q",
+  "swiss_record": "5-2-0",
+  "final_record": "5-2-0",
+  "unchained_card": "Entomb",
+  "mainboard": [
+    {
+      "count": 4,
+      "name": "Cabal Therapy"
+    },
+    {
+      "count": 4,
+      "name": "Duress"
+    },
+    {
+      "count": 4,
+      "name": "Entomb"
+    },
+    {
+      "count": 4,
+      "name": "Mishra's Factory"
+    },
+    {
+      "count": 4,
+      "name": "Smother"
+    },
+    {
+      "count": 4,
+      "name": "Tainted Wood"
+    },
+    {
+      "count": 4,
+      "name": "Llanowar Wastes"
+    },
+    {
+      "count": 4,
+      "name": "Pernicious Deed"
+    },
+    {
+      "count": 1,
+      "name": "Roar of the Wurm"
+    },
+    {
+      "count": 1,
+      "name": "Visara the Dreadful"
+    },
+    {
+      "count": 1,
+      "name": "Chainer's Edict"
+    },
+    {
+      "count": 1,
+      "name": "Undead Gladiator"
+    },
+    {
+      "count": 1,
+      "name": "Contamination"
+    },
+    {
+      "count": 3,
+      "name": "Skeletal Scrying"
+    },
+    {
+      "count": 3,
+      "name": "Call of the Herd"
+    },
+    {
+      "count": 2,
+      "name": "Nether Spirit"
+    },
+    {
+      "count": 2,
+      "name": "Treetop Village"
+    },
+    {
+      "count": 2,
+      "name": "Powder Keg"
+    },
+    {
+      "count": 2,
+      "name": "Wasteland"
+    },
+    {
+      "count": 9,
+      "name": "Swamp"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 3,
+      "name": "Innocent Blood"
+    },
+    {
+      "count": 3,
+      "name": "Engineered Plague"
+    },
+    {
+      "count": 2,
+      "name": "Naturalize"
+    },
+    {
+      "count": 2,
+      "name": "Haunting Echoes"
+    },
+    {
+      "count": 2,
+      "name": "Phyrexian Furnace"
+    },
+    {
+      "count": 1,
+      "name": "Gigapede"
+    },
+    {
+      "count": 1,
+      "name": "Masticore"
+    },
+    {
+      "count": 1,
+      "name": "Dust Bowl"
+    }
+  ]
+}

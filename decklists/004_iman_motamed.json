@@ -1,0 +1,103 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 4,
+  "pilot": "Iman Motamed",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/_OnG8Fuapk-va71S0fy8IA",
+  "swiss_record": "5-0-2",
+  "final_record": "6-1-2",
+  "unchained_card": "Force of Will",
+  "mainboard": [
+    {
+      "count": 4,
+      "name": "Stifle"
+    },
+    {
+      "count": 4,
+      "name": "Gush"
+    },
+    {
+      "count": 4,
+      "name": "Impulse"
+    },
+    {
+      "count": 4,
+      "name": "Vision Charm"
+    },
+    {
+      "count": 4,
+      "name": "Phyrexian Dreadnought"
+    },
+    {
+      "count": 4,
+      "name": "Portent"
+    },
+    {
+      "count": 4,
+      "name": "Force of Will"
+    },
+    {
+      "count": 4,
+      "name": "Opt"
+    },
+    {
+      "count": 3,
+      "name": "Daze"
+    },
+    {
+      "count": 3,
+      "name": "Counterspell"
+    },
+    {
+      "count": 2,
+      "name": "Foil"
+    },
+    {
+      "count": 17,
+      "name": "Island"
+    },
+    {
+      "count": 1,
+      "name": "Reality Ripple"
+    },
+    {
+      "count": 1,
+      "name": "Chain of Vapor"
+    },
+    {
+      "count": 1,
+      "name": "Flash of Insight"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 2,
+      "name": "Brain Freeze"
+    },
+    {
+      "count": 2,
+      "name": "Essence Flare"
+    },
+    {
+      "count": 2,
+      "name": "Tormod's Crypt"
+    },
+    {
+      "count": 1,
+      "name": "Dominate"
+    },
+    {
+      "count": 1,
+      "name": "Powder Keg"
+    },
+    {
+      "count": 4,
+      "name": "Annul"
+    },
+    {
+      "count": 3,
+      "name": "Hydroblast"
+    }
+  ]
+}

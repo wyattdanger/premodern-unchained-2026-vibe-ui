@@ -1,0 +1,119 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 20,
+  "pilot": "William Booth",
+  "spicerack_archetype": "Other",
+  "moxfield_url": "https://www.moxfield.com/decks/yIz3rQ7JQEWpegGVgJR3qw",
+  "swiss_record": "4-2-1",
+  "final_record": "4-2-1",
+  "unchained_card": "Strip Mine",
+  "mainboard": [
+    {
+      "count": 10,
+      "name": "Mountain"
+    },
+    {
+      "count": 4,
+      "name": "Jackal Pup"
+    },
+    {
+      "count": 4,
+      "name": "Lightning Bolt"
+    },
+    {
+      "count": 4,
+      "name": "Mogg Fanatic"
+    },
+    {
+      "count": 4,
+      "name": "Ankh of Mishra"
+    },
+    {
+      "count": 4,
+      "name": "Strip Mine"
+    },
+    {
+      "count": 4,
+      "name": "Incinerate"
+    },
+    {
+      "count": 4,
+      "name": "Grim Lavamancer"
+    },
+    {
+      "count": 4,
+      "name": "Wasteland"
+    },
+    {
+      "count": 4,
+      "name": "Flame Rift"
+    },
+    {
+      "count": 4,
+      "name": "Fireblast"
+    },
+    {
+      "count": 3,
+      "name": "Black Vise"
+    },
+    {
+      "count": 2,
+      "name": "Reckless Abandon"
+    },
+    {
+      "count": 2,
+      "name": "Seal of Fire"
+    },
+    {
+      "count": 1,
+      "name": "Overload"
+    },
+    {
+      "count": 1,
+      "name": "Barbarian Ring"
+    },
+    {
+      "count": 1,
+      "name": "Goblin Cadets"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 1,
+      "name": "Meltdown"
+    },
+    {
+      "count": 1,
+      "name": "Crash"
+    },
+    {
+      "count": 1,
+      "name": "Overload"
+    },
+    {
+      "count": 1,
+      "name": "Black Vise"
+    },
+    {
+      "count": 1,
+      "name": "Price of Progress"
+    },
+    {
+      "count": 2,
+      "name": "Guerrilla Tactics"
+    },
+    {
+      "count": 2,
+      "name": "Seal of Fire"
+    },
+    {
+      "count": 2,
+      "name": "Tormod's Crypt"
+    },
+    {
+      "count": 4,
+      "name": "Pyroblast"
+    }
+  ]
+}

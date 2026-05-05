@@ -1,0 +1,135 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 26,
+  "pilot": "Samurai Funn",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/omAdO_ENUUGT2J-PkiRPfg",
+  "swiss_record": "4-3-0",
+  "final_record": "4-3-0",
+  "unchained_card": "Tendrils of Agony",
+  "mainboard": [
+    {
+      "count": 4,
+      "name": "Dark Ritual"
+    },
+    {
+      "count": 4,
+      "name": "Cabal Ritual"
+    },
+    {
+      "count": 4,
+      "name": "Lotus Petal"
+    },
+    {
+      "count": 4,
+      "name": "Lion's Eye Diamond"
+    },
+    {
+      "count": 4,
+      "name": "Burning Wish"
+    },
+    {
+      "count": 4,
+      "name": "Underground River"
+    },
+    {
+      "count": 4,
+      "name": "Gemstone Mine"
+    },
+    {
+      "count": 4,
+      "name": "Orim's Chant"
+    },
+    {
+      "count": 4,
+      "name": "Mental Note"
+    },
+    {
+      "count": 4,
+      "name": "Portent"
+    },
+    {
+      "count": 4,
+      "name": "City of Brass"
+    },
+    {
+      "count": 3,
+      "name": "Intuition"
+    },
+    {
+      "count": 3,
+      "name": "Ill-Gotten Gains"
+    },
+    {
+      "count": 3,
+      "name": "Sleight of Hand"
+    },
+    {
+      "count": 2,
+      "name": "Reflecting Pool"
+    },
+    {
+      "count": 2,
+      "name": "Overmaster"
+    },
+    {
+      "count": 1,
+      "name": "Crosis's Catacombs"
+    },
+    {
+      "count": 1,
+      "name": "Adarkar Wastes"
+    },
+    {
+      "count": 1,
+      "name": "Tendrils of Agony"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 1,
+      "name": "Duress"
+    },
+    {
+      "count": 1,
+      "name": "Innocent Blood"
+    },
+    {
+      "count": 1,
+      "name": "Crippling Fatigue"
+    },
+    {
+      "count": 1,
+      "name": "Diminishing Returns"
+    },
+    {
+      "count": 1,
+      "name": "Hull Breach"
+    },
+    {
+      "count": 1,
+      "name": "Ill-Gotten Gains"
+    },
+    {
+      "count": 1,
+      "name": "Pyroclasm"
+    },
+    {
+      "count": 1,
+      "name": "Infernal Contract"
+    },
+    {
+      "count": 1,
+      "name": "Tendrils of Agony"
+    },
+    {
+      "count": 2,
+      "name": "Overload"
+    },
+    {
+      "count": 4,
+      "name": "Chain of Vapor"
+    }
+  ]
+}

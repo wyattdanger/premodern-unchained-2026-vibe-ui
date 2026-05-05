@@ -1,0 +1,143 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 8,
+  "pilot": "Brett Spinelli",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/_s7vQgsNm0KbAgKJWQtL5Q",
+  "swiss_record": "5-1-1",
+  "final_record": "5-2-1",
+  "unchained_card": "Entomb",
+  "mainboard": [
+    {
+      "count": 4,
+      "name": "Cabal Therapy"
+    },
+    {
+      "count": 4,
+      "name": "Bloodstained Mire"
+    },
+    {
+      "count": 4,
+      "name": "Entomb"
+    },
+    {
+      "count": 4,
+      "name": "Dark Ritual"
+    },
+    {
+      "count": 4,
+      "name": "Exhume"
+    },
+    {
+      "count": 4,
+      "name": "Lotus Petal"
+    },
+    {
+      "count": 4,
+      "name": "Reanimate"
+    },
+    {
+      "count": 2,
+      "name": "Akroma, Angel of Wrath"
+    },
+    {
+      "count": 2,
+      "name": "Squee, Goblin Nabob"
+    },
+    {
+      "count": 2,
+      "name": "Unmask"
+    },
+    {
+      "count": 2,
+      "name": "Animate Dead"
+    },
+    {
+      "count": 2,
+      "name": "Contamination"
+    },
+    {
+      "count": 1,
+      "name": "Dragon Mage"
+    },
+    {
+      "count": 1,
+      "name": "Nether Spirit"
+    },
+    {
+      "count": 1,
+      "name": "Avatar of Woe"
+    },
+    {
+      "count": 1,
+      "name": "Bladewing the Risen"
+    },
+    {
+      "count": 1,
+      "name": "Rorix Bladewing"
+    },
+    {
+      "count": 1,
+      "name": "Bladewing's Thrall"
+    },
+    {
+      "count": 1,
+      "name": "Mountain"
+    },
+    {
+      "count": 3,
+      "name": "Zombie Infestation"
+    },
+    {
+      "count": 3,
+      "name": "Buried Alive"
+    },
+    {
+      "count": 3,
+      "name": "Sulfurous Springs"
+    },
+    {
+      "count": 6,
+      "name": "Swamp"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 1,
+      "name": "Overload"
+    },
+    {
+      "count": 1,
+      "name": "Sickening Dreams"
+    },
+    {
+      "count": 1,
+      "name": "Ihsan's Shade"
+    },
+    {
+      "count": 1,
+      "name": "Meltdown"
+    },
+    {
+      "count": 2,
+      "name": "Contagion"
+    },
+    {
+      "count": 2,
+      "name": "Duress"
+    },
+    {
+      "count": 2,
+      "name": "Snuff Out"
+    },
+    {
+      "count": 2,
+      "name": "Tormod's Crypt"
+    },
+    {
+      "count": 3,
+      "name": "Pyroblast"
+    }
+  ]
+}

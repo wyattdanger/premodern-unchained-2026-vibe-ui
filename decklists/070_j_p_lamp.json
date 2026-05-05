@@ -1,0 +1,107 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 70,
+  "pilot": "J.P. Lamp",
+  "spicerack_archetype": "Other",
+  "moxfield_url": "https://www.moxfield.com/decks/FGPr2VnzUEqVpd5pHOGcsg",
+  "swiss_record": "2-4-0",
+  "final_record": "2-4-0",
+  "unchained_card": "Vampiric Tutor",
+  "mainboard": [
+    {
+      "count": 4,
+      "name": "Impulse"
+    },
+    {
+      "count": 4,
+      "name": "Squandered Resources"
+    },
+    {
+      "count": 4,
+      "name": "Island"
+    },
+    {
+      "count": 4,
+      "name": "Cadaverous Bloom"
+    },
+    {
+      "count": 4,
+      "name": "Natural Balance"
+    },
+    {
+      "count": 4,
+      "name": "Sleight of Hand"
+    },
+    {
+      "count": 4,
+      "name": "Infernal Contract"
+    },
+    {
+      "count": 4,
+      "name": "Portent"
+    },
+    {
+      "count": 4,
+      "name": "Prosperity"
+    },
+    {
+      "count": 4,
+      "name": "City of Brass"
+    },
+    {
+      "count": 4,
+      "name": "Vampiric Tutor"
+    },
+    {
+      "count": 1,
+      "name": "Scroll Rack"
+    },
+    {
+      "count": 1,
+      "name": "Elven Cache"
+    },
+    {
+      "count": 1,
+      "name": "Drain Life"
+    },
+    {
+      "count": 1,
+      "name": "Skeletal Scrying"
+    },
+    {
+      "count": 5,
+      "name": "Forest"
+    },
+    {
+      "count": 5,
+      "name": "Swamp"
+    },
+    {
+      "count": 3,
+      "name": "Gemstone Mine"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 2,
+      "name": "Plaguebearer"
+    },
+    {
+      "count": 3,
+      "name": "Xantid Swarm"
+    },
+    {
+      "count": 3,
+      "name": "City of Solitude"
+    },
+    {
+      "count": 3,
+      "name": "Tranquil Domain"
+    },
+    {
+      "count": 4,
+      "name": "Phyrexian Negator"
+    }
+  ]
+}

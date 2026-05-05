@@ -1,0 +1,95 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 59,
+  "pilot": "Evan DeWitt",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/7CdqMqdg0UGpxgGdahOURA",
+  "swiss_record": "2-4-0",
+  "final_record": "2-4-0",
+  "unchained_card": "Necropotence",
+  "mainboard": [
+    {
+      "count": 19,
+      "name": "Swamp"
+    },
+    {
+      "count": 4,
+      "name": "Cabal Therapy"
+    },
+    {
+      "count": 4,
+      "name": "Dark Ritual"
+    },
+    {
+      "count": 4,
+      "name": "Duress"
+    },
+    {
+      "count": 4,
+      "name": "Hypnotic Specter"
+    },
+    {
+      "count": 4,
+      "name": "Nantuko Shade"
+    },
+    {
+      "count": 4,
+      "name": "Necropotence"
+    },
+    {
+      "count": 4,
+      "name": "Withered Wretch"
+    },
+    {
+      "count": 3,
+      "name": "Diabolic Edict"
+    },
+    {
+      "count": 3,
+      "name": "Mishra's Factory"
+    },
+    {
+      "count": 3,
+      "name": "Ravenous Rats"
+    },
+    {
+      "count": 2,
+      "name": "Drain Life"
+    },
+    {
+      "count": 2,
+      "name": "Smother"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 3,
+      "name": "Null Rod"
+    },
+    {
+      "count": 1,
+      "name": "Dystopia"
+    },
+    {
+      "count": 1,
+      "name": "Plaguebearer"
+    },
+    {
+      "count": 1,
+      "name": "Haunting Echoes"
+    },
+    {
+      "count": 1,
+      "name": "Smother"
+    },
+    {
+      "count": 4,
+      "name": "Engineered Plague"
+    },
+    {
+      "count": 4,
+      "name": "Ivory Tower"
+    }
+  ]
+}

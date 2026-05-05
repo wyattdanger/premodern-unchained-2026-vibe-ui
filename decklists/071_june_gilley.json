@@ -1,0 +1,95 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 71,
+  "pilot": "June Gilley",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/nhM8JiJb4kyI4LT7Z1EFZg",
+  "swiss_record": "1-5-1",
+  "final_record": "1-5-1",
+  "unchained_card": "Necropotence",
+  "mainboard": [
+    {
+      "count": 1,
+      "name": "Diabolic Edict"
+    },
+    {
+      "count": 4,
+      "name": "Duress"
+    },
+    {
+      "count": 4,
+      "name": "Hypnotic Specter"
+    },
+    {
+      "count": 4,
+      "name": "Mishra's Factory"
+    },
+    {
+      "count": 4,
+      "name": "Necropotence"
+    },
+    {
+      "count": 4,
+      "name": "Bloodstained Mire"
+    },
+    {
+      "count": 4,
+      "name": "Wasteland"
+    },
+    {
+      "count": 4,
+      "name": "Withered Wretch"
+    },
+    {
+      "count": 3,
+      "name": "Ivory Tower"
+    },
+    {
+      "count": 3,
+      "name": "Bane of the Living"
+    },
+    {
+      "count": 3,
+      "name": "Knight of Stromgald"
+    },
+    {
+      "count": 3,
+      "name": "Smother"
+    },
+    {
+      "count": 3,
+      "name": "Unmask"
+    },
+    {
+      "count": 3,
+      "name": "Cabal Therapy"
+    },
+    {
+      "count": 3,
+      "name": "Skittering Skirge"
+    },
+    {
+      "count": 10,
+      "name": "Swamp"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 4,
+      "name": "Phyrexian Negator"
+    },
+    {
+      "count": 4,
+      "name": "Powder Keg"
+    },
+    {
+      "count": 4,
+      "name": "Dark Ritual"
+    },
+    {
+      "count": 3,
+      "name": "Dystopia"
+    }
+  ]
+}

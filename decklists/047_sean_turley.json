@@ -1,0 +1,111 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 47,
+  "pilot": "Sean Turley",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/_GusrKelz0yNEzPXQ0AwSA",
+  "swiss_record": "3-4-0",
+  "final_record": "3-4-0",
+  "unchained_card": "Strip Mine",
+  "mainboard": [
+    {
+      "count": 4,
+      "name": "Mulch"
+    },
+    {
+      "count": 4,
+      "name": "Naturalize"
+    },
+    {
+      "count": 4,
+      "name": "Nimble Mongoose"
+    },
+    {
+      "count": 4,
+      "name": "Werebear"
+    },
+    {
+      "count": 4,
+      "name": "Strip Mine"
+    },
+    {
+      "count": 4,
+      "name": "Mox Diamond"
+    },
+    {
+      "count": 4,
+      "name": "Weathered Wayfarer"
+    },
+    {
+      "count": 4,
+      "name": "Swords to Plowshares"
+    },
+    {
+      "count": 4,
+      "name": "Windswept Heath"
+    },
+    {
+      "count": 4,
+      "name": "Sphere of Resistance"
+    },
+    {
+      "count": 4,
+      "name": "Wasteland"
+    },
+    {
+      "count": 1,
+      "name": "Secluded Steppe"
+    },
+    {
+      "count": 1,
+      "name": "Tranquil Thicket"
+    },
+    {
+      "count": 1,
+      "name": "Summon: Leviathan"
+    },
+    {
+      "count": 3,
+      "name": "Treetop Village"
+    },
+    {
+      "count": 3,
+      "name": "Forest"
+    },
+    {
+      "count": 3,
+      "name": "Sylvan Library"
+    },
+    {
+      "count": 2,
+      "name": "Rishadan Port"
+    },
+    {
+      "count": 2,
+      "name": "Plains"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 4,
+      "name": "Disenchant"
+    },
+    {
+      "count": 4,
+      "name": "Hidden Gibbons"
+    },
+    {
+      "count": 3,
+      "name": "Tormod's Crypt"
+    },
+    {
+      "count": 2,
+      "name": "Null Rod"
+    },
+    {
+      "count": 2,
+      "name": "Worship"
+    }
+  ]
+}

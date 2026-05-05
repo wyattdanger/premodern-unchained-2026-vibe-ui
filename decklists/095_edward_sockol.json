@@ -1,0 +1,99 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 95,
+  "pilot": "Edward Sockol",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/w0lbHI43wEagsebkk_Qe1g",
+  "swiss_record": "1-1-0",
+  "final_record": "1-1-0",
+  "unchained_card": "Force of Will",
+  "mainboard": [
+    {
+      "count": 17,
+      "name": "Island"
+    },
+    {
+      "count": 4,
+      "name": "Opt"
+    },
+    {
+      "count": 4,
+      "name": "Counterspell"
+    },
+    {
+      "count": 4,
+      "name": "Gush"
+    },
+    {
+      "count": 4,
+      "name": "Portent"
+    },
+    {
+      "count": 4,
+      "name": "Force of Will"
+    },
+    {
+      "count": 4,
+      "name": "Phyrexian Dreadnought"
+    },
+    {
+      "count": 4,
+      "name": "Stifle"
+    },
+    {
+      "count": 4,
+      "name": "Vision Charm"
+    },
+    {
+      "count": 2,
+      "name": "Daze"
+    },
+    {
+      "count": 2,
+      "name": "Foil"
+    },
+    {
+      "count": 2,
+      "name": "Chain of Vapor"
+    },
+    {
+      "count": 3,
+      "name": "Impulse"
+    },
+    {
+      "count": 1,
+      "name": "Misdirection"
+    },
+    {
+      "count": 1,
+      "name": "Powder Keg"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 2,
+      "name": "Powder Keg"
+    },
+    {
+      "count": 2,
+      "name": "Brain Freeze"
+    },
+    {
+      "count": 2,
+      "name": "Dominate"
+    },
+    {
+      "count": 2,
+      "name": "Tormod's Crypt"
+    },
+    {
+      "count": 4,
+      "name": "Annul"
+    },
+    {
+      "count": 3,
+      "name": "Mystic Remora"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 93,
+  "pilot": "Aaron Lane",
+  "spicerack_archetype": "Other",
+  "moxfield_url": "https://www.moxfield.com/decks/INSf8QPc3U-D4vlEzLUUIA",
+  "swiss_record": "1-2-0",
+  "final_record": "1-2-0",
+  "unchained_card": "Entomb",
+  "mainboard": [
+    {
+      "count": 4,
+      "name": "Cabal Therapy"
+    },
+    {
+      "count": 4,
+      "name": "Dark Ritual"
+    },
+    {
+      "count": 4,
+      "name": "Entomb"
+    },
+    {
+      "count": 4,
+      "name": "Lotus Petal"
+    },
+    {
+      "count": 4,
+      "name": "Undiscovered Paradise"
+    },
+    {
+      "count": 4,
+      "name": "Careful Study"
+    },
+    {
+      "count": 4,
+      "name": "Unmask"
+    },
+    {
+      "count": 4,
+      "name": "Gemstone Mine"
+    },
+    {
+      "count": 4,
+      "name": "Phantom Nishoba"
+    },
+    {
+      "count": 4,
+      "name": "Akroma, Angel of Wrath"
+    },
+    {
+      "count": 4,
+      "name": "Reanimate"
+    },
+    {
+      "count": 4,
+      "name": "City of Brass"
+    },
+    {
+      "count": 1,
+      "name": "Visara the Dreadful"
+    },
+    {
+      "count": 1,
+      "name": "Ihsan's Shade"
+    },
+    {
+      "count": 3,
+      "name": "Exhume"
+    },
+    {
+      "count": 3,
+      "name": "Animate Dead"
+    },
+    {
+      "count": 2,
+      "name": "Symbiotic Wurm"
+    },
+    {
+      "count": 2,
+      "name": "Underground River"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 3,
+      "name": "Duress"
+    },
+    {
+      "count": 2,
+      "name": "Naturalize"
+    },
+    {
+      "count": 2,
+      "name": "Sickening Dreams"
+    },
+    {
+      "count": 2,
+      "name": "Coffin Purge"
+    },
+    {
+      "count": 1,
+      "name": "Ray of Revelation"
+    },
+    {
+      "count": 1,
+      "name": "Ihsan's Shade"
+    },
+    {
+      "count": 4,
+      "name": "Oath of Druids"
+    }
+  ]
+}

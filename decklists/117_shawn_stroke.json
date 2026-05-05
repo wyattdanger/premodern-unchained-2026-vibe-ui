@@ -1,0 +1,115 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 117,
+  "pilot": "shawn stroke",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/VCEt9IZ3Nku_f2fc_ZWVYg",
+  "swiss_record": "0-2-0",
+  "final_record": "0-2-0",
+  "unchained_card": "Strip Mine",
+  "mainboard": [
+    {
+      "count": 3,
+      "name": "Counterspell"
+    },
+    {
+      "count": 3,
+      "name": "Daze"
+    },
+    {
+      "count": 3,
+      "name": "Gush"
+    },
+    {
+      "count": 3,
+      "name": "Portent"
+    },
+    {
+      "count": 3,
+      "name": "Strip Mine"
+    },
+    {
+      "count": 3,
+      "name": "Winter Orb"
+    },
+    {
+      "count": 3,
+      "name": "Phyrexian Dreadnought"
+    },
+    {
+      "count": 3,
+      "name": "Stifle"
+    },
+    {
+      "count": 3,
+      "name": "Waterfront Bouncer"
+    },
+    {
+      "count": 3,
+      "name": "Rootwater Diver"
+    },
+    {
+      "count": 3,
+      "name": "Vision Charm"
+    },
+    {
+      "count": 2,
+      "name": "Foil"
+    },
+    {
+      "count": 2,
+      "name": "Merfolk Looter"
+    },
+    {
+      "count": 2,
+      "name": "Wasteland"
+    },
+    {
+      "count": 2,
+      "name": "Annul"
+    },
+    {
+      "count": 4,
+      "name": "Lord of Atlantis"
+    },
+    {
+      "count": 15,
+      "name": "Island"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 1,
+      "name": "Powder Keg"
+    },
+    {
+      "count": 1,
+      "name": "Blue Elemental Blast"
+    },
+    {
+      "count": 1,
+      "name": "Boomerang"
+    },
+    {
+      "count": 3,
+      "name": "Chill"
+    },
+    {
+      "count": 3,
+      "name": "Hibernation"
+    },
+    {
+      "count": 2,
+      "name": "Annul"
+    },
+    {
+      "count": 2,
+      "name": "Tsabo's Web"
+    },
+    {
+      "count": 2,
+      "name": "Tormod's Crypt"
+    }
+  ]
+}

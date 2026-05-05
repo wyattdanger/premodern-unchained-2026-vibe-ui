@@ -1,0 +1,139 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 27,
+  "pilot": "Brandon T",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/Uq5N6PLWjUuBBdlNiSAqYg",
+  "swiss_record": "4-3-0",
+  "final_record": "4-3-0",
+  "unchained_card": null,
+  "mainboard": [
+    {
+      "count": 4,
+      "name": "City of Brass"
+    },
+    {
+      "count": 4,
+      "name": "Cabal Ritual"
+    },
+    {
+      "count": 4,
+      "name": "Ancient Tomb"
+    },
+    {
+      "count": 4,
+      "name": "Lotus Petal"
+    },
+    {
+      "count": 4,
+      "name": "Dark Ritual"
+    },
+    {
+      "count": 4,
+      "name": "Show and Tell"
+    },
+    {
+      "count": 4,
+      "name": "Lion's Eye Diamond"
+    },
+    {
+      "count": 4,
+      "name": "Cabal Therapy"
+    },
+    {
+      "count": 4,
+      "name": "Burning Wish"
+    },
+    {
+      "count": 4,
+      "name": "Academy Rector"
+    },
+    {
+      "count": 4,
+      "name": "Yawgmoth's Bargain"
+    },
+    {
+      "count": 4,
+      "name": "Gemstone Mine"
+    },
+    {
+      "count": 1,
+      "name": "Undiscovered Paradise"
+    },
+    {
+      "count": 1,
+      "name": "Red Elemental Blast"
+    },
+    {
+      "count": 1,
+      "name": "Cadaverous Bloom"
+    },
+    {
+      "count": 1,
+      "name": "Mox Diamond"
+    },
+    {
+      "count": 2,
+      "name": "Phyrexian Tower"
+    },
+    {
+      "count": 2,
+      "name": "Enlightened Tutor"
+    },
+    {
+      "count": 2,
+      "name": "Illusions of Grandeur"
+    },
+    {
+      "count": 2,
+      "name": "Chromatic Sphere"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 1,
+      "name": "Seal of Cleansing"
+    },
+    {
+      "count": 1,
+      "name": "Hull Breach"
+    },
+    {
+      "count": 1,
+      "name": "Exhume"
+    },
+    {
+      "count": 1,
+      "name": "Drain Life"
+    },
+    {
+      "count": 1,
+      "name": "Innocent Blood"
+    },
+    {
+      "count": 1,
+      "name": "Donate"
+    },
+    {
+      "count": 1,
+      "name": "Replenish"
+    },
+    {
+      "count": 1,
+      "name": "Diminishing Returns"
+    },
+    {
+      "count": 2,
+      "name": "Duress"
+    },
+    {
+      "count": 2,
+      "name": "Defense Grid"
+    },
+    {
+      "count": 3,
+      "name": "Compost"
+    }
+  ]
+}

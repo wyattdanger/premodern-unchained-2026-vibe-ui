@@ -62,7 +62,7 @@ Stored in `banned_cards.json` as a JSON array of strings. The 28 banned cards fo
 ## Output JSON Schema (per deck)
 
 Filename: `{place:03d}_{pilot_slug}.json` (e.g. `001_bryson_bonham.json`).
-Entries without a place number use prefix `000`.
+Entries without a place number use prefix `000_01_`, `000_02_`, etc. (indexed in table order).
 
 ```json
 {
@@ -121,3 +121,4 @@ No virtual environment required beyond `pip install requests beautifulsoup4`.
 - Win rate analysis by unchained card
 - Meta share analysis
 - Record (W/L/D) enrichment if standings data becomes available
+- Lightweight web page to visualize the data (unchained card breakdowns, standings, archetype distribution)

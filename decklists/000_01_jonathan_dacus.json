@@ -1,0 +1,103 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": null,
+  "pilot": "Jonathan Dacus",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/E_f6noX9N0auCAFLjb-tRw",
+  "swiss_record": null,
+  "final_record": null,
+  "unchained_card": "Strip Mine",
+  "mainboard": [
+    {
+      "count": 4,
+      "name": "Cabal Therapy"
+    },
+    {
+      "count": 4,
+      "name": "Duress"
+    },
+    {
+      "count": 4,
+      "name": "Dark Ritual"
+    },
+    {
+      "count": 4,
+      "name": "Ravenous Rats"
+    },
+    {
+      "count": 4,
+      "name": "Strip Mine"
+    },
+    {
+      "count": 4,
+      "name": "Mishra's Factory"
+    },
+    {
+      "count": 4,
+      "name": "The Rack"
+    },
+    {
+      "count": 3,
+      "name": "Innocent Blood"
+    },
+    {
+      "count": 3,
+      "name": "Cursed Scroll"
+    },
+    {
+      "count": 3,
+      "name": "Bottomless Pit"
+    },
+    {
+      "count": 3,
+      "name": "Pox"
+    },
+    {
+      "count": 2,
+      "name": "Funeral Charm"
+    },
+    {
+      "count": 2,
+      "name": "Smother"
+    },
+    {
+      "count": 1,
+      "name": "Phyrexian Furnace"
+    },
+    {
+      "count": 15,
+      "name": "Swamp"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 1,
+      "name": "Diabolic Edict"
+    },
+    {
+      "count": 1,
+      "name": "Phyrexian Furnace"
+    },
+    {
+      "count": 2,
+      "name": "Tormod's Crypt"
+    },
+    {
+      "count": 2,
+      "name": "Plague Spitter"
+    },
+    {
+      "count": 3,
+      "name": "Gloom"
+    },
+    {
+      "count": 3,
+      "name": "Dystopia"
+    },
+    {
+      "count": 3,
+      "name": "Snuff Out"
+    }
+  ]
+}

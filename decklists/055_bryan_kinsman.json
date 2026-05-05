@@ -1,0 +1,107 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 55,
+  "pilot": "Bryan Kinsman",
+  "spicerack_archetype": "Other",
+  "moxfield_url": "https://www.moxfield.com/decks/MCa1fDTr9kqtAqzi8aFSPA",
+  "swiss_record": "2-3-1",
+  "final_record": "2-3-1",
+  "unchained_card": "Force of Will",
+  "mainboard": [
+    {
+      "count": 4,
+      "name": "Counterspell"
+    },
+    {
+      "count": 4,
+      "name": "Gush"
+    },
+    {
+      "count": 4,
+      "name": "Impulse"
+    },
+    {
+      "count": 4,
+      "name": "Black Vise"
+    },
+    {
+      "count": 4,
+      "name": "Stasis"
+    },
+    {
+      "count": 4,
+      "name": "Force of Will"
+    },
+    {
+      "count": 4,
+      "name": "Chain of Vapor"
+    },
+    {
+      "count": 2,
+      "name": "Daze"
+    },
+    {
+      "count": 2,
+      "name": "Thwart"
+    },
+    {
+      "count": 1,
+      "name": "Foil"
+    },
+    {
+      "count": 1,
+      "name": "Propaganda"
+    },
+    {
+      "count": 1,
+      "name": "Arcane Denial"
+    },
+    {
+      "count": 1,
+      "name": "Boomerang"
+    },
+    {
+      "count": 1,
+      "name": "Annul"
+    },
+    {
+      "count": 19,
+      "name": "Island"
+    },
+    {
+      "count": 3,
+      "name": "Forsaken City"
+    },
+    {
+      "count": 1,
+      "name": "Powder Keg"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 2,
+      "name": "Chill"
+    },
+    {
+      "count": 2,
+      "name": "Mana Short"
+    },
+    {
+      "count": 2,
+      "name": "Propaganda"
+    },
+    {
+      "count": 3,
+      "name": "Mystic Remora"
+    },
+    {
+      "count": 3,
+      "name": "Annul"
+    },
+    {
+      "count": 3,
+      "name": "Blue Elemental Blast"
+    }
+  ]
+}

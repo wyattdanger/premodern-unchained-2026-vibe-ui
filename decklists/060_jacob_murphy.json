@@ -1,0 +1,119 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 60,
+  "pilot": "Jacob Murphy",
+  "spicerack_archetype": "Other",
+  "moxfield_url": "https://www.moxfield.com/decks/zgc0vKVZI0OZbCnDJJqNVA",
+  "swiss_record": "2-4-0",
+  "final_record": "2-4-0",
+  "unchained_card": null,
+  "mainboard": [
+    {
+      "count": 4,
+      "name": "Llanowar Elves"
+    },
+    {
+      "count": 4,
+      "name": "Deranged Hermit"
+    },
+    {
+      "count": 4,
+      "name": "Multani's Acolyte"
+    },
+    {
+      "count": 4,
+      "name": "Yavimaya Coast"
+    },
+    {
+      "count": 4,
+      "name": "Gaea's Cradle"
+    },
+    {
+      "count": 4,
+      "name": "Time Spiral"
+    },
+    {
+      "count": 4,
+      "name": "Wall of Blossoms"
+    },
+    {
+      "count": 4,
+      "name": "Birds of Paradise"
+    },
+    {
+      "count": 4,
+      "name": "Cloud of Faeries"
+    },
+    {
+      "count": 4,
+      "name": "Wirewood Symbiote"
+    },
+    {
+      "count": 4,
+      "name": "City of Brass"
+    },
+    {
+      "count": 2,
+      "name": "Temporal Fissure"
+    },
+    {
+      "count": 3,
+      "name": "Crop Rotation"
+    },
+    {
+      "count": 3,
+      "name": "Snap"
+    },
+    {
+      "count": 3,
+      "name": "Cunning Wish"
+    },
+    {
+      "count": 3,
+      "name": "Forest"
+    },
+    {
+      "count": 1,
+      "name": "Teferi's Isle"
+    },
+    {
+      "count": 1,
+      "name": "Treva's Ruins"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 4,
+      "name": "Naturalize"
+    },
+    {
+      "count": 1,
+      "name": "Frantic Search"
+    },
+    {
+      "count": 1,
+      "name": "Crop Rotation"
+    },
+    {
+      "count": 1,
+      "name": "Snap"
+    },
+    {
+      "count": 1,
+      "name": "Stroke of Genius"
+    },
+    {
+      "count": 1,
+      "name": "Brain Freeze"
+    },
+    {
+      "count": 3,
+      "name": "Chain of Vapor"
+    },
+    {
+      "count": 3,
+      "name": "Mana Short"
+    }
+  ]
+}

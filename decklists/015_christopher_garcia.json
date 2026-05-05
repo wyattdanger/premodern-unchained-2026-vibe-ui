@@ -1,0 +1,131 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 15,
+  "pilot": "Christopher Garcia",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/21NkeuY0yEuKUJbO_MeSYQ",
+  "swiss_record": "5-2-0",
+  "final_record": "5-2-0",
+  "unchained_card": "Strip Mine",
+  "mainboard": [
+    {
+      "count": 2,
+      "name": "Mulch"
+    },
+    {
+      "count": 2,
+      "name": "Mishra's Factory"
+    },
+    {
+      "count": 2,
+      "name": "Treetop Village"
+    },
+    {
+      "count": 2,
+      "name": "Stone Rain"
+    },
+    {
+      "count": 2,
+      "name": "Forest"
+    },
+    {
+      "count": 2,
+      "name": "Mountain"
+    },
+    {
+      "count": 4,
+      "name": "Naturalize"
+    },
+    {
+      "count": 4,
+      "name": "Strip Mine"
+    },
+    {
+      "count": 4,
+      "name": "Mox Diamond"
+    },
+    {
+      "count": 4,
+      "name": "Oath of Druids"
+    },
+    {
+      "count": 4,
+      "name": "Terravore"
+    },
+    {
+      "count": 4,
+      "name": "Wooded Foothills"
+    },
+    {
+      "count": 4,
+      "name": "Karplusan Forest"
+    },
+    {
+      "count": 4,
+      "name": "Wasteland"
+    },
+    {
+      "count": 4,
+      "name": "Sylvan Library"
+    },
+    {
+      "count": 3,
+      "name": "Winter's Grasp"
+    },
+    {
+      "count": 3,
+      "name": "Thermokarst"
+    },
+    {
+      "count": 1,
+      "name": "Rishadan Port"
+    },
+    {
+      "count": 1,
+      "name": "Mossfire Valley"
+    },
+    {
+      "count": 4,
+      "name": "Sphere of Resistance"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 2,
+      "name": "Tormod's Crypt"
+    },
+    {
+      "count": 2,
+      "name": "Overload"
+    },
+    {
+      "count": 2,
+      "name": "Red Elemental Blast"
+    },
+    {
+      "count": 2,
+      "name": "Zuran Orb"
+    },
+    {
+      "count": 3,
+      "name": "Pyroblast"
+    },
+    {
+      "count": 1,
+      "name": "Pyroclasm"
+    },
+    {
+      "count": 1,
+      "name": "Cursed Totem"
+    },
+    {
+      "count": 1,
+      "name": "Earthquake"
+    },
+    {
+      "count": 1,
+      "name": "Compost"
+    }
+  ]
+}

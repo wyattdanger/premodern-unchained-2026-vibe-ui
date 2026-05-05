@@ -1,0 +1,163 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 9,
+  "pilot": "Cory Abrams",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/DNPrse3LokqHgmJAsk3x2A",
+  "swiss_record": "5-1-1",
+  "final_record": "5-1-1",
+  "unchained_card": "Vampiric Tutor",
+  "mainboard": [
+    {
+      "count": 4,
+      "name": "Cabal Therapy"
+    },
+    {
+      "count": 4,
+      "name": "Survival of the Fittest"
+    },
+    {
+      "count": 4,
+      "name": "Vampiric Tutor"
+    },
+    {
+      "count": 4,
+      "name": "Yavimaya Coast"
+    },
+    {
+      "count": 4,
+      "name": "Birds of Paradise"
+    },
+    {
+      "count": 1,
+      "name": "Hypnox"
+    },
+    {
+      "count": 1,
+      "name": "Intuition"
+    },
+    {
+      "count": 1,
+      "name": "Palinchron"
+    },
+    {
+      "count": 1,
+      "name": "Phyrexian Devourer"
+    },
+    {
+      "count": 1,
+      "name": "Psychatog"
+    },
+    {
+      "count": 1,
+      "name": "Triskelion"
+    },
+    {
+      "count": 1,
+      "name": "Elvish Spirit Guide"
+    },
+    {
+      "count": 1,
+      "name": "Akroma, Angel of Wrath"
+    },
+    {
+      "count": 1,
+      "name": "Squee, Goblin Nabob"
+    },
+    {
+      "count": 2,
+      "name": "Mesmeric Fiend"
+    },
+    {
+      "count": 2,
+      "name": "Unearth"
+    },
+    {
+      "count": 2,
+      "name": "Volrath's Shapeshifter"
+    },
+    {
+      "count": 2,
+      "name": "Underground River"
+    },
+    {
+      "count": 3,
+      "name": "Phyrexian Dreadnought"
+    },
+    {
+      "count": 3,
+      "name": "Stifle"
+    },
+    {
+      "count": 3,
+      "name": "Wall of Roots"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 2,
+      "name": "Naturalize"
+    },
+    {
+      "count": 2,
+      "name": "Xantid Swarm"
+    },
+    {
+      "count": 2,
+      "name": "Engineered Plague"
+    },
+    {
+      "count": 2,
+      "name": "Chill"
+    },
+    {
+      "count": 2,
+      "name": "Reflecting Pool"
+    },
+    {
+      "count": 2,
+      "name": "Gemstone Mine"
+    },
+    {
+      "count": 2,
+      "name": "Llanowar Wastes"
+    },
+    {
+      "count": 1,
+      "name": "Auramancer"
+    },
+    {
+      "count": 1,
+      "name": "Gilded Drake"
+    },
+    {
+      "count": 1,
+      "name": "Monk Realist"
+    },
+    {
+      "count": 1,
+      "name": "Uktabi Orangutan"
+    },
+    {
+      "count": 1,
+      "name": "Bone Shredder"
+    },
+    {
+      "count": 1,
+      "name": "Plague Spitter"
+    },
+    {
+      "count": 1,
+      "name": "Aura Thief"
+    },
+    {
+      "count": 4,
+      "name": "Forest"
+    },
+    {
+      "count": 4,
+      "name": "City of Brass"
+    }
+  ]
+}

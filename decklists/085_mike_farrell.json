@@ -1,0 +1,115 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 85,
+  "pilot": "Mike Farrell",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/RHxSwsS6kUaYS7NhOCUFig",
+  "swiss_record": "1-4-0",
+  "final_record": "1-4-0",
+  "unchained_card": "Brainstorm",
+  "mainboard": [
+    {
+      "count": 2,
+      "name": "Deep Analysis"
+    },
+    {
+      "count": 3,
+      "name": "Brain Freeze"
+    },
+    {
+      "count": 3,
+      "name": "Cloud of Faeries"
+    },
+    {
+      "count": 3,
+      "name": "Snap"
+    },
+    {
+      "count": 4,
+      "name": "Brainstorm"
+    },
+    {
+      "count": 4,
+      "name": "Accumulated Knowledge"
+    },
+    {
+      "count": 4,
+      "name": "Meditate"
+    },
+    {
+      "count": 4,
+      "name": "Sapphire Medallion"
+    },
+    {
+      "count": 4,
+      "name": "Frantic Search"
+    },
+    {
+      "count": 4,
+      "name": "Helm of Awakening"
+    },
+    {
+      "count": 4,
+      "name": "Polluted Delta"
+    },
+    {
+      "count": 4,
+      "name": "Merchant Scroll"
+    },
+    {
+      "count": 15,
+      "name": "Island"
+    },
+    {
+      "count": 1,
+      "name": "Cunning Wish"
+    },
+    {
+      "count": 1,
+      "name": "Words of Wisdom"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 1,
+      "name": "Brain Freeze"
+    },
+    {
+      "count": 1,
+      "name": "Rushing River"
+    },
+    {
+      "count": 1,
+      "name": "Hurkyl's Recall"
+    },
+    {
+      "count": 1,
+      "name": "Denying Wind"
+    },
+    {
+      "count": 1,
+      "name": "Tormod's Crypt"
+    },
+    {
+      "count": 2,
+      "name": "Chill"
+    },
+    {
+      "count": 2,
+      "name": "Annul"
+    },
+    {
+      "count": 2,
+      "name": "Hydroblast"
+    },
+    {
+      "count": 2,
+      "name": "Arcane Denial"
+    },
+    {
+      "count": 2,
+      "name": "Chain of Vapor"
+    }
+  ]
+}

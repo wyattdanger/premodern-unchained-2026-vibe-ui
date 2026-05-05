@@ -1,0 +1,111 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 94,
+  "pilot": "Chester Norton",
+  "spicerack_archetype": "Other",
+  "moxfield_url": "https://www.moxfield.com/decks/B0rVlCkdYUu1MyPz8CEiPg",
+  "swiss_record": "1-2-0",
+  "final_record": "1-2-0",
+  "unchained_card": "Necropotence",
+  "mainboard": [
+    {
+      "count": 18,
+      "name": "Swamp"
+    },
+    {
+      "count": 4,
+      "name": "Dark Ritual"
+    },
+    {
+      "count": 2,
+      "name": "Diabolic Edict"
+    },
+    {
+      "count": 4,
+      "name": "Duress"
+    },
+    {
+      "count": 4,
+      "name": "Hypnotic Specter"
+    },
+    {
+      "count": 4,
+      "name": "Drain Life"
+    },
+    {
+      "count": 1,
+      "name": "Ivory Tower"
+    },
+    {
+      "count": 2,
+      "name": "Knight of Stromgald"
+    },
+    {
+      "count": 4,
+      "name": "Necropotence"
+    },
+    {
+      "count": 1,
+      "name": "Plaguebearer"
+    },
+    {
+      "count": 3,
+      "name": "Nantuko Shade"
+    },
+    {
+      "count": 4,
+      "name": "Wasteland"
+    },
+    {
+      "count": 1,
+      "name": "Masticore"
+    },
+    {
+      "count": 2,
+      "name": "Snuff Out"
+    },
+    {
+      "count": 2,
+      "name": "Nevinyrral's Disk"
+    },
+    {
+      "count": 4,
+      "name": "Unmask"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 2,
+      "name": "Dystopia"
+    },
+    {
+      "count": 1,
+      "name": "Nevinyrral's Disk"
+    },
+    {
+      "count": 1,
+      "name": "Snuff Out"
+    },
+    {
+      "count": 3,
+      "name": "Engineered Plague"
+    },
+    {
+      "count": 2,
+      "name": "Ivory Tower"
+    },
+    {
+      "count": 1,
+      "name": "Library of Leng"
+    },
+    {
+      "count": 2,
+      "name": "Gloom"
+    },
+    {
+      "count": 3,
+      "name": "Tormod's Crypt"
+    }
+  ]
+}

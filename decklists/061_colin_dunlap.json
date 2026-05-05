@@ -1,0 +1,95 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 61,
+  "pilot": "Colin Dunlap",
+  "spicerack_archetype": "Other",
+  "moxfield_url": "https://www.moxfield.com/decks/n-ZdoJUdCUe5BAU_vIuTtA",
+  "swiss_record": "2-2-0",
+  "final_record": "2-2-0",
+  "unchained_card": "Necropotence",
+  "mainboard": [
+    {
+      "count": 18,
+      "name": "Swamp"
+    },
+    {
+      "count": 4,
+      "name": "Cabal Therapy"
+    },
+    {
+      "count": 4,
+      "name": "Dark Ritual"
+    },
+    {
+      "count": 4,
+      "name": "Duress"
+    },
+    {
+      "count": 4,
+      "name": "Hypnotic Specter"
+    },
+    {
+      "count": 2,
+      "name": "Drain Life"
+    },
+    {
+      "count": 4,
+      "name": "Necropotence"
+    },
+    {
+      "count": 4,
+      "name": "Smother"
+    },
+    {
+      "count": 4,
+      "name": "Wasteland"
+    },
+    {
+      "count": 4,
+      "name": "Withered Wretch"
+    },
+    {
+      "count": 4,
+      "name": "Unmask"
+    },
+    {
+      "count": 4,
+      "name": "Phyrexian Negator"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 2,
+      "name": "Powder Keg"
+    },
+    {
+      "count": 2,
+      "name": "Null Rod"
+    },
+    {
+      "count": 2,
+      "name": "Spinning Darkness"
+    },
+    {
+      "count": 1,
+      "name": "Contagion"
+    },
+    {
+      "count": 2,
+      "name": "Plaguebearer"
+    },
+    {
+      "count": 2,
+      "name": "Gloom"
+    },
+    {
+      "count": 2,
+      "name": "Tormod's Crypt"
+    },
+    {
+      "count": 2,
+      "name": "Diabolic Edict"
+    }
+  ]
+}

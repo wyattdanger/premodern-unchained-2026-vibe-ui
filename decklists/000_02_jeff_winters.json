@@ -1,0 +1,119 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": null,
+  "pilot": "Jeff Winters",
+  "spicerack_archetype": "Other",
+  "moxfield_url": "https://www.moxfield.com/decks/Dk9fEtdJikizWzn9Co8z6w",
+  "swiss_record": null,
+  "final_record": null,
+  "unchained_card": "Necropotence",
+  "mainboard": [
+    {
+      "count": 17,
+      "name": "Swamp"
+    },
+    {
+      "count": 4,
+      "name": "Cabal Therapy"
+    },
+    {
+      "count": 4,
+      "name": "Dark Ritual"
+    },
+    {
+      "count": 4,
+      "name": "Duress"
+    },
+    {
+      "count": 4,
+      "name": "Hypnotic Specter"
+    },
+    {
+      "count": 4,
+      "name": "Mishra's Factory"
+    },
+    {
+      "count": 4,
+      "name": "Necropotence"
+    },
+    {
+      "count": 4,
+      "name": "Ravenous Rats"
+    },
+    {
+      "count": 4,
+      "name": "Nantuko Shade"
+    },
+    {
+      "count": 1,
+      "name": "Diabolic Edict"
+    },
+    {
+      "count": 1,
+      "name": "Smother"
+    },
+    {
+      "count": 1,
+      "name": "Snuff Out"
+    },
+    {
+      "count": 1,
+      "name": "Drain Life"
+    },
+    {
+      "count": 3,
+      "name": "Wasteland"
+    },
+    {
+      "count": 2,
+      "name": "Mox Diamond"
+    },
+    {
+      "count": 2,
+      "name": "Withered Wretch"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 3,
+      "name": "Dystopia"
+    },
+    {
+      "count": 3,
+      "name": "Engineered Plague"
+    },
+    {
+      "count": 1,
+      "name": "Powder Keg"
+    },
+    {
+      "count": 1,
+      "name": "Drain Life"
+    },
+    {
+      "count": 1,
+      "name": "Snuff Out"
+    },
+    {
+      "count": 1,
+      "name": "Funeral Charm"
+    },
+    {
+      "count": 1,
+      "name": "Smother"
+    },
+    {
+      "count": 1,
+      "name": "Tormod's Crypt"
+    },
+    {
+      "count": 1,
+      "name": "Diabolic Edict"
+    },
+    {
+      "count": 2,
+      "name": "Gloom"
+    }
+  ]
+}

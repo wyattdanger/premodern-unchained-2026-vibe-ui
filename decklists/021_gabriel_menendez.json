@@ -1,0 +1,139 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 21,
+  "pilot": "Gabriel Menendez",
+  "spicerack_archetype": "Other",
+  "moxfield_url": "https://www.moxfield.com/decks/4ynNQ9oGTUyxjxC0V1msiQ",
+  "swiss_record": "4-2-1",
+  "final_record": "4-2-1",
+  "unchained_card": "Strip Mine",
+  "mainboard": [
+    {
+      "count": 2,
+      "name": "Plains"
+    },
+    {
+      "count": 2,
+      "name": "Forest"
+    },
+    {
+      "count": 2,
+      "name": "Wild Mongrel"
+    },
+    {
+      "count": 2,
+      "name": "Werebear"
+    },
+    {
+      "count": 2,
+      "name": "Treetop Village"
+    },
+    {
+      "count": 2,
+      "name": "Rishadan Port"
+    },
+    {
+      "count": 2,
+      "name": "Darigaaz's Caldera"
+    },
+    {
+      "count": 4,
+      "name": "Terravore"
+    },
+    {
+      "count": 4,
+      "name": "Swords to Plowshares"
+    },
+    {
+      "count": 4,
+      "name": "Strip Mine"
+    },
+    {
+      "count": 4,
+      "name": "Sylvan Library"
+    },
+    {
+      "count": 4,
+      "name": "Gemstone Mine"
+    },
+    {
+      "count": 4,
+      "name": "Vindicate"
+    },
+    {
+      "count": 4,
+      "name": "Windswept Heath"
+    },
+    {
+      "count": 4,
+      "name": "Mox Diamond"
+    },
+    {
+      "count": 1,
+      "name": "Thornscape Battlemage"
+    },
+    {
+      "count": 1,
+      "name": "Brushland"
+    },
+    {
+      "count": 1,
+      "name": "City of Brass"
+    },
+    {
+      "count": 1,
+      "name": "Battlefield Forge"
+    },
+    {
+      "count": 1,
+      "name": "Caves of Koilos"
+    },
+    {
+      "count": 3,
+      "name": "Weathered Wayfarer"
+    },
+    {
+      "count": 3,
+      "name": "Armageddon"
+    },
+    {
+      "count": 3,
+      "name": "Call of the Herd"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 1,
+      "name": "Cursed Scroll"
+    },
+    {
+      "count": 1,
+      "name": "Enlightened Tutor"
+    },
+    {
+      "count": 1,
+      "name": "Crumble"
+    },
+    {
+      "count": 2,
+      "name": "Engineered Plague"
+    },
+    {
+      "count": 2,
+      "name": "Ray of Revelation"
+    },
+    {
+      "count": 2,
+      "name": "Aura of Silence"
+    },
+    {
+      "count": 3,
+      "name": "Pyroclasm"
+    },
+    {
+      "count": 3,
+      "name": "Pyroblast"
+    }
+  ]
+}

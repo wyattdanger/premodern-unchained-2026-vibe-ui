@@ -1,0 +1,99 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 68,
+  "pilot": "Thomas MacDonald",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/sBdmkOzkq0KaT5eJDvvIyA",
+  "swiss_record": "2-2-0",
+  "final_record": "2-2-0",
+  "unchained_card": "Entomb",
+  "mainboard": [
+    {
+      "count": 14,
+      "name": "Swamp"
+    },
+    {
+      "count": 4,
+      "name": "Cabal Therapy"
+    },
+    {
+      "count": 4,
+      "name": "Dark Ritual"
+    },
+    {
+      "count": 2,
+      "name": "Duress"
+    },
+    {
+      "count": 4,
+      "name": "Exhume"
+    },
+    {
+      "count": 4,
+      "name": "Reanimate"
+    },
+    {
+      "count": 1,
+      "name": "Phantom Nishoba"
+    },
+    {
+      "count": 4,
+      "name": "Putrid Imp"
+    },
+    {
+      "count": 4,
+      "name": "Entomb"
+    },
+    {
+      "count": 2,
+      "name": "Symbiotic Wurm"
+    },
+    {
+      "count": 4,
+      "name": "Life // Death"
+    },
+    {
+      "count": 4,
+      "name": "Unmask"
+    },
+    {
+      "count": 1,
+      "name": "Multani, Maro-Sorcerer"
+    },
+    {
+      "count": 4,
+      "name": "Akroma, Angel of Wrath"
+    },
+    {
+      "count": 4,
+      "name": "Verdant Force"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 4,
+      "name": "Snuff Out"
+    },
+    {
+      "count": 3,
+      "name": "Multani, Maro-Sorcerer"
+    },
+    {
+      "count": 3,
+      "name": "Null Rod"
+    },
+    {
+      "count": 1,
+      "name": "Visara the Dreadful"
+    },
+    {
+      "count": 2,
+      "name": "Phantom Nishoba"
+    },
+    {
+      "count": 2,
+      "name": "Duress"
+    }
+  ]
+}

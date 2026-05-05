@@ -1,0 +1,119 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 78,
+  "pilot": "Bill Schlichting",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/Ase9Mrr3w0-wz8b9-6i0Pw",
+  "swiss_record": "1-2-0",
+  "final_record": "1-2-0",
+  "unchained_card": "Grim Monolith",
+  "mainboard": [
+    {
+      "count": 4,
+      "name": "Sphere of Resistance"
+    },
+    {
+      "count": 4,
+      "name": "Tangle Wire"
+    },
+    {
+      "count": 4,
+      "name": "Wasteland"
+    },
+    {
+      "count": 4,
+      "name": "Ancient Tomb"
+    },
+    {
+      "count": 4,
+      "name": "Rishadan Port"
+    },
+    {
+      "count": 4,
+      "name": "Voltaic Key"
+    },
+    {
+      "count": 4,
+      "name": "Mishra's Factory"
+    },
+    {
+      "count": 4,
+      "name": "Grim Monolith"
+    },
+    {
+      "count": 4,
+      "name": "Metalworker"
+    },
+    {
+      "count": 4,
+      "name": "City of Traitors"
+    },
+    {
+      "count": 1,
+      "name": "Dust Bowl"
+    },
+    {
+      "count": 1,
+      "name": "Urza's Blueprints"
+    },
+    {
+      "count": 2,
+      "name": "Karn, Silver Golem"
+    },
+    {
+      "count": 2,
+      "name": "Masticore"
+    },
+    {
+      "count": 2,
+      "name": "Mishra's Helix"
+    },
+    {
+      "count": 3,
+      "name": "Thran Dynamo"
+    },
+    {
+      "count": 3,
+      "name": "Black Vise"
+    },
+    {
+      "count": 3,
+      "name": "Winter Orb"
+    },
+    {
+      "count": 3,
+      "name": "Smokestack"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 1,
+      "name": "Null Brooch"
+    },
+    {
+      "count": 1,
+      "name": "Powder Keg"
+    },
+    {
+      "count": 3,
+      "name": "Jester's Cap"
+    },
+    {
+      "count": 3,
+      "name": "Defense Grid"
+    },
+    {
+      "count": 3,
+      "name": "Ensnaring Bridge"
+    },
+    {
+      "count": 2,
+      "name": "Tormod's Crypt"
+    },
+    {
+      "count": 2,
+      "name": "Phyrexian Furnace"
+    }
+  ]
+}

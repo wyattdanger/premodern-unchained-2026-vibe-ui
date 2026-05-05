@@ -1,0 +1,103 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 99,
+  "pilot": "Joshua LaPointe",
+  "spicerack_archetype": "Other",
+  "moxfield_url": "https://www.moxfield.com/decks/8OWn3aJY8EO1NXnD5VA-YA",
+  "swiss_record": "1-1-0",
+  "final_record": "1-1-0",
+  "unchained_card": "Entomb",
+  "mainboard": [
+    {
+      "count": 14,
+      "name": "Swamp"
+    },
+    {
+      "count": 1,
+      "name": "Animate Dead"
+    },
+    {
+      "count": 4,
+      "name": "Cabal Therapy"
+    },
+    {
+      "count": 4,
+      "name": "Dark Ritual"
+    },
+    {
+      "count": 4,
+      "name": "Duress"
+    },
+    {
+      "count": 4,
+      "name": "Lotus Petal"
+    },
+    {
+      "count": 4,
+      "name": "Exhume"
+    },
+    {
+      "count": 4,
+      "name": "Reanimate"
+    },
+    {
+      "count": 1,
+      "name": "Phantom Nishoba"
+    },
+    {
+      "count": 4,
+      "name": "Putrid Imp"
+    },
+    {
+      "count": 4,
+      "name": "Entomb"
+    },
+    {
+      "count": 1,
+      "name": "Symbiotic Wurm"
+    },
+    {
+      "count": 2,
+      "name": "Akroma, Angel of Wrath"
+    },
+    {
+      "count": 3,
+      "name": "Verdant Force"
+    },
+    {
+      "count": 2,
+      "name": "Life // Death"
+    },
+    {
+      "count": 3,
+      "name": "Unmask"
+    },
+    {
+      "count": 1,
+      "name": "Multani, Maro-Sorcerer"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 4,
+      "name": "Contamination"
+    },
+    {
+      "count": 4,
+      "name": "Nether Spirit"
+    },
+    {
+      "count": 2,
+      "name": "Snuff Out"
+    },
+    {
+      "count": 1,
+      "name": "Visara the Dreadful"
+    },
+    {
+      "count": 4,
+      "name": "Last Rites"
+    }
+  ]
+}

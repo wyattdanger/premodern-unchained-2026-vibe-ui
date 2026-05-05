@@ -1,0 +1,99 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 53,
+  "pilot": "Nate Wellman",
+  "spicerack_archetype": "Other",
+  "moxfield_url": "https://www.moxfield.com/decks/B0lGhPhPA0mVnD8W8HJKNg",
+  "swiss_record": "3-3-0",
+  "final_record": "3-3-0",
+  "unchained_card": "Strip Mine",
+  "mainboard": [
+    {
+      "count": 8,
+      "name": "Mountain"
+    },
+    {
+      "count": 4,
+      "name": "Jackal Pup"
+    },
+    {
+      "count": 4,
+      "name": "Lightning Bolt"
+    },
+    {
+      "count": 4,
+      "name": "Lotus Petal"
+    },
+    {
+      "count": 4,
+      "name": "Mogg Fanatic"
+    },
+    {
+      "count": 4,
+      "name": "Strip Mine"
+    },
+    {
+      "count": 4,
+      "name": "Raging Goblin"
+    },
+    {
+      "count": 4,
+      "name": "Reckless Abandon"
+    },
+    {
+      "count": 4,
+      "name": "Wasteland"
+    },
+    {
+      "count": 4,
+      "name": "Pyrostatic Pillar"
+    },
+    {
+      "count": 4,
+      "name": "Goblin Cadets"
+    },
+    {
+      "count": 3,
+      "name": "Bloodstained Mire"
+    },
+    {
+      "count": 3,
+      "name": "Wooded Foothills"
+    },
+    {
+      "count": 2,
+      "name": "Goblin Patrol"
+    },
+    {
+      "count": 2,
+      "name": "Gorilla Shaman"
+    },
+    {
+      "count": 2,
+      "name": "Obstinate Familiar"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 4,
+      "name": "Mogg Salvage"
+    },
+    {
+      "count": 4,
+      "name": "Pyroblast"
+    },
+    {
+      "count": 4,
+      "name": "Tormod's Crypt"
+    },
+    {
+      "count": 2,
+      "name": "Overload"
+    },
+    {
+      "count": 1,
+      "name": "Red Elemental Blast"
+    }
+  ]
+}

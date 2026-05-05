@@ -1,0 +1,111 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 105,
+  "pilot": "James Hadley",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/RryjXXQ6h06jpBzG81kyYg",
+  "swiss_record": "0-2-0",
+  "final_record": "0-2-0",
+  "unchained_card": "Mind Twist",
+  "mainboard": [
+    {
+      "count": 2,
+      "name": "Diabolic Edict"
+    },
+    {
+      "count": 2,
+      "name": "Cursed Scroll"
+    },
+    {
+      "count": 2,
+      "name": "Smother"
+    },
+    {
+      "count": 2,
+      "name": "Wasteland"
+    },
+    {
+      "count": 4,
+      "name": "Mishra's Factory"
+    },
+    {
+      "count": 4,
+      "name": "Dark Ritual"
+    },
+    {
+      "count": 4,
+      "name": "Cabal Therapy"
+    },
+    {
+      "count": 4,
+      "name": "Hypnotic Specter"
+    },
+    {
+      "count": 4,
+      "name": "Mind Twist"
+    },
+    {
+      "count": 4,
+      "name": "Nantuko Shade"
+    },
+    {
+      "count": 1,
+      "name": "Plaguebearer"
+    },
+    {
+      "count": 1,
+      "name": "Graveborn Muse"
+    },
+    {
+      "count": 1,
+      "name": "Spawning Pool"
+    },
+    {
+      "count": 1,
+      "name": "Withered Wretch"
+    },
+    {
+      "count": 1,
+      "name": "Snuff Out"
+    },
+    {
+      "count": 3,
+      "name": "Ravenous Rats"
+    },
+    {
+      "count": 3,
+      "name": "Duress"
+    },
+    {
+      "count": 17,
+      "name": "Swamp"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 1,
+      "name": "Tormod's Crypt"
+    },
+    {
+      "count": 2,
+      "name": "Plaguebearer"
+    },
+    {
+      "count": 2,
+      "name": "Null Rod"
+    },
+    {
+      "count": 2,
+      "name": "Engineered Plague"
+    },
+    {
+      "count": 4,
+      "name": "Planar Void"
+    },
+    {
+      "count": 4,
+      "name": "Powder Keg"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 54,
+  "pilot": "Daniel Quirk",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/04D5THKQQ0ajiLr7lxe9RA",
+  "swiss_record": "3-4-0",
+  "final_record": "3-4-0",
+  "unchained_card": "Necropotence",
+  "mainboard": [
+    {
+      "count": 4,
+      "name": "Dark Ritual"
+    },
+    {
+      "count": 1,
+      "name": "Diabolic Edict"
+    },
+    {
+      "count": 4,
+      "name": "Duress"
+    },
+    {
+      "count": 4,
+      "name": "Hypnotic Specter"
+    },
+    {
+      "count": 4,
+      "name": "Mishra's Factory"
+    },
+    {
+      "count": 19,
+      "name": "Swamp"
+    },
+    {
+      "count": 1,
+      "name": "Chainer's Edict"
+    },
+    {
+      "count": 3,
+      "name": "Cabal Therapy"
+    },
+    {
+      "count": 1,
+      "name": "Ivory Tower"
+    },
+    {
+      "count": 2,
+      "name": "Knight of Stromgald"
+    },
+    {
+      "count": 4,
+      "name": "Necropotence"
+    },
+    {
+      "count": 3,
+      "name": "Ravenous Rats"
+    },
+    {
+      "count": 4,
+      "name": "Nantuko Shade"
+    },
+    {
+      "count": 2,
+      "name": "Smother"
+    },
+    {
+      "count": 2,
+      "name": "Wasteland"
+    },
+    {
+      "count": 4,
+      "name": "Withered Wretch"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 3,
+      "name": "Dystopia"
+    },
+    {
+      "count": 1,
+      "name": "Snuff Out"
+    },
+    {
+      "count": 2,
+      "name": "Engineered Plague"
+    },
+    {
+      "count": 1,
+      "name": "Zuran Orb"
+    },
+    {
+      "count": 1,
+      "name": "Plaguebearer"
+    },
+    {
+      "count": 1,
+      "name": "Bane of the Living"
+    },
+    {
+      "count": 1,
+      "name": "Cabal Therapy"
+    },
+    {
+      "count": 2,
+      "name": "Tormod's Crypt"
+    },
+    {
+      "count": 1,
+      "name": "Drain Life"
+    },
+    {
+      "count": 2,
+      "name": "Gloom"
+    }
+  ]
+}

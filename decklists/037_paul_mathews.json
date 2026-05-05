@@ -1,0 +1,107 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 37,
+  "pilot": "Paul Mathews",
+  "spicerack_archetype": "Other",
+  "moxfield_url": "https://www.moxfield.com/decks/Gr7ZZta6CUG2oaPAu0QN-g",
+  "swiss_record": "3-2-1",
+  "final_record": "3-2-1",
+  "unchained_card": null,
+  "mainboard": [
+    {
+      "count": 15,
+      "name": "Island"
+    },
+    {
+      "count": 4,
+      "name": "Counterspell"
+    },
+    {
+      "count": 4,
+      "name": "Impulse"
+    },
+    {
+      "count": 4,
+      "name": "Mishra's Factory"
+    },
+    {
+      "count": 4,
+      "name": "Accumulated Knowledge"
+    },
+    {
+      "count": 4,
+      "name": "Parallax Tide"
+    },
+    {
+      "count": 4,
+      "name": "Chain of Vapor"
+    },
+    {
+      "count": 2,
+      "name": "Fact or Fiction"
+    },
+    {
+      "count": 2,
+      "name": "Force Spike"
+    },
+    {
+      "count": 3,
+      "name": "Faerie Conclave"
+    },
+    {
+      "count": 3,
+      "name": "Mana Leak"
+    },
+    {
+      "count": 3,
+      "name": "Quicksand"
+    },
+    {
+      "count": 3,
+      "name": "Stifle"
+    },
+    {
+      "count": 3,
+      "name": "Powder Keg"
+    },
+    {
+      "count": 1,
+      "name": "Dust Bowl"
+    },
+    {
+      "count": 1,
+      "name": "Phyrexian Furnace"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 1,
+      "name": "Brain Freeze"
+    },
+    {
+      "count": 1,
+      "name": "Phyrexian Furnace"
+    },
+    {
+      "count": 2,
+      "name": "Essence Flare"
+    },
+    {
+      "count": 2,
+      "name": "Rushing River"
+    },
+    {
+      "count": 2,
+      "name": "Mana Short"
+    },
+    {
+      "count": 4,
+      "name": "Annul"
+    },
+    {
+      "count": 3,
+      "name": "Tormod's Crypt"
+    }
+  ]
+}

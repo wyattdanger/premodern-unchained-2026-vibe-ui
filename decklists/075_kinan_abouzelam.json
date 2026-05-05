@@ -1,0 +1,107 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 75,
+  "pilot": "kinan abouzelam",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/pVn37MelkUCgfqO_-WZLkA",
+  "swiss_record": "1-2-0",
+  "final_record": "1-2-0",
+  "unchained_card": "Mana Vault",
+  "mainboard": [
+    {
+      "count": 4,
+      "name": "Mana Vault"
+    },
+    {
+      "count": 4,
+      "name": "City of Brass"
+    },
+    {
+      "count": 4,
+      "name": "Altar of Dementia"
+    },
+    {
+      "count": 4,
+      "name": "Ancient Tomb"
+    },
+    {
+      "count": 4,
+      "name": "Lotus Petal"
+    },
+    {
+      "count": 4,
+      "name": "Defense Grid"
+    },
+    {
+      "count": 4,
+      "name": "Tinker"
+    },
+    {
+      "count": 4,
+      "name": "Impulse"
+    },
+    {
+      "count": 4,
+      "name": "Gemstone Mine"
+    },
+    {
+      "count": 4,
+      "name": "Crystal Vein"
+    },
+    {
+      "count": 4,
+      "name": "Phyrexian Devourer"
+    },
+    {
+      "count": 4,
+      "name": "Fling"
+    },
+    {
+      "count": 4,
+      "name": "Mox Diamond"
+    },
+    {
+      "count": 3,
+      "name": "City of Traitors"
+    },
+    {
+      "count": 1,
+      "name": "Chromatic Sphere"
+    },
+    {
+      "count": 2,
+      "name": "Undiscovered Paradise"
+    },
+    {
+      "count": 2,
+      "name": "Enlightened Tutor"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 4,
+      "name": "Xantid Swarm"
+    },
+    {
+      "count": 4,
+      "name": "Seal of Cleansing"
+    },
+    {
+      "count": 2,
+      "name": "Red Elemental Blast"
+    },
+    {
+      "count": 2,
+      "name": "Carpet of Flowers"
+    },
+    {
+      "count": 2,
+      "name": "Pyroblast"
+    },
+    {
+      "count": 1,
+      "name": "Tormod's Crypt"
+    }
+  ]
+}

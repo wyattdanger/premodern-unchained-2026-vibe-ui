@@ -1,0 +1,179 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 10,
+  "pilot": "David Raczka",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/rdZ06dvlU0KenBx-r_-FeQ",
+  "swiss_record": "5-1-1",
+  "final_record": "5-1-1",
+  "unchained_card": "Land Tax",
+  "mainboard": [
+    {
+      "count": 4,
+      "name": "Land Tax"
+    },
+    {
+      "count": 4,
+      "name": "Scroll Rack"
+    },
+    {
+      "count": 4,
+      "name": "Undiscovered Paradise"
+    },
+    {
+      "count": 4,
+      "name": "Mox Diamond"
+    },
+    {
+      "count": 4,
+      "name": "Oath of Druids"
+    },
+    {
+      "count": 4,
+      "name": "Swords to Plowshares"
+    },
+    {
+      "count": 4,
+      "name": "Burning Wish"
+    },
+    {
+      "count": 1,
+      "name": "Sylvan Library"
+    },
+    {
+      "count": 1,
+      "name": "Tormod's Crypt"
+    },
+    {
+      "count": 1,
+      "name": "Crosis's Catacombs"
+    },
+    {
+      "count": 1,
+      "name": "Seal of Cleansing"
+    },
+    {
+      "count": 1,
+      "name": "Engineered Plague"
+    },
+    {
+      "count": 1,
+      "name": "Arcane Laboratory"
+    },
+    {
+      "count": 1,
+      "name": "Zuran Orb"
+    },
+    {
+      "count": 1,
+      "name": "Caves of Koilos"
+    },
+    {
+      "count": 1,
+      "name": "Ancestor's Chosen"
+    },
+    {
+      "count": 1,
+      "name": "Forest"
+    },
+    {
+      "count": 1,
+      "name": "Mountain"
+    },
+    {
+      "count": 1,
+      "name": "Swamp"
+    },
+    {
+      "count": 1,
+      "name": "Shard Phoenix"
+    },
+    {
+      "count": 2,
+      "name": "Gemstone Mine"
+    },
+    {
+      "count": 2,
+      "name": "Aura of Silence"
+    },
+    {
+      "count": 2,
+      "name": "Gaea's Blessing"
+    },
+    {
+      "count": 7,
+      "name": "Plains"
+    },
+    {
+      "count": 3,
+      "name": "Duress"
+    },
+    {
+      "count": 3,
+      "name": "Enlightened Tutor"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 1,
+      "name": "Red Elemental Blast"
+    },
+    {
+      "count": 1,
+      "name": "Deep Analysis"
+    },
+    {
+      "count": 1,
+      "name": "Hull Breach"
+    },
+    {
+      "count": 1,
+      "name": "Gaea's Blessing"
+    },
+    {
+      "count": 1,
+      "name": "Pyroblast"
+    },
+    {
+      "count": 1,
+      "name": "Primitive Justice"
+    },
+    {
+      "count": 1,
+      "name": "Gerrard's Verdict"
+    },
+    {
+      "count": 1,
+      "name": "Bamboozle"
+    },
+    {
+      "count": 1,
+      "name": "Call of the Herd"
+    },
+    {
+      "count": 1,
+      "name": "Innocent Blood"
+    },
+    {
+      "count": 1,
+      "name": "Duress"
+    },
+    {
+      "count": 1,
+      "name": "Uktabi Orangutan"
+    },
+    {
+      "count": 1,
+      "name": "Compost"
+    },
+    {
+      "count": 1,
+      "name": "Armageddon"
+    },
+    {
+      "count": 1,
+      "name": "Pyroclasm"
+    }
+  ]
+}

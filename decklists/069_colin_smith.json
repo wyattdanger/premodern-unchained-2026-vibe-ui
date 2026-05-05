@@ -1,0 +1,103 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 69,
+  "pilot": "Colin Smith",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/L_v1_5geT0eJ8qzuJ83lNg",
+  "swiss_record": "2-3-0",
+  "final_record": "2-3-0",
+  "unchained_card": "Force of Will",
+  "mainboard": [
+    {
+      "count": 4,
+      "name": "Counterspell"
+    },
+    {
+      "count": 4,
+      "name": "Vision Charm"
+    },
+    {
+      "count": 4,
+      "name": "Phyrexian Dreadnought"
+    },
+    {
+      "count": 4,
+      "name": "Accumulated Knowledge"
+    },
+    {
+      "count": 4,
+      "name": "Force of Will"
+    },
+    {
+      "count": 4,
+      "name": "Stifle"
+    },
+    {
+      "count": 4,
+      "name": "Gush"
+    },
+    {
+      "count": 4,
+      "name": "Portent"
+    },
+    {
+      "count": 2,
+      "name": "Daze"
+    },
+    {
+      "count": 2,
+      "name": "Foil"
+    },
+    {
+      "count": 2,
+      "name": "Peek"
+    },
+    {
+      "count": 2,
+      "name": "Powder Keg"
+    },
+    {
+      "count": 3,
+      "name": "Mishra's Factory"
+    },
+    {
+      "count": 1,
+      "name": "Flash of Insight"
+    },
+    {
+      "count": 16,
+      "name": "Island"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 2,
+      "name": "Tormod's Crypt"
+    },
+    {
+      "count": 1,
+      "name": "Hydroblast"
+    },
+    {
+      "count": 1,
+      "name": "Chain of Vapor"
+    },
+    {
+      "count": 1,
+      "name": "Brain Freeze"
+    },
+    {
+      "count": 4,
+      "name": "Mystic Remora"
+    },
+    {
+      "count": 3,
+      "name": "Annul"
+    },
+    {
+      "count": 3,
+      "name": "Black Vise"
+    }
+  ]
+}

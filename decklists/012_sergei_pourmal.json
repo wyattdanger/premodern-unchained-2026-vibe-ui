@@ -1,0 +1,119 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 12,
+  "pilot": "Sergei Pourmal",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/5XawMLHhwkac99rA3xDXPw",
+  "swiss_record": "5-2-0",
+  "final_record": "5-2-0",
+  "unchained_card": "Force of Will",
+  "mainboard": [
+    {
+      "count": 4,
+      "name": "Counterspell"
+    },
+    {
+      "count": 4,
+      "name": "Impulse"
+    },
+    {
+      "count": 4,
+      "name": "Snow-Covered Plains"
+    },
+    {
+      "count": 4,
+      "name": "Mishra's Factory"
+    },
+    {
+      "count": 4,
+      "name": "Force of Will"
+    },
+    {
+      "count": 4,
+      "name": "Swords to Plowshares"
+    },
+    {
+      "count": 4,
+      "name": "Flooded Strand"
+    },
+    {
+      "count": 4,
+      "name": "Adarkar Wastes"
+    },
+    {
+      "count": 4,
+      "name": "Standstill"
+    },
+    {
+      "count": 2,
+      "name": "Disenchant"
+    },
+    {
+      "count": 2,
+      "name": "Faerie Conclave"
+    },
+    {
+      "count": 2,
+      "name": "Powder Keg"
+    },
+    {
+      "count": 2,
+      "name": "Wrath of God"
+    },
+    {
+      "count": 2,
+      "name": "Dust Bowl"
+    },
+    {
+      "count": 3,
+      "name": "Fact or Fiction"
+    },
+    {
+      "count": 3,
+      "name": "Decree of Justice"
+    },
+    {
+      "count": 1,
+      "name": "Humility"
+    },
+    {
+      "count": 1,
+      "name": "Seal of Cleansing"
+    },
+    {
+      "count": 1,
+      "name": "Coastal Tower"
+    },
+    {
+      "count": 5,
+      "name": "Island"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 2,
+      "name": "Teferi's Response"
+    },
+    {
+      "count": 2,
+      "name": "Phyrexian Furnace"
+    },
+    {
+      "count": 2,
+      "name": "Exalted Angel"
+    },
+    {
+      "count": 2,
+      "name": "Orim's Chant"
+    },
+    {
+      "count": 4,
+      "name": "Meddling Mage"
+    },
+    {
+      "count": 3,
+      "name": "Annul"
+    }
+  ]
+}

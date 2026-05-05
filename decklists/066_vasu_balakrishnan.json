@@ -1,0 +1,111 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 66,
+  "pilot": "Vasu Balakrishnan",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/eDUz4JByxUubGuAyzvODUQ",
+  "swiss_record": "2-2-0",
+  "final_record": "2-2-0",
+  "unchained_card": null,
+  "mainboard": [
+    {
+      "count": 2,
+      "name": "Seal of Cleansing"
+    },
+    {
+      "count": 2,
+      "name": "Swords to Plowshares"
+    },
+    {
+      "count": 3,
+      "name": "Mana Leak"
+    },
+    {
+      "count": 3,
+      "name": "Intuition"
+    },
+    {
+      "count": 3,
+      "name": "Island"
+    },
+    {
+      "count": 3,
+      "name": "Meddling Mage"
+    },
+    {
+      "count": 3,
+      "name": "Frantic Search"
+    },
+    {
+      "count": 4,
+      "name": "Parallax Tide"
+    },
+    {
+      "count": 4,
+      "name": "Attunement"
+    },
+    {
+      "count": 4,
+      "name": "Opalescence"
+    },
+    {
+      "count": 4,
+      "name": "Replenish"
+    },
+    {
+      "count": 4,
+      "name": "Parallax Wave"
+    },
+    {
+      "count": 4,
+      "name": "Skycloud Expanse"
+    },
+    {
+      "count": 4,
+      "name": "Flooded Strand"
+    },
+    {
+      "count": 4,
+      "name": "Adarkar Wastes"
+    },
+    {
+      "count": 4,
+      "name": "Ancient Tomb"
+    },
+    {
+      "count": 5,
+      "name": "Plains"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 3,
+      "name": "Tormod's Crypt"
+    },
+    {
+      "count": 3,
+      "name": "Hydroblast"
+    },
+    {
+      "count": 3,
+      "name": "Exalted Angel"
+    },
+    {
+      "count": 1,
+      "name": "Seal of Cleansing"
+    },
+    {
+      "count": 1,
+      "name": "Meddling Mage"
+    },
+    {
+      "count": 2,
+      "name": "Swords to Plowshares"
+    },
+    {
+      "count": 2,
+      "name": "Arcane Denial"
+    }
+  ]
+}

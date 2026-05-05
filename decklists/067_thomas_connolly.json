@@ -1,0 +1,139 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 67,
+  "pilot": "Thomas Connolly",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/S_3IR9PKVEmx5HJh1l4srQ",
+  "swiss_record": "2-1-0",
+  "final_record": "2-1-0",
+  "unchained_card": "Vampiric Tutor",
+  "mainboard": [
+    {
+      "count": 3,
+      "name": "Plains"
+    },
+    {
+      "count": 3,
+      "name": "Sylvan Library"
+    },
+    {
+      "count": 3,
+      "name": "Gemstone Mine"
+    },
+    {
+      "count": 3,
+      "name": "Windswept Heath"
+    },
+    {
+      "count": 3,
+      "name": "Nomads en-Kor"
+    },
+    {
+      "count": 3,
+      "name": "Task Force"
+    },
+    {
+      "count": 3,
+      "name": "Daru Spiritualist"
+    },
+    {
+      "count": 2,
+      "name": "Forest"
+    },
+    {
+      "count": 2,
+      "name": "Brushland"
+    },
+    {
+      "count": 2,
+      "name": "Caves of Koilos"
+    },
+    {
+      "count": 1,
+      "name": "Gaea's Blessing"
+    },
+    {
+      "count": 1,
+      "name": "Serra Avatar"
+    },
+    {
+      "count": 1,
+      "name": "Reflecting Pool"
+    },
+    {
+      "count": 1,
+      "name": "About Face"
+    },
+    {
+      "count": 1,
+      "name": "Grand Coliseum"
+    },
+    {
+      "count": 1,
+      "name": "Monk Realist"
+    },
+    {
+      "count": 4,
+      "name": "Mother of Runes"
+    },
+    {
+      "count": 4,
+      "name": "City of Brass"
+    },
+    {
+      "count": 4,
+      "name": "Vampiric Tutor"
+    },
+    {
+      "count": 4,
+      "name": "Shaman en-Kor"
+    },
+    {
+      "count": 4,
+      "name": "Worthy Cause"
+    },
+    {
+      "count": 4,
+      "name": "Eladamri's Call"
+    },
+    {
+      "count": 4,
+      "name": "Starlit Sanctum"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 2,
+      "name": "Orim's Chant"
+    },
+    {
+      "count": 2,
+      "name": "Planar Void"
+    },
+    {
+      "count": 2,
+      "name": "Xantid Swarm"
+    },
+    {
+      "count": 2,
+      "name": "Naturalize"
+    },
+    {
+      "count": 2,
+      "name": "Meekstone"
+    },
+    {
+      "count": 1,
+      "name": "True Believer"
+    },
+    {
+      "count": 1,
+      "name": "Plague Spitter"
+    },
+    {
+      "count": 3,
+      "name": "Swords to Plowshares"
+    }
+  ]
+}

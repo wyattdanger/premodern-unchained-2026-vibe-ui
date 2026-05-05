@@ -1,0 +1,119 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 58,
+  "pilot": "Evan Berwald",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/5UGdCNWN-kWBFwHByDKBPQ",
+  "swiss_record": "2-4-0",
+  "final_record": "2-4-0",
+  "unchained_card": "Necropotence",
+  "mainboard": [
+    {
+      "count": 16,
+      "name": "Swamp"
+    },
+    {
+      "count": 3,
+      "name": "Cabal Therapy"
+    },
+    {
+      "count": 3,
+      "name": "The Rack"
+    },
+    {
+      "count": 3,
+      "name": "Funeral Charm"
+    },
+    {
+      "count": 2,
+      "name": "Diabolic Edict"
+    },
+    {
+      "count": 2,
+      "name": "Bane of the Living"
+    },
+    {
+      "count": 2,
+      "name": "Withered Wretch"
+    },
+    {
+      "count": 2,
+      "name": "Chain of Smog"
+    },
+    {
+      "count": 4,
+      "name": "Duress"
+    },
+    {
+      "count": 4,
+      "name": "Hypnotic Specter"
+    },
+    {
+      "count": 4,
+      "name": "Mishra's Factory"
+    },
+    {
+      "count": 4,
+      "name": "Necropotence"
+    },
+    {
+      "count": 4,
+      "name": "Ravenous Rats"
+    },
+    {
+      "count": 4,
+      "name": "Wasteland"
+    },
+    {
+      "count": 1,
+      "name": "Smother"
+    },
+    {
+      "count": 1,
+      "name": "Snuff Out"
+    },
+    {
+      "count": 1,
+      "name": "Rishadan Port"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 1,
+      "name": "Cursed Scroll"
+    },
+    {
+      "count": 1,
+      "name": "Spinning Darkness"
+    },
+    {
+      "count": 1,
+      "name": "Powder Keg"
+    },
+    {
+      "count": 1,
+      "name": "Smother"
+    },
+    {
+      "count": 1,
+      "name": "Perish"
+    },
+    {
+      "count": 2,
+      "name": "Phyrexian Furnace"
+    },
+    {
+      "count": 2,
+      "name": "Plaguebearer"
+    },
+    {
+      "count": 3,
+      "name": "Dystopia"
+    },
+    {
+      "count": 3,
+      "name": "Engineered Plague"
+    }
+  ]
+}

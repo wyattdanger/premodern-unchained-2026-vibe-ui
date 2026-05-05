@@ -1,0 +1,155 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 42,
+  "pilot": "alex davis",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/PQlg4rcMW0y_0760ZP_JxA",
+  "swiss_record": "3-2-1",
+  "final_record": "3-2-1",
+  "unchained_card": "Earthcraft",
+  "mainboard": [
+    {
+      "count": 4,
+      "name": "Wild Growth"
+    },
+    {
+      "count": 4,
+      "name": "Argothian Enchantress"
+    },
+    {
+      "count": 4,
+      "name": "Serra's Sanctum"
+    },
+    {
+      "count": 4,
+      "name": "Sterling Grove"
+    },
+    {
+      "count": 4,
+      "name": "Brushland"
+    },
+    {
+      "count": 4,
+      "name": "Enchantress's Presence"
+    },
+    {
+      "count": 4,
+      "name": "Windswept Heath"
+    },
+    {
+      "count": 4,
+      "name": "Mirri's Guile"
+    },
+    {
+      "count": 2,
+      "name": "Swords to Plowshares"
+    },
+    {
+      "count": 2,
+      "name": "Earthcraft"
+    },
+    {
+      "count": 2,
+      "name": "Squirrel Nest"
+    },
+    {
+      "count": 2,
+      "name": "Solitary Confinement"
+    },
+    {
+      "count": 2,
+      "name": "Plains"
+    },
+    {
+      "count": 1,
+      "name": "Abeyance"
+    },
+    {
+      "count": 1,
+      "name": "Kirtar's Desire"
+    },
+    {
+      "count": 1,
+      "name": "Replenish"
+    },
+    {
+      "count": 1,
+      "name": "Enlightened Tutor"
+    },
+    {
+      "count": 1,
+      "name": "Elephant Grass"
+    },
+    {
+      "count": 1,
+      "name": "Wooded Foothills"
+    },
+    {
+      "count": 1,
+      "name": "City of Brass"
+    },
+    {
+      "count": 3,
+      "name": "Exploration"
+    },
+    {
+      "count": 3,
+      "name": "Seal of Cleansing"
+    },
+    {
+      "count": 5,
+      "name": "Forest"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 2,
+      "name": "Aura of Silence"
+    },
+    {
+      "count": 2,
+      "name": "Xantid Swarm"
+    },
+    {
+      "count": 2,
+      "name": "Tsabo's Web"
+    },
+    {
+      "count": 1,
+      "name": "Tormod's Crypt"
+    },
+    {
+      "count": 1,
+      "name": "Swords to Plowshares"
+    },
+    {
+      "count": 1,
+      "name": "Ray of Revelation"
+    },
+    {
+      "count": 1,
+      "name": "Sacred Ground"
+    },
+    {
+      "count": 1,
+      "name": "Abeyance"
+    },
+    {
+      "count": 1,
+      "name": "Worship"
+    },
+    {
+      "count": 1,
+      "name": "Krosan Reclamation"
+    },
+    {
+      "count": 1,
+      "name": "Replenish"
+    },
+    {
+      "count": 1,
+      "name": "Cursed Totem"
+    }
+  ]
+}

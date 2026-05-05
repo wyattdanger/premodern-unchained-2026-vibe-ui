@@ -1,0 +1,99 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 7,
+  "pilot": "Harlan Broughton",
+  "spicerack_archetype": "Other",
+  "moxfield_url": "https://www.moxfield.com/decks/B2c9FtMfm0Cbuu5XXY8g8Q",
+  "swiss_record": "5-1-1",
+  "final_record": "5-2-1",
+  "unchained_card": "Necropotence",
+  "mainboard": [
+    {
+      "count": 4,
+      "name": "Cabal Therapy"
+    },
+    {
+      "count": 4,
+      "name": "Wasteland"
+    },
+    {
+      "count": 4,
+      "name": "Dark Ritual"
+    },
+    {
+      "count": 4,
+      "name": "Diabolic Edict"
+    },
+    {
+      "count": 4,
+      "name": "Bottomless Pit"
+    },
+    {
+      "count": 4,
+      "name": "Hypnotic Specter"
+    },
+    {
+      "count": 4,
+      "name": "Mishra's Factory"
+    },
+    {
+      "count": 4,
+      "name": "Duress"
+    },
+    {
+      "count": 4,
+      "name": "Necropotence"
+    },
+    {
+      "count": 4,
+      "name": "The Rack"
+    },
+    {
+      "count": 3,
+      "name": "Skittering Skirge"
+    },
+    {
+      "count": 3,
+      "name": "Ivory Tower"
+    },
+    {
+      "count": 13,
+      "name": "Swamp"
+    },
+    {
+      "count": 1,
+      "name": "Dust Bowl"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 2,
+      "name": "Plaguebearer"
+    },
+    {
+      "count": 2,
+      "name": "Gloom"
+    },
+    {
+      "count": 2,
+      "name": "Funeral Charm"
+    },
+    {
+      "count": 2,
+      "name": "Dystopia"
+    },
+    {
+      "count": 2,
+      "name": "Engineered Plague"
+    },
+    {
+      "count": 2,
+      "name": "Withered Wretch"
+    },
+    {
+      "count": 3,
+      "name": "Spinning Darkness"
+    }
+  ]
+}

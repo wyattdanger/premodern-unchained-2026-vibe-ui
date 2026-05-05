@@ -1,0 +1,107 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 98,
+  "pilot": "Matt Perlman",
+  "spicerack_archetype": "Other",
+  "moxfield_url": "https://www.moxfield.com/decks/DIeWdgxY20qKLH_KaMsrJA",
+  "swiss_record": "1-1-0",
+  "final_record": "1-1-0",
+  "unchained_card": "Entomb",
+  "mainboard": [
+    {
+      "count": 15,
+      "name": "Swamp"
+    },
+    {
+      "count": 1,
+      "name": "Animate Dead"
+    },
+    {
+      "count": 1,
+      "name": "Phantom Nishoba"
+    },
+    {
+      "count": 1,
+      "name": "Symbiotic Wurm"
+    },
+    {
+      "count": 1,
+      "name": "Visara the Dreadful"
+    },
+    {
+      "count": 1,
+      "name": "Thrashing Wumpus"
+    },
+    {
+      "count": 1,
+      "name": "Multani, Maro-Sorcerer"
+    },
+    {
+      "count": 4,
+      "name": "Cabal Therapy"
+    },
+    {
+      "count": 4,
+      "name": "Dark Ritual"
+    },
+    {
+      "count": 4,
+      "name": "Duress"
+    },
+    {
+      "count": 4,
+      "name": "Exhume"
+    },
+    {
+      "count": 4,
+      "name": "Reanimate"
+    },
+    {
+      "count": 4,
+      "name": "Putrid Imp"
+    },
+    {
+      "count": 4,
+      "name": "Entomb"
+    },
+    {
+      "count": 4,
+      "name": "Unmask"
+    },
+    {
+      "count": 2,
+      "name": "Akroma, Angel of Wrath"
+    },
+    {
+      "count": 2,
+      "name": "Verdant Force"
+    },
+    {
+      "count": 3,
+      "name": "Life // Death"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 1,
+      "name": "Null Rod"
+    },
+    {
+      "count": 3,
+      "name": "Powder Keg"
+    },
+    {
+      "count": 3,
+      "name": "Knight of Stromgald"
+    },
+    {
+      "count": 4,
+      "name": "Snuff Out"
+    },
+    {
+      "count": 4,
+      "name": "Sickening Dreams"
+    }
+  ]
+}

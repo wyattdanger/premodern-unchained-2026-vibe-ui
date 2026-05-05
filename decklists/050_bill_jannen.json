@@ -1,0 +1,119 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 50,
+  "pilot": "Bill Jannen",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/EnpLY5mrr0mdzIvJU9O_6Q",
+  "swiss_record": "2-2-3",
+  "final_record": "2-2-3",
+  "unchained_card": "Balance",
+  "mainboard": [
+    {
+      "count": 3,
+      "name": "Island"
+    },
+    {
+      "count": 1,
+      "name": "Plains"
+    },
+    {
+      "count": 4,
+      "name": "Portent"
+    },
+    {
+      "count": 3,
+      "name": "Balance"
+    },
+    {
+      "count": 4,
+      "name": "City of Brass"
+    },
+    {
+      "count": 2,
+      "name": "City of Traitors"
+    },
+    {
+      "count": 4,
+      "name": "Pandemonium"
+    },
+    {
+      "count": 4,
+      "name": "Intuition"
+    },
+    {
+      "count": 3,
+      "name": "Careful Study"
+    },
+    {
+      "count": 1,
+      "name": "Shivan Reef"
+    },
+    {
+      "count": 4,
+      "name": "Burning Wish"
+    },
+    {
+      "count": 4,
+      "name": "Flooded Strand"
+    },
+    {
+      "count": 4,
+      "name": "Gemstone Mine"
+    },
+    {
+      "count": 4,
+      "name": "Ancient Tomb"
+    },
+    {
+      "count": 4,
+      "name": "Mox Diamond"
+    },
+    {
+      "count": 4,
+      "name": "Saproling Burst"
+    },
+    {
+      "count": 4,
+      "name": "Lion's Eye Diamond"
+    },
+    {
+      "count": 3,
+      "name": "Replenish"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 1,
+      "name": "Replenish"
+    },
+    {
+      "count": 3,
+      "name": "Abeyance"
+    },
+    {
+      "count": 3,
+      "name": "Phyrexian Furnace"
+    },
+    {
+      "count": 1,
+      "name": "Hull Breach"
+    },
+    {
+      "count": 3,
+      "name": "Pyroclasm"
+    },
+    {
+      "count": 1,
+      "name": "Overmaster"
+    },
+    {
+      "count": 1,
+      "name": "Balance"
+    },
+    {
+      "count": 2,
+      "name": "Roar of the Wurm"
+    }
+  ]
+}

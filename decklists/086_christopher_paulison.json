@@ -1,0 +1,127 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 86,
+  "pilot": "Christopher Paulison",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/EnZ8qPL5I0ullVo0XaScwA",
+  "swiss_record": "1-1-0",
+  "final_record": "1-1-0",
+  "unchained_card": "Entomb",
+  "mainboard": [
+    {
+      "count": 2,
+      "name": "Diabolic Edict"
+    },
+    {
+      "count": 2,
+      "name": "Snuff Out"
+    },
+    {
+      "count": 2,
+      "name": "Smother"
+    },
+    {
+      "count": 4,
+      "name": "Dark Ritual"
+    },
+    {
+      "count": 4,
+      "name": "Contamination"
+    },
+    {
+      "count": 4,
+      "name": "Duress"
+    },
+    {
+      "count": 4,
+      "name": "Cabal Therapy"
+    },
+    {
+      "count": 4,
+      "name": "Zombie Infestation"
+    },
+    {
+      "count": 4,
+      "name": "Reanimate"
+    },
+    {
+      "count": 4,
+      "name": "Wasteland"
+    },
+    {
+      "count": 4,
+      "name": "Entomb"
+    },
+    {
+      "count": 1,
+      "name": "Nether Spirit"
+    },
+    {
+      "count": 1,
+      "name": "Crosis, the Purger"
+    },
+    {
+      "count": 1,
+      "name": "Coffin Purge"
+    },
+    {
+      "count": 1,
+      "name": "Unmask"
+    },
+    {
+      "count": 1,
+      "name": "Mindslicer"
+    },
+    {
+      "count": 1,
+      "name": "Phantom Nishoba"
+    },
+    {
+      "count": 1,
+      "name": "Akroma, Angel of Wrath"
+    },
+    {
+      "count": 16,
+      "name": "Swamp"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 2,
+      "name": "Gloom"
+    },
+    {
+      "count": 2,
+      "name": "Powder Keg"
+    },
+    {
+      "count": 1,
+      "name": "Ascendant Evincar"
+    },
+    {
+      "count": 1,
+      "name": "Engineered Plague"
+    },
+    {
+      "count": 1,
+      "name": "Null Rod"
+    },
+    {
+      "count": 1,
+      "name": "Smother"
+    },
+    {
+      "count": 1,
+      "name": "Crater Hellion"
+    },
+    {
+      "count": 3,
+      "name": "Sickening Dreams"
+    },
+    {
+      "count": 3,
+      "name": "Dystopia"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 25,
+  "pilot": "Finn Abbey",
+  "spicerack_archetype": "Other",
+  "moxfield_url": "https://www.moxfield.com/decks/f1fT9FN-okGMmiJcr_NJjA",
+  "swiss_record": null,
+  "final_record": null,
+  "unchained_card": "Force of Will",
+  "mainboard": [
+    {
+      "count": 4,
+      "name": "Counterspell"
+    },
+    {
+      "count": 4,
+      "name": "Impulse"
+    },
+    {
+      "count": 4,
+      "name": "Stasis"
+    },
+    {
+      "count": 4,
+      "name": "Forsaken City"
+    },
+    {
+      "count": 4,
+      "name": "Force of Will"
+    },
+    {
+      "count": 4,
+      "name": "Gush"
+    },
+    {
+      "count": 2,
+      "name": "Daze"
+    },
+    {
+      "count": 1,
+      "name": "Boomerang"
+    },
+    {
+      "count": 1,
+      "name": "Foil"
+    },
+    {
+      "count": 1,
+      "name": "Cephalid Coliseum"
+    },
+    {
+      "count": 1,
+      "name": "Flash of Insight"
+    },
+    {
+      "count": 3,
+      "name": "Chain of Vapor"
+    },
+    {
+      "count": 3,
+      "name": "Black Vise"
+    },
+    {
+      "count": 3,
+      "name": "Thwart"
+    },
+    {
+      "count": 3,
+      "name": "Portent"
+    },
+    {
+      "count": 18,
+      "name": "Island"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 2,
+      "name": "Tormod's Crypt"
+    },
+    {
+      "count": 2,
+      "name": "Powder Keg"
+    },
+    {
+      "count": 2,
+      "name": "Chill"
+    },
+    {
+      "count": 2,
+      "name": "Cursed Totem"
+    },
+    {
+      "count": 2,
+      "name": "Propaganda"
+    },
+    {
+      "count": 3,
+      "name": "Annul"
+    },
+    {
+      "count": 1,
+      "name": "Mana Short"
+    },
+    {
+      "count": 1,
+      "name": "Brain Freeze"
+    }
+  ]
+}

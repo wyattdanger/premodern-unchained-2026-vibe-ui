@@ -1,0 +1,123 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 46,
+  "pilot": "Hannah Weinsaft",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/TWu3Q_lpeUWi5IRVFt3QQw",
+  "swiss_record": "3-4-0",
+  "final_record": "3-4-0",
+  "unchained_card": "Goblin Recruiter",
+  "mainboard": [
+    {
+      "count": 4,
+      "name": "Goblin Warchief"
+    },
+    {
+      "count": 4,
+      "name": "Mogg Fanatic"
+    },
+    {
+      "count": 4,
+      "name": "Goblin Ringleader"
+    },
+    {
+      "count": 4,
+      "name": "Goblin Matron"
+    },
+    {
+      "count": 4,
+      "name": "Goblin Piledriver"
+    },
+    {
+      "count": 4,
+      "name": "Karplusan Forest"
+    },
+    {
+      "count": 4,
+      "name": "Wooded Foothills"
+    },
+    {
+      "count": 4,
+      "name": "Goblin Recruiter"
+    },
+    {
+      "count": 4,
+      "name": "Goblin Lackey"
+    },
+    {
+      "count": 1,
+      "name": "Naturalize"
+    },
+    {
+      "count": 1,
+      "name": "Skirk Prospector"
+    },
+    {
+      "count": 1,
+      "name": "Goblin Tinkerer"
+    },
+    {
+      "count": 1,
+      "name": "Goblin King"
+    },
+    {
+      "count": 1,
+      "name": "Forest"
+    },
+    {
+      "count": 3,
+      "name": "Siege-Gang Commander"
+    },
+    {
+      "count": 3,
+      "name": "Rishadan Port"
+    },
+    {
+      "count": 3,
+      "name": "Food Chain"
+    },
+    {
+      "count": 2,
+      "name": "Gempalm Incinerator"
+    },
+    {
+      "count": 2,
+      "name": "Wasteland"
+    },
+    {
+      "count": 9,
+      "name": "Mountain"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 1,
+      "name": "Naturalize"
+    },
+    {
+      "count": 1,
+      "name": "Hull Breach"
+    },
+    {
+      "count": 2,
+      "name": "Tormod's Crypt"
+    },
+    {
+      "count": 2,
+      "name": "Anarchy"
+    },
+    {
+      "count": 2,
+      "name": "Pyroblast"
+    },
+    {
+      "count": 4,
+      "name": "Red Elemental Blast"
+    },
+    {
+      "count": 3,
+      "name": "Mogg Salvage"
+    }
+  ]
+}

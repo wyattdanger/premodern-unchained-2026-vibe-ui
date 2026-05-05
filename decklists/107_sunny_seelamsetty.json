@@ -1,0 +1,111 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 107,
+  "pilot": "Sunny Seelamsetty",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/jeNwGNE1P0iibspewAOMWQ",
+  "swiss_record": "0-2-0",
+  "final_record": "0-2-0",
+  "unchained_card": "Necropotence",
+  "mainboard": [
+    {
+      "count": 5,
+      "name": "Forest"
+    },
+    {
+      "count": 6,
+      "name": "Swamp"
+    },
+    {
+      "count": 4,
+      "name": "Cabal Therapy"
+    },
+    {
+      "count": 4,
+      "name": "Dark Ritual"
+    },
+    {
+      "count": 4,
+      "name": "Hypnotic Specter"
+    },
+    {
+      "count": 4,
+      "name": "Llanowar Wastes"
+    },
+    {
+      "count": 4,
+      "name": "Necropotence"
+    },
+    {
+      "count": 4,
+      "name": "Gemstone Mine"
+    },
+    {
+      "count": 4,
+      "name": "Veteran Explorer"
+    },
+    {
+      "count": 4,
+      "name": "Reverent Silence"
+    },
+    {
+      "count": 4,
+      "name": "Skyshroud Cutter"
+    },
+    {
+      "count": 4,
+      "name": "Ravenous Rats"
+    },
+    {
+      "count": 4,
+      "name": "False Cure"
+    },
+    {
+      "count": 1,
+      "name": "Duress"
+    },
+    {
+      "count": 1,
+      "name": "Phyrexian Tower"
+    },
+    {
+      "count": 1,
+      "name": "Pack Hunt"
+    },
+    {
+      "count": 2,
+      "name": "Diabolic Intent"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 2,
+      "name": "Smother"
+    },
+    {
+      "count": 2,
+      "name": "Plaguebearer"
+    },
+    {
+      "count": 2,
+      "name": "Innocent Blood"
+    },
+    {
+      "count": 2,
+      "name": "Gloom"
+    },
+    {
+      "count": 3,
+      "name": "Dystopia"
+    },
+    {
+      "count": 3,
+      "name": "Duress"
+    },
+    {
+      "count": 1,
+      "name": "Spinning Darkness"
+    }
+  ]
+}

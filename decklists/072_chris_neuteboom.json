@@ -1,0 +1,139 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 72,
+  "pilot": "Chris Neuteboom",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/aKJlUaiijUyNNi0yf1dkZA",
+  "swiss_record": "1-3-1",
+  "final_record": "1-3-1",
+  "unchained_card": "Earthcraft",
+  "mainboard": [
+    {
+      "count": 4,
+      "name": "Survival of the Fittest"
+    },
+    {
+      "count": 4,
+      "name": "Wirewood Symbiote"
+    },
+    {
+      "count": 4,
+      "name": "Earthcraft"
+    },
+    {
+      "count": 4,
+      "name": "Squirrel Nest"
+    },
+    {
+      "count": 4,
+      "name": "Gaea's Cradle"
+    },
+    {
+      "count": 4,
+      "name": "Priest of Titania"
+    },
+    {
+      "count": 4,
+      "name": "Fyndhorn Elves"
+    },
+    {
+      "count": 4,
+      "name": "Wooded Foothills"
+    },
+    {
+      "count": 1,
+      "name": "Gaea's Herald"
+    },
+    {
+      "count": 1,
+      "name": "Squee, Goblin Nabob"
+    },
+    {
+      "count": 1,
+      "name": "Yavimaya Granger"
+    },
+    {
+      "count": 1,
+      "name": "Nantuko Vigilante"
+    },
+    {
+      "count": 1,
+      "name": "Mountain"
+    },
+    {
+      "count": 1,
+      "name": "Kamahl, Fist of Krosa"
+    },
+    {
+      "count": 1,
+      "name": "Anger"
+    },
+    {
+      "count": 1,
+      "name": "Masticore"
+    },
+    {
+      "count": 1,
+      "name": "Goblin Bombardment"
+    },
+    {
+      "count": 1,
+      "name": "Sylvan Library"
+    },
+    {
+      "count": 3,
+      "name": "Multani's Acolyte"
+    },
+    {
+      "count": 3,
+      "name": "Quirion Ranger"
+    },
+    {
+      "count": 3,
+      "name": "Llanowar Elves"
+    },
+    {
+      "count": 9,
+      "name": "Forest"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 2,
+      "name": "Choke"
+    },
+    {
+      "count": 2,
+      "name": "Tormod's Crypt"
+    },
+    {
+      "count": 2,
+      "name": "Wall of Blossoms"
+    },
+    {
+      "count": 2,
+      "name": "Call of the Herd"
+    },
+    {
+      "count": 1,
+      "name": "Crumble"
+    },
+    {
+      "count": 1,
+      "name": "Caller of the Claw"
+    },
+    {
+      "count": 1,
+      "name": "Goblin Sharpshooter"
+    },
+    {
+      "count": 1,
+      "name": "Genesis"
+    },
+    {
+      "count": 3,
+      "name": "Naturalize"
+    }
+  ]
+}

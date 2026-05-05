@@ -1,0 +1,83 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 97,
+  "pilot": "Bobby Burchard",
+  "spicerack_archetype": "Other",
+  "moxfield_url": "https://www.moxfield.com/decks/nYao2_TSskaVtHvfbf-Y_w",
+  "swiss_record": "1-1-0",
+  "final_record": "1-1-0",
+  "unchained_card": "Necropotence",
+  "mainboard": [
+    {
+      "count": 4,
+      "name": "Cabal Therapy"
+    },
+    {
+      "count": 4,
+      "name": "Diabolic Edict"
+    },
+    {
+      "count": 4,
+      "name": "Duress"
+    },
+    {
+      "count": 4,
+      "name": "Hypnotic Specter"
+    },
+    {
+      "count": 4,
+      "name": "Necropotence"
+    },
+    {
+      "count": 4,
+      "name": "Dark Ritual"
+    },
+    {
+      "count": 4,
+      "name": "Bottomless Pit"
+    },
+    {
+      "count": 4,
+      "name": "Mishra's Factory"
+    },
+    {
+      "count": 4,
+      "name": "The Rack"
+    },
+    {
+      "count": 4,
+      "name": "Wasteland"
+    },
+    {
+      "count": 3,
+      "name": "Skittering Skirge"
+    },
+    {
+      "count": 3,
+      "name": "Ivory Tower"
+    },
+    {
+      "count": 14,
+      "name": "Swamp"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 3,
+      "name": "Dystopia"
+    },
+    {
+      "count": 4,
+      "name": "Chain of Smog"
+    },
+    {
+      "count": 4,
+      "name": "Defense Grid"
+    },
+    {
+      "count": 4,
+      "name": "Withered Wretch"
+    }
+  ]
+}

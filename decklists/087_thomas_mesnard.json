@@ -1,0 +1,143 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 87,
+  "pilot": "Thomas Mesnard",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/hSupq71We0aQ3_CvEMJKug",
+  "swiss_record": "1-2-0",
+  "final_record": "1-2-0",
+  "unchained_card": "Entomb",
+  "mainboard": [
+    {
+      "count": 1,
+      "name": "Swamp"
+    },
+    {
+      "count": 1,
+      "name": "Animate Dead"
+    },
+    {
+      "count": 4,
+      "name": "Cabal Therapy"
+    },
+    {
+      "count": 4,
+      "name": "Dark Ritual"
+    },
+    {
+      "count": 4,
+      "name": "Lotus Petal"
+    },
+    {
+      "count": 4,
+      "name": "Underground River"
+    },
+    {
+      "count": 4,
+      "name": "City of Brass"
+    },
+    {
+      "count": 4,
+      "name": "Entomb"
+    },
+    {
+      "count": 2,
+      "name": "Symbiotic Wurm"
+    },
+    {
+      "count": 1,
+      "name": "Visara the Dreadful"
+    },
+    {
+      "count": 4,
+      "name": "Gemstone Mine"
+    },
+    {
+      "count": 3,
+      "name": "Akroma, Angel of Wrath"
+    },
+    {
+      "count": 2,
+      "name": "Verdant Force"
+    },
+    {
+      "count": 2,
+      "name": "Life // Death"
+    },
+    {
+      "count": 4,
+      "name": "Exhume"
+    },
+    {
+      "count": 4,
+      "name": "Reanimate"
+    },
+    {
+      "count": 4,
+      "name": "Careful Study"
+    },
+    {
+      "count": 2,
+      "name": "Breakthrough"
+    },
+    {
+      "count": 2,
+      "name": "Phantom Nishoba"
+    },
+    {
+      "count": 1,
+      "name": "Firestorm"
+    },
+    {
+      "count": 1,
+      "name": "Undiscovered Paradise"
+    },
+    {
+      "count": 2,
+      "name": "Iridescent Angel"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 1,
+      "name": "Null Rod"
+    },
+    {
+      "count": 1,
+      "name": "Ray of Revelation"
+    },
+    {
+      "count": 1,
+      "name": "Sickening Dreams"
+    },
+    {
+      "count": 1,
+      "name": "Phantom Nishoba"
+    },
+    {
+      "count": 2,
+      "name": "Stronghold Gambit"
+    },
+    {
+      "count": 1,
+      "name": "Firestorm"
+    },
+    {
+      "count": 4,
+      "name": "Oath of Druids"
+    },
+    {
+      "count": 1,
+      "name": "Naturalize"
+    },
+    {
+      "count": 1,
+      "name": "Disenchant"
+    },
+    {
+      "count": 2,
+      "name": "Duress"
+    }
+  ]
+}

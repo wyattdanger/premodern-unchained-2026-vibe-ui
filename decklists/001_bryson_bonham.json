@@ -1,0 +1,155 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 1,
+  "pilot": "Bryson Bonham",
+  "spicerack_archetype": "Archetype missing",
+  "moxfield_url": "https://www.moxfield.com/decks/vfSB1tKNBEiSgkZ9Zwzdiw",
+  "swiss_record": "6-1-0",
+  "final_record": "9-1-0",
+  "unchained_card": "Force of Will",
+  "mainboard": [
+    {
+      "count": 4,
+      "name": "Counterspell"
+    },
+    {
+      "count": 4,
+      "name": "Meddling Mage"
+    },
+    {
+      "count": 4,
+      "name": "Weathered Wayfarer"
+    },
+    {
+      "count": 4,
+      "name": "Force of Will"
+    },
+    {
+      "count": 4,
+      "name": "Swords to Plowshares"
+    },
+    {
+      "count": 4,
+      "name": "Flooded Strand"
+    },
+    {
+      "count": 1,
+      "name": "Disenchant"
+    },
+    {
+      "count": 1,
+      "name": "Undiscovered Paradise"
+    },
+    {
+      "count": 1,
+      "name": "Phyrexian Furnace"
+    },
+    {
+      "count": 1,
+      "name": "Underground River"
+    },
+    {
+      "count": 1,
+      "name": "Dromar's Cavern"
+    },
+    {
+      "count": 1,
+      "name": "Cephalid Coliseum"
+    },
+    {
+      "count": 1,
+      "name": "Adarkar Wastes"
+    },
+    {
+      "count": 1,
+      "name": "Cataclysm"
+    },
+    {
+      "count": 1,
+      "name": "Plains"
+    },
+    {
+      "count": 1,
+      "name": "City of Brass"
+    },
+    {
+      "count": 2,
+      "name": "Fact or Fiction"
+    },
+    {
+      "count": 2,
+      "name": "Powder Keg"
+    },
+    {
+      "count": 2,
+      "name": "Gemstone Mine"
+    },
+    {
+      "count": 2,
+      "name": "Wasteland"
+    },
+    {
+      "count": 3,
+      "name": "Mox Diamond"
+    },
+    {
+      "count": 3,
+      "name": "Psychatog"
+    },
+    {
+      "count": 3,
+      "name": "Gush"
+    },
+    {
+      "count": 3,
+      "name": "Portent"
+    },
+    {
+      "count": 6,
+      "name": "Island"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 1,
+      "name": "Aura of Silence"
+    },
+    {
+      "count": 1,
+      "name": "Ray of Revelation"
+    },
+    {
+      "count": 1,
+      "name": "Annul"
+    },
+    {
+      "count": 1,
+      "name": "Sphere of Law"
+    },
+    {
+      "count": 1,
+      "name": "Powder Keg"
+    },
+    {
+      "count": 1,
+      "name": "Phyrexian Furnace"
+    },
+    {
+      "count": 1,
+      "name": "Enlightened Tutor"
+    },
+    {
+      "count": 1,
+      "name": "Cataclysm"
+    },
+    {
+      "count": 4,
+      "name": "Hydroblast"
+    },
+    {
+      "count": 3,
+      "name": "Engineered Plague"
+    }
+  ]
+}

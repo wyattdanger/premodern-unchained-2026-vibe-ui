@@ -1,0 +1,115 @@
+{
+  "event_id": "2921762",
+  "event_name": "NA PM Champs '26: Premodern Unchained hosted by the Rochester Royals",
+  "place": 48,
+  "pilot": "Justin Mannix",
+  "spicerack_archetype": "Other",
+  "moxfield_url": "https://www.moxfield.com/decks/qeWnSkxePUSd0br9qgZi9w",
+  "swiss_record": "3-2-0",
+  "final_record": "3-2-0",
+  "unchained_card": "Force of Will",
+  "mainboard": [
+    {
+      "count": 4,
+      "name": "Counterspell"
+    },
+    {
+      "count": 4,
+      "name": "Gush"
+    },
+    {
+      "count": 4,
+      "name": "Portent"
+    },
+    {
+      "count": 4,
+      "name": "Stifle"
+    },
+    {
+      "count": 4,
+      "name": "Force of Will"
+    },
+    {
+      "count": 4,
+      "name": "Phyrexian Dreadnought"
+    },
+    {
+      "count": 4,
+      "name": "Vision Charm"
+    },
+    {
+      "count": 2,
+      "name": "Daze"
+    },
+    {
+      "count": 2,
+      "name": "Foil"
+    },
+    {
+      "count": 2,
+      "name": "Mishra's Factory"
+    },
+    {
+      "count": 2,
+      "name": "Flash of Insight"
+    },
+    {
+      "count": 3,
+      "name": "Impulse"
+    },
+    {
+      "count": 3,
+      "name": "Annul"
+    },
+    {
+      "count": 16,
+      "name": "Island"
+    },
+    {
+      "count": 1,
+      "name": "Opt"
+    },
+    {
+      "count": 1,
+      "name": "Boomerang"
+    }
+  ],
+  "sideboard": [
+    {
+      "count": 2,
+      "name": "Essence Flare"
+    },
+    {
+      "count": 2,
+      "name": "Powder Keg"
+    },
+    {
+      "count": 2,
+      "name": "Brain Freeze"
+    },
+    {
+      "count": 2,
+      "name": "Dominate"
+    },
+    {
+      "count": 2,
+      "name": "Blue Elemental Blast"
+    },
+    {
+      "count": 2,
+      "name": "Tormod's Crypt"
+    },
+    {
+      "count": 1,
+      "name": "Annul"
+    },
+    {
+      "count": 1,
+      "name": "Hydroblast"
+    },
+    {
+      "count": 1,
+      "name": "Boomerang"
+    }
+  ]
+}
