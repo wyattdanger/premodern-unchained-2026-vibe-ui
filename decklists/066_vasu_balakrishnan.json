@@ -7,7 +7,7 @@
   "moxfield_url": "https://www.moxfield.com/decks/eDUz4JByxUubGuAyzvODUQ",
   "swiss_record": "2-2-0",
   "final_record": "2-2-0",
-  "unchained_card": null,
+  "unchained_card": "Parallax Tide",
   "mainboard": [
     {
       "count": 2,
@@ -107,5 +107,6 @@
       "count": 2,
       "name": "Arcane Denial"
     }
-  ]
+  ],
+  "archetype": "Replenish"
 }

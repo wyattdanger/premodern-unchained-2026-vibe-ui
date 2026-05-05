@@ -135,5 +135,6 @@
       "count": 3,
       "name": "Pyroblast"
     }
-  ]
+  ],
+  "archetype": "Threshold"
 }

@@ -7,7 +7,7 @@
   "moxfield_url": "https://www.moxfield.com/decks/Uq5N6PLWjUuBBdlNiSAqYg",
   "swiss_record": "4-3-0",
   "final_record": "4-3-0",
-  "unchained_card": null,
+  "unchained_card": "Yawgmoth's Bargain",
   "mainboard": [
     {
       "count": 4,
@@ -135,5 +135,6 @@
       "count": 3,
       "name": "Compost"
     }
-  ]
+  ],
+  "archetype": "Bargain"
 }

@@ -7,7 +7,7 @@
   "moxfield_url": "https://www.moxfield.com/decks/dZedlYxLf0eXcj2eDskhuQ",
   "swiss_record": "3-2-0",
   "final_record": "3-2-0",
-  "unchained_card": null,
+  "unchained_card": "Parallax Tide",
   "mainboard": [
     {
       "count": 8,
@@ -107,5 +107,6 @@
       "count": 3,
       "name": "Annul"
     }
-  ]
+  ],
+  "archetype": "Rogue"
 }

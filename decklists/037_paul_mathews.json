@@ -7,7 +7,7 @@
   "moxfield_url": "https://www.moxfield.com/decks/Gr7ZZta6CUG2oaPAu0QN-g",
   "swiss_record": "3-2-1",
   "final_record": "3-2-1",
-  "unchained_card": null,
+  "unchained_card": "Parallax Tide",
   "mainboard": [
     {
       "count": 15,
@@ -103,5 +103,6 @@
       "count": 3,
       "name": "Tormod's Crypt"
     }
-  ]
+  ],
+  "archetype": "Rogue"
 }

@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NA PM Champs '26: Premodern Unchained</title>
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { background: #0f0f14; color: #e2e8f0; font-family: ui-sans-serif, system-ui, sans-serif; }
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: #1e1e2e; }
+    ::-webkit-scrollbar-thumb { background: #475569; border-radius: 3px; }
+  </style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+  const { useState, useEffect, useMemo, useCallback } = React;
+
+  // ── Hash router ───────────────────────────────────────────────────────────
+
+  function parseHash() {
+    const h = location.hash.slice(1);
+    if (h.startsWith('card/')) return { view: 'card', card: decodeURIComponent(h.slice(5)) };
+    if (h === 'players')       return { view: 'players', card: null };
+    return { view: 'overview', card: null };
+  }
+
+  function useHashRouter() {
+    const [route, setRoute] = useState(parseHash);
+    useEffect(() => {
+      const handler = () => setRoute(parseHash());
+      window.addEventListener('popstate', handler);
+      return () => window.removeEventListener('popstate', handler);
+    }, []);
+    const navigate = useCallback((hash) => {
+      history.pushState(null, '', '#' + hash);
+      setRoute(parseHash());
+    }, []);
+    return [route, navigate];
+  }
+
+  // ── Helpers ──────────────────────────────────────────────────────────────
+
+  function parseRecord(record) {
+    if (!record) return { w: 0, l: 0, d: 0, pct: null };
+    const [w, l, d] = record.split('-').map(Number);
+    const total = w + l + d;
+    return { w, l, d, pct: total > 0 ? w / total : null };
+  }
+
+  function WinPct({ pct }) {
+    if (pct === null) return <span className="text-slate-500">—</span>;
+    const color = pct >= 0.65 ? 'text-green-400' : pct >= 0.5 ? 'text-yellow-400' : 'text-red-400';
+    return <span className={color}>{(pct * 100).toFixed(0)}%</span>;
+  }
+
+  // ── Inline Deck ───────────────────────────────────────────────────────────
+
+  function InlineDeck({ deck }) {
+    const mainSorted = [...deck.mainboard].sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+    const sideSorted = [...deck.sideboard].sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+    const mainTotal = deck.mainboard.reduce((s, c) => s + c.count, 0);
+    const sideTotal = deck.sideboard.reduce((s, c) => s + c.count, 0);
+
+    return (
+      <div className="bg-slate-800/40 border-t border-slate-700/40 px-4 py-4 grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div>
+          <div className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">
+            Mainboard <span className="text-slate-600">({mainTotal})</span>
+          </div>
+          <div className="space-y-0.5 columns-1 sm:columns-2 gap-4">
+            {mainSorted.map(card => (
+              <div key={card.name} className="flex gap-2 text-xs break-inside-avoid">
+                <span className={`w-4 text-right shrink-0 tabular-nums ${
+                  card.name === deck.unchained_card ? 'text-amber-400 font-bold' : 'text-slate-500'
+                }`}>{card.count}</span>
+                <span className={card.name === deck.unchained_card ? 'text-amber-300 font-medium' : 'text-slate-300'}>
+                  {card.name}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div>
+          {sideSorted.length > 0 && <>
+            <div className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">
+              Sideboard <span className="text-slate-600">({sideTotal})</span>
+            </div>
+            <div className="space-y-0.5">
+              {sideSorted.map(card => (
+                <div key={card.name} className="flex gap-2 text-xs">
+                  <span className="w-4 text-right text-slate-500 shrink-0 tabular-nums">{card.count}</span>
+                  <span className="text-slate-300">{card.name}</span>
+                </div>
+              ))}
+            </div>
+            {deck.moxfield_url && (
+              <a href={deck.moxfield_url} target="_blank" rel="noopener noreferrer"
+                 className="inline-block mt-3 text-xs text-blue-400 hover:text-blue-300 underline">
+                Moxfield →
+              </a>
+            )}
+          </>}
+          {sideSorted.length === 0 && deck.moxfield_url && (
+            <a href={deck.moxfield_url} target="_blank" rel="noopener noreferrer"
+               className="text-xs text-blue-400 hover:text-blue-300 underline">
+              Moxfield →
+            </a>
+          )}
+        </div>
+      </div>
+    );
+  }
+
+  // ── App ───────────────────────────────────────────────────────────────────
+
+  function App() {
+    const [decks, setDecks] = useState(null);
+    const [error, setError] = useState(null);
+    const [route, navigate] = useHashRouter();
+
+    useEffect(() => {
+      fetch('data.json')
+        .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+        .then(setDecks)
+        .catch(e => setError(e.message));
+    }, []);
+
+    if (error) return (
+      <div className="flex items-center justify-center h-screen">
+        <div className="text-center space-y-3">
+          <div className="text-red-400 text-lg font-medium">Could not load data.json</div>
+          <div className="text-slate-400 text-sm">Run: <code className="bg-slate-800 px-2 py-1 rounded text-amber-300">python3 aggregate.py</code></div>
+          <div className="text-slate-400 text-sm">Serve: <code className="bg-slate-800 px-2 py-1 rounded text-amber-300">cd app && python3 -m http.server 8080</code></div>
+        </div>
+      </div>
+    );
+
+    if (!decks) return (
+      <div className="flex items-center justify-center h-screen text-slate-500">Loading...</div>
+    );
+
+    const isCard = route.view === 'card';
+
+    return (
+      <div className="min-h-screen">
+        <Header decks={decks} />
+        <nav className="border-b border-slate-700/60 px-3 sm:px-6 flex items-center">
+          {isCard
+            ? <>
+                <button
+                  onClick={() => navigate('overview')}
+                  className="py-3 px-3 text-sm text-slate-400 hover:text-slate-200 flex items-center gap-1"
+                >
+                  ← Overview
+                </button>
+                <span className="text-slate-600 text-sm">/</span>
+                <span className="py-3 px-3 text-sm text-amber-400 font-medium">{route.card}</span>
+              </>
+            : ['overview', 'players'].map(t => (
+                <button
+                  key={t}
+                  onClick={() => navigate(t)}
+                  className={`py-3 px-5 text-sm font-medium border-b-2 -mb-px transition-colors capitalize ${
+                    route.view === t
+                      ? 'border-amber-400 text-amber-400'
+                      : 'border-transparent text-slate-400 hover:text-slate-200'
+                  }`}
+                >
+                  {t}
+                </button>
+              ))
+          }
+        </nav>
+        <main className="px-3 sm:px-6 py-6 max-w-5xl mx-auto">
+          {isCard
+            ? <CardDetailView decks={decks} card={route.card} />
+            : route.view === 'overview'
+              ? <OverviewTab decks={decks} onSelectCard={c => navigate('card/' + encodeURIComponent(c))} />
+              : <PlayersTab decks={decks} />
+          }
+        </main>
+      </div>
+    );
+  }
+
+  // ── Header ────────────────────────────────────────────────────────────────
+
+  function Header({ decks }) {
+    const uniqueCards = new Set(decks.filter(d => d.unchained_card).map(d => d.unchained_card)).size;
+    const withRecord  = decks.filter(d => d.swiss_record).length;
+    return (
+      <div className="px-3 sm:px-6 py-4 sm:py-5 border-b border-slate-700/60">
+        <h1 className="text-xl font-bold text-amber-400 tracking-tight">
+          NA PM Champs '26: Premodern Unchained
+        </h1>
+        <div className="flex flex-wrap gap-5 mt-2 text-sm text-slate-400">
+          <span><strong className="text-slate-200">{decks.length}</strong> decklists</span>
+          <span><strong className="text-slate-200">{uniqueCards}</strong> unchained cards used</span>
+          <span><strong className="text-slate-200">{withRecord}</strong> with swiss records</span>
+        </div>
+      </div>
+    );
+  }
+
+  // ── Overview Tab ──────────────────────────────────────────────────────────
+
+  function OverviewTab({ decks, onSelectCard }) {
+    const unchainedStats = useMemo(() => {
+      const stats = {};
+      decks.forEach(d => {
+        const card = d.unchained_card || '(none detected)';
+        if (!stats[card]) stats[card] = { count: 0, wins: 0, games: 0 };
+        stats[card].count++;
+        const rec = parseRecord(d.swiss_record);
+        if (rec.pct !== null) {
+          stats[card].wins  += rec.w;
+          stats[card].games += rec.w + rec.l + rec.d;
+        }
+      });
+      return Object.entries(stats)
+        .map(([card, s]) => ({ card, count: s.count, winPct: s.games > 0 ? s.wins / s.games : null }))
+        .sort((a, b) => b.count - a.count);
+    }, [decks]);
+
+    const archetypeStats = useMemo(() => {
+      const stats = {};
+      decks.forEach(d => {
+        const arch = d.archetype || 'Rogue';
+        if (!stats[arch]) stats[arch] = { count: 0, wins: 0, games: 0 };
+        stats[arch].count++;
+        const rec = parseRecord(d.swiss_record);
+        if (rec.pct !== null) {
+          stats[arch].wins  += rec.w;
+          stats[arch].games += rec.w + rec.l + rec.d;
+        }
+      });
+      return Object.entries(stats)
+        .map(([arch, s]) => ({ arch, count: s.count, winPct: s.games > 0 ? s.wins / s.games : null }))
+        .sort((a, b) => b.count - a.count);
+    }, [decks]);
+
+    const maxUnchained = Math.max(...unchainedStats.map(s => s.count));
+    const maxArch = Math.max(...archetypeStats.map(s => s.count));
+    const totalWithCard = unchainedStats.filter(s => s.card !== '(none detected)').reduce((n, s) => n + s.count, 0);
+
+    return (
+      <div className="space-y-10">
+        {/* Top 3 summary cards */}
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          {unchainedStats.slice(0, 3).map(({ card, count }, i) => (
+            <button
+              key={card}
+              onClick={() => onSelectCard(card)}
+              className="bg-slate-800/60 border border-slate-700/50 rounded-lg p-4 text-left hover:border-amber-500/50 hover:bg-slate-800 transition-colors"
+            >
+              <div className="text-xs text-slate-500 uppercase tracking-wide mb-1">#{i + 1} most unchained</div>
+              <div className="text-amber-300 font-semibold">{card}</div>
+              <div className="text-2xl font-bold text-slate-100 mt-1">{count}</div>
+              <div className="text-xs text-slate-500">{((count / totalWithCard) * 100).toFixed(0)}% of field</div>
+            </button>
+          ))}
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          {/* Unchained card distribution */}
+          <div>
+            <div className="flex items-center justify-between mb-3">
+              <h2 className="text-base font-semibold text-slate-200">Unchained Cards</h2>
+              <span className="text-xs text-slate-500">count · win%</span>
+            </div>
+            <div className="space-y-1.5">
+              {unchainedStats.map(({ card, count, winPct }) => (
+                <button
+                  key={card}
+                  onClick={() => card !== '(none detected)' && onSelectCard(card)}
+                  className={`flex items-center gap-2 w-full text-left group ${card !== '(none detected)' ? 'cursor-pointer' : 'cursor-default'}`}
+                >
+                  <div className="w-36 text-xs text-right text-slate-300 truncate shrink-0 group-hover:text-amber-300 transition-colors"
+                       title={card}>{card}</div>
+                  <div className="flex-1 flex items-center gap-2">
+                    <div className="flex-1 bg-slate-800 rounded h-4 overflow-hidden">
+                      <div
+                        className={`h-full rounded transition-all ${card === '(none detected)' ? 'bg-slate-600' : 'bg-amber-600 group-hover:bg-amber-500'}`}
+                        style={{ width: `${(count / maxUnchained) * 100}%` }}
+                      />
+                    </div>
+                    <span className="text-xs text-slate-300 w-5 text-right shrink-0">{count}</span>
+                    <span className="text-xs w-8 text-right shrink-0"><WinPct pct={winPct} /></span>
+                  </div>
+                </button>
+              ))}
+            </div>
+            <div className="text-xs text-slate-600 mt-2">Click a card to explore its players</div>
+          </div>
+
+          {/* Archetype distribution */}
+          <div>
+            <div className="flex items-center justify-between mb-3">
+              <h2 className="text-base font-semibold text-slate-200">Archetypes</h2>
+              <span className="text-xs text-slate-500">count · win%</span>
+            </div>
+            <div className="space-y-1.5">
+              {archetypeStats.map(({ arch, count, winPct }) => (
+                <div key={arch} className="flex items-center gap-2">
+                  <div className="w-36 text-xs text-right text-slate-300 truncate shrink-0">{arch}</div>
+                  <div className="flex-1 flex items-center gap-2">
+                    <div className="flex-1 bg-slate-800 rounded h-4 overflow-hidden">
+                      <div
+                        className="h-full bg-blue-700 rounded"
+                        style={{ width: `${(count / maxArch) * 100}%` }}
+                      />
+                    </div>
+                    <span className="text-xs text-slate-300 w-5 text-right shrink-0">{count}</span>
+                    <span className="text-xs w-8 text-right shrink-0"><WinPct pct={winPct} /></span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* Top 8 */}
+        <div>
+          <h2 className="text-base font-semibold text-slate-200 mb-3">Top 8</h2>
+          <div className="space-y-1">
+            {decks
+              .filter(d => d.place !== null && d.place <= 8)
+              .sort((a, b) => a.place - b.place)
+              .map(d => (
+                <div key={d.pilot}
+                     className="flex items-center gap-4 bg-slate-800/40 border border-slate-700/30 rounded px-4 py-2 text-sm">
+                  <span className="w-5 text-center font-bold text-slate-400">{d.place}</span>
+                  <span className="flex-1 font-medium text-slate-200 truncate">{d.pilot}</span>
+                  <span className="hidden sm:inline text-xs text-slate-500 w-24">{d.archetype || '—'}</span>
+                  <span className="text-amber-400 w-28 sm:w-36 text-right truncate text-xs sm:text-sm">{d.unchained_card ?? '—'}</span>
+                  <span className="text-slate-400 w-14 text-right tabular-nums text-xs sm:text-sm">{d.swiss_record ?? '—'}</span>
+                  <span className="hidden sm:inline text-slate-300 w-16 text-right tabular-nums">{d.final_record ?? '—'}</span>
+                </div>
+              ))}
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // ── Card Detail View ──────────────────────────────────────────────────────
+
+  function CardDetailView({ decks, card }) {
+    const [expanded, setExpanded] = useState(null);
+
+    const players = useMemo(() =>
+      decks
+        .filter(d => d.unchained_card === card)
+        .sort((a, b) => (a.place ?? 9999) - (b.place ?? 9999)),
+      [decks, card]
+    );
+
+    const wins = players.reduce((s, d) => s + (parseRecord(d.swiss_record).w || 0), 0);
+    const games = players.reduce((s, d) => {
+      const r = parseRecord(d.swiss_record);
+      return s + r.w + r.l + r.d;
+    }, 0);
+    const avgWinPct = games > 0 ? wins / games : null;
+
+    const toggleExpand = (pilot) => setExpanded(e => e === pilot ? null : pilot);
+
+    return (
+      <div>
+        {/* Card header */}
+        <div className="mb-6">
+          <h2 className="text-2xl font-bold text-amber-400 mb-2">{card}</h2>
+          <div className="flex gap-6 text-sm text-slate-400">
+            <span><strong className="text-slate-200">{players.length}</strong> players</span>
+            {avgWinPct !== null && (
+              <span>Average win rate: <strong><WinPct pct={avgWinPct} /></strong></span>
+            )}
+          </div>
+        </div>
+
+        {/* Archetype breakdown for this card */}
+        {(() => {
+          const archCounts = {};
+          players.forEach(d => {
+            const a = d.archetype || 'Rogue';
+            archCounts[a] = (archCounts[a] || 0) + 1;
+          });
+          const entries = Object.entries(archCounts).sort((a, b) => b[1] - a[1]);
+          if (entries.length > 1) return (
+            <div className="flex flex-wrap gap-2 mb-6">
+              {entries.map(([arch, n]) => (
+                <span key={arch}
+                  className="bg-slate-800 border border-slate-700 rounded-full px-3 py-1 text-xs text-slate-300">
+                  {arch} <span className="text-slate-500">×{n}</span>
+                </span>
+              ))}
+            </div>
+          );
+        })()}
+
+        {/* Player list */}
+        <div className="rounded-lg border border-slate-700/50 overflow-hidden">
+          {players.map((deck, i) => (
+            <div key={deck.pilot} className={i < players.length - 1 || expanded === deck.pilot ? 'border-b border-slate-700/40' : ''}>
+              <button
+                className={`w-full flex items-center gap-3 px-4 py-3 text-sm text-left hover:bg-slate-800/50 transition-colors ${
+                  expanded === deck.pilot ? 'bg-slate-800/50' : i % 2 === 1 ? 'bg-slate-900/30' : ''
+                }`}
+                onClick={() => toggleExpand(deck.pilot)}
+              >
+                <span className="w-7 text-center text-slate-500 tabular-nums shrink-0">{deck.place ?? '—'}</span>
+                <span className="flex-1 font-medium text-slate-200 truncate">{deck.pilot}</span>
+                <span className="hidden sm:inline text-xs text-slate-500 w-24 text-left shrink-0">{deck.archetype || '—'}</span>
+                <span className="text-slate-400 tabular-nums w-14 text-right shrink-0">{deck.swiss_record ?? '—'}</span>
+                <span className="hidden sm:inline w-10 text-right shrink-0"><WinPct pct={parseRecord(deck.swiss_record).pct} /></span>
+                <span className="hidden sm:inline text-slate-500 w-12 text-right text-xs tabular-nums shrink-0">{deck.final_record ?? ''}</span>
+                <span className="text-slate-600 ml-2 text-xs shrink-0">{expanded === deck.pilot ? '▲' : '▼'}</span>
+              </button>
+              {expanded === deck.pilot && <InlineDeck deck={deck} />}
+            </div>
+          ))}
+        </div>
+        <div className="text-xs text-slate-600 mt-2">Click a player to expand their decklist</div>
+      </div>
+    );
+  }
+
+  // ── Players Tab ───────────────────────────────────────────────────────────
+
+  function PlayersTab({ decks }) {
+    const [sortKey, setSortKey] = useState('place');
+    const [sortDir, setSortDir] = useState('asc');
+    const [filter, setFilter] = useState('');
+    const [cardFilter, setCardFilter] = useState('');
+    const [archFilter, setArchFilter] = useState('');
+    const [expanded, setExpanded] = useState(null);
+
+    const uniqueCards = useMemo(() =>
+      ['', ...Array.from(new Set(decks.filter(d => d.unchained_card).map(d => d.unchained_card))).sort()],
+      [decks]
+    );
+    const uniqueArchs = useMemo(() =>
+      ['', ...Array.from(new Set(decks.map(d => d.archetype || 'Rogue'))).sort()],
+      [decks]
+    );
+
+    const sorted = useMemo(() => {
+      let result = decks.filter(d => {
+        const textMatch = !filter ||
+          d.pilot.toLowerCase().includes(filter.toLowerCase()) ||
+          (d.unchained_card || '').toLowerCase().includes(filter.toLowerCase());
+        const cardMatch = !cardFilter || d.unchained_card === cardFilter;
+        const archMatch = !archFilter || (d.archetype || 'Rogue') === archFilter;
+        return textMatch && cardMatch && archMatch;
+      });
+      result = [...result].sort((a, b) => {
+        let av, bv;
+        if (sortKey === 'swiss_pct') {
+          av = parseRecord(a.swiss_record).pct ?? -1;
+          bv = parseRecord(b.swiss_record).pct ?? -1;
+        } else if (sortKey === 'place') {
+          av = a.place ?? 9999;
+          bv = b.place ?? 9999;
+        } else {
+          av = a[sortKey] ?? '';
+          bv = b[sortKey] ?? '';
+        }
+        if (typeof av === 'string') av = av.toLowerCase();
+        if (typeof bv === 'string') bv = bv.toLowerCase();
+        if (av < bv) return sortDir === 'asc' ? -1 : 1;
+        if (av > bv) return sortDir === 'asc' ?  1 : -1;
+        return 0;
+      });
+      return result;
+    }, [decks, sortKey, sortDir, filter, cardFilter, archFilter]);
+
+    function toggleSort(key) {
+      if (sortKey === key) setSortDir(d => d === 'asc' ? 'desc' : 'asc');
+      else { setSortKey(key); setSortDir('asc'); }
+    }
+
+    function SortTh({ col, label, className = '' }) {
+      const active = sortKey === col;
+      return (
+        <th className={`px-3 py-2 text-left text-xs font-medium text-slate-400 uppercase tracking-wide cursor-pointer hover:text-slate-200 select-none whitespace-nowrap ${className}`}
+            onClick={() => toggleSort(col)}>
+          {label}{active ? (sortDir === 'asc' ? ' ↑' : ' ↓') : ''}
+        </th>
+      );
+    }
+
+    const toggleExpand = (pilot) => setExpanded(e => e === pilot ? null : pilot);
+
+    return (
+      <div>
+        <div className="flex flex-wrap gap-3 mb-4">
+          <input
+            type="text"
+            placeholder="Search pilot or card..."
+            value={filter}
+            onChange={e => setFilter(e.target.value)}
+            className="bg-slate-800 border border-slate-600 rounded px-3 py-1.5 text-sm text-slate-200 placeholder-slate-500 w-52 focus:outline-none focus:border-amber-400"
+          />
+          <select
+            value={cardFilter}
+            onChange={e => setCardFilter(e.target.value)}
+            className="bg-slate-800 border border-slate-600 rounded px-3 py-1.5 text-sm text-slate-200 focus:outline-none focus:border-amber-400"
+          >
+            <option value="">All unchained cards</option>
+            {uniqueCards.slice(1).map(c => <option key={c} value={c}>{c}</option>)}
+          </select>
+          <select
+            value={archFilter}
+            onChange={e => setArchFilter(e.target.value)}
+            className="bg-slate-800 border border-slate-600 rounded px-3 py-1.5 text-sm text-slate-200 focus:outline-none focus:border-amber-400"
+          >
+            <option value="">All archetypes</option>
+            {uniqueArchs.slice(1).map(a => <option key={a} value={a}>{a}</option>)}
+          </select>
+        </div>
+
+        <div className="rounded-lg border border-slate-700/50 overflow-x-auto">
+          <table className="w-full text-sm min-w-[480px]">
+            <thead className="bg-slate-800/60 border-b border-slate-700/50">
+              <tr>
+                <SortTh col="place"          label="#" />
+                <SortTh col="pilot"          label="Pilot" />
+                <SortTh col="archetype"      label="Archetype" className="hidden sm:table-cell" />
+                <SortTh col="unchained_card" label="Unchained" />
+                <SortTh col="swiss_record"   label="Swiss" />
+                <SortTh col="swiss_pct"      label="Win%" className="hidden sm:table-cell" />
+                <th className="px-3 py-2 text-left text-xs font-medium text-slate-400 uppercase tracking-wide hidden sm:table-cell">Final</th>
+                <th className="px-3 py-2 w-6"></th>
+              </tr>
+            </thead>
+            <tbody>
+              {sorted.map((deck, i) => (
+                <React.Fragment key={deck.pilot}>
+                  <tr
+                    className={`border-b border-slate-800 hover:bg-slate-800/50 cursor-pointer transition-colors ${
+                      expanded === deck.pilot ? 'bg-slate-800/50' : i % 2 === 1 ? 'bg-slate-900/20' : ''
+                    }`}
+                    onClick={() => toggleExpand(deck.pilot)}
+                  >
+                    <td className="px-3 py-2 text-slate-500 tabular-nums">{deck.place ?? '—'}</td>
+                    <td className="px-3 py-2 font-medium text-slate-200">{deck.pilot}</td>
+                    <td className="px-3 py-2 text-slate-400 text-xs hidden sm:table-cell">{deck.archetype || 'Rogue'}</td>
+                    <td className="px-3 py-2">
+                      {deck.unchained_card
+                        ? <span className="text-amber-400">{deck.unchained_card}</span>
+                        : <span className="text-slate-600">—</span>}
+                    </td>
+                    <td className="px-3 py-2 text-slate-400 tabular-nums">{deck.swiss_record ?? '—'}</td>
+                    <td className="px-3 py-2 tabular-nums hidden sm:table-cell"><WinPct pct={parseRecord(deck.swiss_record).pct} /></td>
+                    <td className="px-3 py-2 text-slate-400 tabular-nums hidden sm:table-cell">{deck.final_record ?? '—'}</td>
+                    <td className="px-3 py-2 text-slate-600 text-xs">{expanded === deck.pilot ? '▲' : '▼'}</td>
+                  </tr>
+                  {expanded === deck.pilot && (
+                    <tr className="border-b border-slate-700/40">
+                      <td colSpan={8} className="p-0">
+                        <InlineDeck deck={deck} />
+                      </td>
+                    </tr>
+                  )}
+                </React.Fragment>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <div className="text-xs text-slate-600 mt-2">
+          {sorted.length} of {decks.length} players · click row to expand decklist
+        </div>
+      </div>
+    );
+  }
+
+  // ── Mount ─────────────────────────────────────────────────────────────────
+
+  const root = ReactDOM.createRoot(document.getElementById('root'));
+  root.render(<App />);
+</script>
+</body>
+</html>

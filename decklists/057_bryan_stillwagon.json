@@ -139,5 +139,6 @@
       "count": 2,
       "name": "Tormod's Crypt"
     }
-  ]
+  ],
+  "archetype": "Replenish"
 }
