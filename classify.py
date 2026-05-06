@@ -18,7 +18,10 @@ RITUAL_CARDS = {'Dark Ritual', 'Cabal Ritual'}
 
 # Manual overrides: pilot name -> archetype (applied after rule-based classification)
 OVERRIDES = {
-    'Bryson Bonham': 'Rogue',
+    'Bryson Bonham':        'Super Wayfarer',
+    'Travis Schneider':     'Fish',
+    'Christopher Baviello': 'Mono U Control',
+    'Brian Tweedy':         'The Rock',
 }
 
 ELF_CARDS = {
@@ -45,6 +48,7 @@ def classify(deck: dict) -> str:
         return 'Goblins'
 
     # Reanimator: Entomb + reanimation spell, or Buried Alive + reanimation
+    # ZI Reanimator: Reanimator shell + Zombie Infestation
     if 'Entomb' in cards and REANIMATION_CARDS & cards:
         return 'Reanimator'
     if 'Buried Alive' in cards and REANIMATION_CARDS & cards:
@@ -73,6 +77,12 @@ def classify(deck: dict) -> str:
     if 'Oath of Druids' in cards:
         return 'Oath'
 
+    if 'Skyshroud Condor' in cards:
+        return 'Fish'
+
+    if 'Dream Halls' in cards:
+        return 'Dream Halls'
+
     if "Volrath's Shapeshifter" in cards:
         return 'HFEB' if 'Hermit Druid' in cards else 'FEB'
 
@@ -89,6 +99,9 @@ def classify(deck: dict) -> str:
         return 'Landstill'
 
     # ── Threshold: Nimble Mongoose or Werebear + cantrips ───────────────────
+
+    if 'Terravore' in cards and 'Armageddon' in cards:
+        return 'Terrageddon'
 
     if 'Nimble Mongoose' in cards or ('Werebear' in cards and 'Wild Mongrel' in cards):
         return 'Threshold'

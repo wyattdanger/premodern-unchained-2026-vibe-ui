@@ -7,7 +7,7 @@
   "moxfield_url": "https://www.moxfield.com/decks/5b9dO0WvKECkFoMMi5GG7Q",
   "swiss_record": "0-3-0",
   "final_record": "0-3-0",
-  "unchained_card": null,
+  "unchained_card": "Time Spiral",
   "mainboard": [
     {
       "count": 1,
@@ -100,5 +100,5 @@
       "name": "Teferi's Response"
     }
   ],
-  "archetype": "Rogue"
+  "archetype": "Dream Halls"
 }

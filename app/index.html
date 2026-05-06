@@ -24,9 +24,11 @@
 
   function parseHash() {
     const h = location.hash.slice(1);
-    if (h.startsWith('card/')) return { view: 'card', card: decodeURIComponent(h.slice(5)) };
-    if (h === 'players')       return { view: 'players', card: null };
-    return { view: 'overview', card: null };
+    if (h.startsWith('card/'))    return { view: 'card',    card: decodeURIComponent(h.slice(5)), arch: null };
+    if (h.startsWith('arch/'))    return { view: 'arch',    card: null, arch: decodeURIComponent(h.slice(5)) };
+    if (h.startsWith('players/')) return { view: 'players', card: null, arch: decodeURIComponent(h.slice(8)) };
+    if (h === 'players')          return { view: 'players', card: null, arch: null };
+    return { view: 'overview', card: null, arch: null };
   }
 
   function useHashRouter() {
@@ -152,14 +154,21 @@
         <nav className="border-b border-slate-700/60 px-3 sm:px-6 flex items-center">
           {isCard
             ? <>
-                <button
-                  onClick={() => navigate('overview')}
-                  className="py-3 px-3 text-sm text-slate-400 hover:text-slate-200 flex items-center gap-1"
-                >
-                  ← Overview
-                </button>
+                <button onClick={() => navigate('overview')} className="py-3 px-3 text-sm text-slate-400 hover:text-slate-200">← Overview</button>
                 <span className="text-slate-600 text-sm">/</span>
                 <span className="py-3 px-3 text-sm text-amber-400 font-medium">{route.card}</span>
+              </>
+            : route.view === 'arch'
+            ? <>
+                <button onClick={() => navigate('overview')} className="py-3 px-3 text-sm text-slate-400 hover:text-slate-200">← Overview</button>
+                <span className="text-slate-600 text-sm">/</span>
+                <span className="py-3 px-3 text-sm text-blue-400 font-medium">{route.arch}</span>
+              </>
+            : route.arch
+            ? <>
+                <button onClick={() => navigate('players')} className="py-3 px-3 text-sm text-slate-400 hover:text-slate-200">← Players</button>
+                <span className="text-slate-600 text-sm">/</span>
+                <span className="py-3 px-3 text-sm text-blue-400 font-medium">{route.arch}</span>
               </>
             : ['overview', 'players'].map(t => (
                 <button
@@ -175,13 +184,16 @@
                 </button>
               ))
           }
+
         </nav>
         <main className="px-3 sm:px-6 py-6 max-w-5xl mx-auto">
           {isCard
-            ? <CardDetailView decks={decks} card={route.card} />
+            ? <CardDetailView decks={decks} card={route.card} navigate={navigate} />
+            : route.view === 'arch'
+            ? <ArchetypeDetailView decks={decks} arch={route.arch} navigate={navigate} />
             : route.view === 'overview'
-              ? <OverviewTab decks={decks} onSelectCard={c => navigate('card/' + encodeURIComponent(c))} />
-              : <PlayersTab decks={decks} />
+              ? <OverviewTab decks={decks} onSelectCard={c => navigate('card/' + encodeURIComponent(c))} onSelectArch={a => navigate('arch/' + encodeURIComponent(a))} />
+              : <PlayersTab key={route.arch || ''} decks={decks} initialArch={route.arch} />
           }
         </main>
       </div>
@@ -199,6 +211,7 @@
           NA PM Champs '26: Premodern Unchained
         </h1>
         <div className="flex flex-wrap gap-5 mt-2 text-sm text-slate-400">
+          <span><strong className="text-slate-200">141</strong> players</span>
           <span><strong className="text-slate-200">{decks.length}</strong> decklists</span>
           <span><strong className="text-slate-200">{uniqueCards}</strong> unchained cards used</span>
           <span><strong className="text-slate-200">{withRecord}</strong> with swiss records</span>
@@ -209,7 +222,7 @@
 
   // ── Overview Tab ──────────────────────────────────────────────────────────
 
-  function OverviewTab({ decks, onSelectCard }) {
+  function OverviewTab({ decks, onSelectCard, onSelectArch }) {
     const unchainedStats = useMemo(() => {
       const stats = {};
       decks.forEach(d => {
@@ -246,7 +259,7 @@
 
     const maxUnchained = Math.max(...unchainedStats.map(s => s.count));
     const maxArch = Math.max(...archetypeStats.map(s => s.count));
-    const totalWithCard = unchainedStats.filter(s => s.card !== '(none detected)').reduce((n, s) => n + s.count, 0);
+    const TOTAL_PLAYERS = 141;
 
     return (
       <div className="space-y-10">
@@ -261,7 +274,7 @@
               <div className="text-xs text-slate-500 uppercase tracking-wide mb-1">#{i + 1} most unchained</div>
               <div className="text-amber-300 font-semibold">{card}</div>
               <div className="text-2xl font-bold text-slate-100 mt-1">{count}</div>
-              <div className="text-xs text-slate-500">{((count / totalWithCard) * 100).toFixed(0)}% of field</div>
+              <div className="text-xs text-slate-500">{((count / TOTAL_PLAYERS) * 100).toFixed(0)}% of field</div>
             </button>
           ))}
         </div>
@@ -269,16 +282,13 @@
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Unchained card distribution */}
           <div>
-            <div className="flex items-center justify-between mb-3">
-              <h2 className="text-base font-semibold text-slate-200">Unchained Cards</h2>
-              <span className="text-xs text-slate-500">count · win%</span>
-            </div>
+            <h2 className="text-base font-semibold text-slate-200 mb-3">Unchained Cards</h2>
             <div className="space-y-1.5">
-              {unchainedStats.map(({ card, count, winPct }) => (
+              {unchainedStats.map(({ card, count }) => (
                 <button
                   key={card}
-                  onClick={() => card !== '(none detected)' && onSelectCard(card)}
-                  className={`flex items-center gap-2 w-full text-left group ${card !== '(none detected)' ? 'cursor-pointer' : 'cursor-default'}`}
+                  onClick={() => onSelectCard(card)}
+                  className="flex items-center gap-2 w-full text-left group cursor-pointer"
                 >
                   <div className="w-36 text-xs text-right text-slate-300 truncate shrink-0 group-hover:text-amber-300 transition-colors"
                        title={card}>{card}</div>
@@ -290,7 +300,6 @@
                       />
                     </div>
                     <span className="text-xs text-slate-300 w-5 text-right shrink-0">{count}</span>
-                    <span className="text-xs w-8 text-right shrink-0"><WinPct pct={winPct} /></span>
                   </div>
                 </button>
               ))}
@@ -300,43 +309,44 @@
 
           {/* Archetype distribution */}
           <div>
-            <div className="flex items-center justify-between mb-3">
-              <h2 className="text-base font-semibold text-slate-200">Archetypes</h2>
-              <span className="text-xs text-slate-500">count · win%</span>
-            </div>
+            <h2 className="text-base font-semibold text-slate-200 mb-3">Archetypes</h2>
             <div className="space-y-1.5">
-              {archetypeStats.map(({ arch, count, winPct }) => (
-                <div key={arch} className="flex items-center gap-2">
-                  <div className="w-36 text-xs text-right text-slate-300 truncate shrink-0">{arch}</div>
+              {archetypeStats.map(({ arch, count }) => (
+                <button
+                  key={arch}
+                  onClick={() => onSelectArch(arch)}
+                  className="flex items-center gap-2 w-full text-left group cursor-pointer"
+                >
+                  <div className="w-36 text-xs text-right text-slate-300 truncate shrink-0 group-hover:text-blue-300 transition-colors">{arch}</div>
                   <div className="flex-1 flex items-center gap-2">
                     <div className="flex-1 bg-slate-800 rounded h-4 overflow-hidden">
                       <div
-                        className="h-full bg-blue-700 rounded"
+                        className="h-full bg-blue-700 group-hover:bg-blue-500 rounded transition-colors"
                         style={{ width: `${(count / maxArch) * 100}%` }}
                       />
                     </div>
                     <span className="text-xs text-slate-300 w-5 text-right shrink-0">{count}</span>
-                    <span className="text-xs w-8 text-right shrink-0"><WinPct pct={winPct} /></span>
                   </div>
-                </div>
+                </button>
               ))}
             </div>
+            <div className="text-xs text-slate-600 mt-2">Click an archetype to explore its players</div>
           </div>
         </div>
 
-        {/* Top 8 */}
+        {/* Top 16 */}
         <div>
-          <h2 className="text-base font-semibold text-slate-200 mb-3">Top 8</h2>
+          <h2 className="text-base font-semibold text-slate-200 mb-3">Top 16</h2>
           <div className="space-y-1">
             {decks
-              .filter(d => d.place !== null && d.place <= 8)
+              .filter(d => d.place !== null && d.place <= 16)
               .sort((a, b) => a.place - b.place)
               .map(d => (
                 <div key={d.pilot}
                      className="flex items-center gap-4 bg-slate-800/40 border border-slate-700/30 rounded px-4 py-2 text-sm">
                   <span className="w-5 text-center font-bold text-slate-400">{d.place}</span>
                   <span className="flex-1 font-medium text-slate-200 truncate">{d.pilot}</span>
-                  <span className="hidden sm:inline text-xs text-slate-500 w-24">{d.archetype || '—'}</span>
+                  <span className="hidden sm:inline text-xs text-slate-500 w-36">{d.archetype || '—'}</span>
                   <span className="text-amber-400 w-28 sm:w-36 text-right truncate text-xs sm:text-sm">{d.unchained_card ?? '—'}</span>
                   <span className="text-slate-400 w-14 text-right tabular-nums text-xs sm:text-sm">{d.swiss_record ?? '—'}</span>
                   <span className="hidden sm:inline text-slate-300 w-16 text-right tabular-nums">{d.final_record ?? '—'}</span>
@@ -350,12 +360,12 @@
 
   // ── Card Detail View ──────────────────────────────────────────────────────
 
-  function CardDetailView({ decks, card }) {
+  function CardDetailView({ decks, card, navigate }) {
     const [expanded, setExpanded] = useState(null);
 
     const players = useMemo(() =>
       decks
-        .filter(d => d.unchained_card === card)
+        .filter(d => card === '(none detected)' ? !d.unchained_card : d.unchained_card === card)
         .sort((a, b) => (a.place ?? 9999) - (b.place ?? 9999)),
       [decks, card]
     );
@@ -393,10 +403,11 @@
           if (entries.length > 1) return (
             <div className="flex flex-wrap gap-2 mb-6">
               {entries.map(([arch, n]) => (
-                <span key={arch}
-                  className="bg-slate-800 border border-slate-700 rounded-full px-3 py-1 text-xs text-slate-300">
+                <button key={arch}
+                  onClick={() => navigate('arch/' + encodeURIComponent(arch))}
+                  className="bg-slate-800 border border-slate-700 hover:border-blue-500 hover:text-blue-300 rounded-full px-3 py-1 text-xs text-slate-300 transition-colors">
                   {arch} <span className="text-slate-500">×{n}</span>
-                </span>
+                </button>
               ))}
             </div>
           );
@@ -414,7 +425,92 @@
               >
                 <span className="w-7 text-center text-slate-500 tabular-nums shrink-0">{deck.place ?? '—'}</span>
                 <span className="flex-1 font-medium text-slate-200 truncate">{deck.pilot}</span>
-                <span className="hidden sm:inline text-xs text-slate-500 w-24 text-left shrink-0">{deck.archetype || '—'}</span>
+                <span className="text-xs text-slate-500 w-36 text-left shrink-0 truncate">{deck.archetype || '—'}</span>
+                <span className="hidden sm:inline text-slate-400 tabular-nums w-14 text-right shrink-0">{deck.swiss_record ?? '—'}</span>
+                <span className="hidden sm:inline w-10 text-right shrink-0"><WinPct pct={parseRecord(deck.swiss_record).pct} /></span>
+                <span className="hidden sm:inline text-slate-500 w-12 text-right text-xs tabular-nums shrink-0">{deck.final_record ?? ''}</span>
+                <span className="text-slate-600 ml-2 text-xs shrink-0">{expanded === deck.pilot ? '▲' : '▼'}</span>
+              </button>
+              {expanded === deck.pilot && <InlineDeck deck={deck} />}
+            </div>
+          ))}
+        </div>
+        <div className="text-xs text-slate-600 mt-2">Click a player to expand their decklist</div>
+      </div>
+    );
+  }
+
+  // ── Archetype Detail View ─────────────────────────────────────────────────
+
+  function ArchetypeDetailView({ decks, arch, navigate }) {
+    const [expanded, setExpanded] = useState(null);
+
+    const players = useMemo(() =>
+      decks
+        .filter(d => (d.archetype || 'Rogue') === arch)
+        .sort((a, b) => (a.place ?? 9999) - (b.place ?? 9999)),
+      [decks, arch]
+    );
+
+    const wins = players.reduce((s, d) => s + (parseRecord(d.swiss_record).w || 0), 0);
+    const games = players.reduce((s, d) => {
+      const r = parseRecord(d.swiss_record);
+      return s + r.w + r.l + r.d;
+    }, 0);
+    const avgWinPct = games > 0 ? wins / games : null;
+
+    const toggleExpand = (pilot) => setExpanded(e => e === pilot ? null : pilot);
+
+    return (
+      <div>
+        {/* Archetype header */}
+        <div className="mb-6">
+          <h2 className="text-2xl font-bold text-blue-400 mb-2">{arch}</h2>
+          <div className="flex gap-6 text-sm text-slate-400">
+            <span><strong className="text-slate-200">{players.length}</strong> players</span>
+            {avgWinPct !== null && (
+              <span>Average win rate: <strong><WinPct pct={avgWinPct} /></strong></span>
+            )}
+          </div>
+        </div>
+
+        {/* Unchained card breakdown */}
+        {(() => {
+          const cardCounts = {};
+          players.forEach(d => {
+            const c = d.unchained_card || '(none detected)';
+            cardCounts[c] = (cardCounts[c] || 0) + 1;
+          });
+          const entries = Object.entries(cardCounts).sort((a, b) => b[1] - a[1]);
+          if (entries.length > 0) return (
+            <div className="mb-6">
+              <div className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">Unchained Cards</div>
+              <div className="flex flex-wrap gap-2">
+                {entries.map(([card, n]) => (
+                  <button key={card}
+                    onClick={() => navigate('card/' + encodeURIComponent(card))}
+                    className="bg-slate-800 border border-slate-700 hover:border-amber-500 hover:text-amber-300 rounded-full px-3 py-1 text-xs text-slate-300 transition-colors">
+                    {card} <span className="text-slate-500">×{n}</span>
+                  </button>
+                ))}
+              </div>
+            </div>
+          );
+        })()}
+
+        {/* Player list */}
+        <div className="rounded-lg border border-slate-700/50 overflow-hidden">
+          {players.map((deck, i) => (
+            <div key={deck.pilot} className={i < players.length - 1 || expanded === deck.pilot ? 'border-b border-slate-700/40' : ''}>
+              <button
+                className={`w-full flex items-center gap-3 px-4 py-3 text-sm text-left hover:bg-slate-800/50 transition-colors ${
+                  expanded === deck.pilot ? 'bg-slate-800/50' : i % 2 === 1 ? 'bg-slate-900/30' : ''
+                }`}
+                onClick={() => toggleExpand(deck.pilot)}
+              >
+                <span className="w-7 text-center text-slate-500 tabular-nums shrink-0">{deck.place ?? '—'}</span>
+                <span className="flex-1 font-medium text-slate-200 truncate">{deck.pilot}</span>
+                <span className="text-amber-400 text-xs w-36 text-left shrink-0 truncate">{deck.unchained_card ?? '—'}</span>
                 <span className="text-slate-400 tabular-nums w-14 text-right shrink-0">{deck.swiss_record ?? '—'}</span>
                 <span className="hidden sm:inline w-10 text-right shrink-0"><WinPct pct={parseRecord(deck.swiss_record).pct} /></span>
                 <span className="hidden sm:inline text-slate-500 w-12 text-right text-xs tabular-nums shrink-0">{deck.final_record ?? ''}</span>
@@ -431,12 +527,12 @@
 
   // ── Players Tab ───────────────────────────────────────────────────────────
 
-  function PlayersTab({ decks }) {
+  function PlayersTab({ decks, initialArch }) {
     const [sortKey, setSortKey] = useState('place');
     const [sortDir, setSortDir] = useState('asc');
     const [filter, setFilter] = useState('');
     const [cardFilter, setCardFilter] = useState('');
-    const [archFilter, setArchFilter] = useState('');
+    const [archFilter, setArchFilter] = useState(initialArch || '');
     const [expanded, setExpanded] = useState(null);
 
     const uniqueCards = useMemo(() =>
@@ -495,8 +591,22 @@
 
     const toggleExpand = (pilot) => setExpanded(e => e === pilot ? null : pilot);
 
+    const filteredWins  = sorted.reduce((s, d) => s + (parseRecord(d.swiss_record).w || 0), 0);
+    const filteredGames = sorted.reduce((s, d) => { const r = parseRecord(d.swiss_record); return s + r.w + r.l + r.d; }, 0);
+    const filteredWinPct = filteredGames > 0 ? filteredWins / filteredGames : null;
+
     return (
       <div>
+        {archFilter && (
+          <div className="mb-4 flex items-center gap-4 text-sm">
+            <span className="text-slate-200 font-semibold">{archFilter}</span>
+            <span className="text-slate-400"><strong className="text-slate-200">{sorted.length}</strong> players</span>
+            {filteredWinPct !== null && (
+              <span className="text-slate-400">Swiss win rate: <strong><WinPct pct={filteredWinPct} /></strong></span>
+            )}
+            <button onClick={() => setArchFilter('')} className="text-slate-600 hover:text-slate-400 text-xs ml-1">✕ clear</button>
+          </div>
+        )}
         <div className="flex flex-wrap gap-3 mb-4">
           <input
             type="text"
@@ -529,9 +639,9 @@
               <tr>
                 <SortTh col="place"          label="#" />
                 <SortTh col="pilot"          label="Pilot" />
-                <SortTh col="archetype"      label="Archetype" className="hidden sm:table-cell" />
+                <SortTh col="archetype"      label="Archetype" />
                 <SortTh col="unchained_card" label="Unchained" />
-                <SortTh col="swiss_record"   label="Swiss" />
+                <SortTh col="swiss_record"   label="Swiss" className="hidden sm:table-cell" />
                 <SortTh col="swiss_pct"      label="Win%" className="hidden sm:table-cell" />
                 <th className="px-3 py-2 text-left text-xs font-medium text-slate-400 uppercase tracking-wide hidden sm:table-cell">Final</th>
                 <th className="px-3 py-2 w-6"></th>
@@ -548,13 +658,13 @@
                   >
                     <td className="px-3 py-2 text-slate-500 tabular-nums">{deck.place ?? '—'}</td>
                     <td className="px-3 py-2 font-medium text-slate-200">{deck.pilot}</td>
-                    <td className="px-3 py-2 text-slate-400 text-xs hidden sm:table-cell">{deck.archetype || 'Rogue'}</td>
+                    <td className="px-3 py-2 text-slate-400 text-xs">{deck.archetype || 'Rogue'}</td>
                     <td className="px-3 py-2">
                       {deck.unchained_card
                         ? <span className="text-amber-400">{deck.unchained_card}</span>
                         : <span className="text-slate-600">—</span>}
                     </td>
-                    <td className="px-3 py-2 text-slate-400 tabular-nums">{deck.swiss_record ?? '—'}</td>
+                    <td className="px-3 py-2 text-slate-400 tabular-nums hidden sm:table-cell">{deck.swiss_record ?? '—'}</td>
                     <td className="px-3 py-2 tabular-nums hidden sm:table-cell"><WinPct pct={parseRecord(deck.swiss_record).pct} /></td>
                     <td className="px-3 py-2 text-slate-400 tabular-nums hidden sm:table-cell">{deck.final_record ?? '—'}</td>
                     <td className="px-3 py-2 text-slate-600 text-xs">{expanded === deck.pilot ? '▲' : '▼'}</td>
