@@ -78,6 +78,9 @@ def classify(deck: dict) -> str:
     if 'Burning Wish' in cards and RITUAL_CARDS & cards and "Lion's Eye Diamond" in cards:
         return 'Storm'
 
+    if 'Land Tax' in cards:
+        return 'Parfait'
+
     if 'Oath of Druids' in cards:
         return 'Oath'
 
