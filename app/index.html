@@ -223,6 +223,7 @@
   // ── Overview Tab ──────────────────────────────────────────────────────────
 
   function OverviewTab({ decks, onSelectCard, onSelectArch }) {
+    const [expanded, setExpanded] = useState(null);
     const unchainedStats = useMemo(() => {
       const stats = {};
       decks.forEach(d => {
@@ -342,14 +343,20 @@
               .filter(d => d.place !== null && d.place <= 16)
               .sort((a, b) => a.place - b.place)
               .map(d => (
-                <div key={d.pilot}
-                     className="flex items-center gap-4 bg-slate-800/40 border border-slate-700/30 rounded px-4 py-2 text-sm">
-                  <span className="w-5 text-center font-bold text-slate-400">{d.place}</span>
-                  <span className="flex-1 font-medium text-slate-200 truncate">{d.pilot}</span>
-                  <span className="hidden sm:inline text-xs text-slate-500 w-36">{d.archetype || '—'}</span>
-                  <span className="text-amber-400 w-28 sm:w-36 text-right truncate text-xs sm:text-sm">{d.unchained_card ?? '—'}</span>
-                  <span className="text-slate-400 w-14 text-right tabular-nums text-xs sm:text-sm">{d.swiss_record ?? '—'}</span>
-                  <span className="hidden sm:inline text-slate-300 w-16 text-right tabular-nums">{d.final_record ?? '—'}</span>
+                <div key={d.pilot} className="rounded border border-slate-700/30 overflow-hidden">
+                  <button
+                    onClick={() => setExpanded(e => e === d.pilot ? null : d.pilot)}
+                    className={`w-full flex items-center gap-4 bg-slate-800/40 hover:bg-slate-800 px-4 py-2 text-sm text-left transition-colors ${expanded === d.pilot ? 'bg-slate-800' : ''}`}
+                  >
+                    <span className="w-5 text-center font-bold text-slate-400 shrink-0">{d.place}</span>
+                    <span className="flex-1 font-medium text-slate-200 truncate">{d.pilot}</span>
+                    <span className="hidden sm:inline text-xs text-slate-500 w-36 shrink-0">{d.archetype || '—'}</span>
+                    <span className="text-amber-400 w-28 sm:w-36 text-right truncate text-xs sm:text-sm shrink-0">{d.unchained_card ?? '—'}</span>
+                    <span className="text-slate-400 w-14 text-right tabular-nums text-xs sm:text-sm shrink-0">{d.swiss_record ?? '—'}</span>
+                    <span className="hidden sm:inline text-slate-300 w-16 text-right tabular-nums shrink-0">{d.final_record ?? '—'}</span>
+                    <span className="text-slate-600 text-xs shrink-0">{expanded === d.pilot ? '▲' : '▼'}</span>
+                  </button>
+                  {expanded === d.pilot && <InlineDeck deck={d} />}
                 </div>
               ))}
           </div>
