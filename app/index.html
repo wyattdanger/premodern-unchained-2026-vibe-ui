@@ -420,7 +420,7 @@
               {entries.map(([arch, n]) => (
                 <button key={arch}
                   onClick={() => navigate('arch/' + encodeURIComponent(arch))}
-                  className="bg-slate-800 border border-slate-700 hover:border-blue-500 hover:text-blue-300 rounded-full px-3 py-1 text-xs text-slate-300 transition-colors">
+                  className="bg-slate-800 border border-slate-700 hover:border-blue-500 hover:text-blue-300 rounded-full px-3 py-1 text-sm text-slate-300 transition-colors">
                   {arch} <span className="text-slate-500">×{n}</span>
                 </button>
               ))}
@@ -504,7 +504,7 @@
                 {entries.map(([card, n]) => (
                   <button key={card}
                     onClick={() => navigate('card/' + encodeURIComponent(card))}
-                    className="bg-slate-800 border border-slate-700 hover:border-amber-500 hover:text-amber-300 rounded-full px-3 py-1 text-xs text-slate-300 transition-colors">
+                    className="bg-slate-800 border border-slate-700 hover:border-amber-500 hover:text-amber-300 rounded-full px-3 py-1 text-sm text-slate-300 transition-colors">
                     {card} <span className="text-slate-500">×{n}</span>
                   </button>
                 ))}
