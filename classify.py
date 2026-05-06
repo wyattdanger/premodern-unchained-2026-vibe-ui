@@ -22,6 +22,10 @@ OVERRIDES = {
     'Travis Schneider':     'Fish',
     'Christopher Baviello': 'Mono U Control',
     'Brian Tweedy':         'The Rock',
+    'Chris Roy':            'Tide Control',
+    'Paul Mathews':         'Tide Control',
+    'Cameron Dodge':        'Dromar Control',
+    'Stephen Bush':         'Balance',
 }
 
 ELF_CARDS = {
@@ -97,6 +101,21 @@ def classify(deck: dict) -> str:
 
     if 'Standstill' in cards and "Mishra's Factory" in cards:
         return 'Landstill'
+
+    if 'Horn of Greed' in cards:
+        return 'Turbolands'
+
+    if 'Natural Order' in cards and 'Mind Twist' in cards:
+        return 'The Rock'
+
+    if 'Natural Balance' in cards:
+        return 'ProsBloom'
+
+    if 'Worthy Cause' in cards:
+        return 'Life'
+
+    if 'Snap' in cards and "Gaea's Cradle" in cards:
+        return 'Snap Cradle Pop'
 
     # ── Threshold: Nimble Mongoose or Werebear + cantrips ───────────────────
 
