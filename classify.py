@@ -46,7 +46,7 @@ def classify(deck: dict) -> str:
         return 'Enchantress'
 
     if 'Earthcraft' in cards:
-        return 'Earthcraft'
+        return 'Elves' if 'Fyndhorn Elves' in cards else 'Earthcraft'
 
     if sum(1 for g in GOBLIN_CARDS if g in cards) >= 3:
         return 'Goblins'
