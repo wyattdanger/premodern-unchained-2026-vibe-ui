@@ -30,11 +30,12 @@
 
   function parseHash() {
     const h = location.hash.slice(1);
-    if (h.startsWith('card/'))    return { view: 'card',    card: decodeURIComponent(h.slice(5)), arch: null };
-    if (h.startsWith('arch/'))    return { view: 'arch',    card: null, arch: decodeURIComponent(h.slice(5)) };
-    if (h.startsWith('players/')) return { view: 'players', card: null, arch: decodeURIComponent(h.slice(8)) };
-    if (h === 'players')          return { view: 'players', card: null, arch: null };
-    return { view: 'overview', card: null, arch: null };
+    if (h.startsWith('card/'))    return { view: 'card',   card: decodeURIComponent(h.slice(5)), arch: null, pilot: null };
+    if (h.startsWith('arch/'))    return { view: 'arch',   card: null, arch: decodeURIComponent(h.slice(5)), pilot: null };
+    if (h.startsWith('pilot/'))   return { view: 'pilot',  card: null, arch: null, pilot: decodeURIComponent(h.slice(6)) };
+    if (h.startsWith('players/')) return { view: 'players', card: null, arch: decodeURIComponent(h.slice(8)), pilot: null };
+    if (h === 'players')          return { view: 'players', card: null, arch: null, pilot: null };
+    return { view: 'overview', card: null, arch: null, pilot: null };
   }
 
   function useHashRouter() {
@@ -152,19 +153,27 @@
       <div className="flex items-center justify-center h-screen text-slate-500">Loading...</div>
     );
 
-    const isCard = route.view === 'card';
+    const isPilot = route.view === 'pilot';
+    const isCard  = route.view === 'card';
+    const isArch  = route.view === 'arch';
 
     return (
       <div className="min-h-screen">
         <Header decks={decks} />
         <nav className="border-b border-slate-700/60 px-3 sm:px-6 flex items-center">
-          {isCard
+          {isPilot
+            ? <>
+                <button onClick={() => history.back()} className="py-3 px-3 text-sm text-slate-400 hover:text-slate-200">← Back</button>
+                <span className="text-slate-600 text-sm">/</span>
+                <span className="py-3 px-3 text-sm text-slate-200 font-medium">{route.pilot}</span>
+              </>
+            : isCard
             ? <>
                 <button onClick={() => navigate('overview')} className="py-3 px-3 text-sm text-slate-400 hover:text-slate-200">← Overview</button>
                 <span className="text-slate-600 text-sm">/</span>
                 <span className="py-3 px-3 text-sm text-amber-400 font-medium">{route.card}</span>
               </>
-            : route.view === 'arch'
+            : isArch
             ? <>
                 <button onClick={() => navigate('overview')} className="py-3 px-3 text-sm text-slate-400 hover:text-slate-200">← Overview</button>
                 <span className="text-slate-600 text-sm">/</span>
@@ -190,16 +199,17 @@
                 </button>
               ))
           }
-
         </nav>
         <main className="px-3 sm:px-6 py-6 max-w-5xl mx-auto">
-          {isCard
+          {isPilot
+            ? <PilotDetailView decks={decks} pilot={route.pilot} navigate={navigate} />
+            : isCard
             ? <CardDetailView decks={decks} card={route.card} navigate={navigate} />
-            : route.view === 'arch'
+            : isArch
             ? <ArchetypeDetailView decks={decks} arch={route.arch} navigate={navigate} />
             : route.view === 'overview'
-              ? <OverviewTab decks={decks} onSelectCard={c => navigate('card/' + encodeURIComponent(c))} onSelectArch={a => navigate('arch/' + encodeURIComponent(a))} />
-              : <PlayersTab key={route.arch || ''} decks={decks} initialArch={route.arch} />
+              ? <OverviewTab decks={decks} onSelectCard={c => navigate('card/' + encodeURIComponent(c))} onSelectArch={a => navigate('arch/' + encodeURIComponent(a))} navigate={navigate} />
+              : <PlayersTab key={route.arch || ''} decks={decks} initialArch={route.arch} navigate={navigate} />
           }
         </main>
         <footer className="px-3 sm:px-6 py-6 text-center text-xs text-slate-600">
@@ -229,8 +239,7 @@
 
   // ── Overview Tab ──────────────────────────────────────────────────────────
 
-  function OverviewTab({ decks, onSelectCard, onSelectArch }) {
-    const [expanded, setExpanded] = useState(null);
+  function OverviewTab({ decks, onSelectCard, onSelectArch, navigate }) {
     const unchainedStats = useMemo(() => {
       const stats = {};
       decks.forEach(d => {
@@ -352,8 +361,8 @@
               .map(d => (
                 <div key={d.pilot} className="rounded border border-slate-700/30 overflow-hidden">
                   <button
-                    onClick={() => setExpanded(e => e === d.pilot ? null : d.pilot)}
-                    className={`w-full flex items-center gap-4 bg-slate-800/40 hover:bg-slate-800 px-4 py-2 text-sm text-left transition-colors ${expanded === d.pilot ? 'bg-slate-800' : ''}`}
+                    onClick={() => navigate('pilot/' + encodeURIComponent(d.pilot))}
+                    className="w-full flex items-center gap-4 bg-slate-800/40 hover:bg-slate-800 px-4 py-2 text-sm text-left transition-colors"
                   >
                     <span className="w-5 text-center font-bold text-slate-400 shrink-0">{d.place}</span>
                     <div className="flex-1 min-w-0">
@@ -363,9 +372,7 @@
                     <span className="text-amber-400 w-28 sm:w-36 text-right truncate text-sm shrink-0">{d.unchained_card ?? '—'}</span>
                     <span className="hidden sm:inline text-slate-400 w-14 text-right tabular-nums text-sm shrink-0">{d.swiss_record ?? '—'}</span>
                     <span className="hidden sm:inline text-slate-300 w-16 text-right tabular-nums shrink-0">{d.final_record ?? '—'}</span>
-                    <span className="text-slate-600 text-xs shrink-0">{expanded === d.pilot ? '▲' : '▼'}</span>
                   </button>
-                  {expanded === d.pilot && <InlineDeck deck={d} />}
                 </div>
               ))}
           </div>
@@ -377,8 +384,6 @@
   // ── Card Detail View ──────────────────────────────────────────────────────
 
   function CardDetailView({ decks, card, navigate }) {
-    const [expanded, setExpanded] = useState(null);
-
     const players = useMemo(() =>
       decks
         .filter(d => card === '(none detected)' ? !d.unchained_card : d.unchained_card === card)
@@ -392,8 +397,6 @@
       return s + r.w + r.l + r.d;
     }, 0);
     const avgWinPct = games > 0 ? wins / games : null;
-
-    const toggleExpand = (pilot) => setExpanded(e => e === pilot ? null : pilot);
 
     return (
       <div>
@@ -432,26 +435,21 @@
         {/* Player list */}
         <div className="rounded-lg border border-slate-700/50 overflow-hidden">
           {players.map((deck, i) => (
-            <div key={deck.pilot} className={i < players.length - 1 || expanded === deck.pilot ? 'border-b border-slate-700/40' : ''}>
+            <div key={deck.pilot} className={i < players.length - 1 ? 'border-b border-slate-700/40' : ''}>
               <button
-                className={`w-full flex items-center gap-3 px-4 py-3 text-sm text-left hover:bg-slate-800/50 transition-colors ${
-                  expanded === deck.pilot ? 'bg-slate-800/50' : i % 2 === 1 ? 'bg-slate-900/30' : ''
-                }`}
-                onClick={() => toggleExpand(deck.pilot)}
+                className={`w-full flex items-center gap-3 px-4 py-3 text-sm text-left hover:bg-slate-800/50 transition-colors ${i % 2 === 1 ? 'bg-slate-900/30' : ''}`}
+                onClick={() => navigate('pilot/' + encodeURIComponent(deck.pilot))}
               >
                 <span className="w-7 text-center text-slate-500 tabular-nums shrink-0">{deck.place ?? '—'}</span>
                 <span className="flex-1 font-medium text-slate-200 truncate">{deck.pilot}</span>
                 <span className="text-slate-500 w-36 text-left shrink-0 truncate">{deck.archetype || '—'}</span>
                 <span className="hidden sm:inline text-slate-400 tabular-nums w-14 text-right shrink-0">{deck.swiss_record ?? '—'}</span>
-                <span className="hidden sm:inline w-10 text-right shrink-0"><WinPct pct={parseRecord(deck.swiss_record).pct} /></span>
                 <span className="hidden sm:inline text-slate-500 w-12 text-right text-xs tabular-nums shrink-0">{deck.final_record ?? ''}</span>
-                <span className="text-slate-600 ml-2 text-xs shrink-0">{expanded === deck.pilot ? '▲' : '▼'}</span>
               </button>
-              {expanded === deck.pilot && <InlineDeck deck={deck} />}
             </div>
           ))}
         </div>
-        <div className="text-xs text-slate-600 mt-2">Click a player to expand their decklist</div>
+        <div className="text-xs text-slate-600 mt-2">Click a player to view their decklist</div>
       </div>
     );
   }
@@ -459,8 +457,6 @@
   // ── Archetype Detail View ─────────────────────────────────────────────────
 
   function ArchetypeDetailView({ decks, arch, navigate }) {
-    const [expanded, setExpanded] = useState(null);
-
     const players = useMemo(() =>
       decks
         .filter(d => (d.archetype || 'Rogue') === arch)
@@ -474,8 +470,6 @@
       return s + r.w + r.l + r.d;
     }, 0);
     const avgWinPct = games > 0 ? wins / games : null;
-
-    const toggleExpand = (pilot) => setExpanded(e => e === pilot ? null : pilot);
 
     return (
       <div>
@@ -517,39 +511,62 @@
         {/* Player list */}
         <div className="rounded-lg border border-slate-700/50 overflow-hidden">
           {players.map((deck, i) => (
-            <div key={deck.pilot} className={i < players.length - 1 || expanded === deck.pilot ? 'border-b border-slate-700/40' : ''}>
+            <div key={deck.pilot} className={i < players.length - 1 ? 'border-b border-slate-700/40' : ''}>
               <button
-                className={`w-full flex items-center gap-3 px-4 py-3 text-sm text-left hover:bg-slate-800/50 transition-colors ${
-                  expanded === deck.pilot ? 'bg-slate-800/50' : i % 2 === 1 ? 'bg-slate-900/30' : ''
-                }`}
-                onClick={() => toggleExpand(deck.pilot)}
+                className={`w-full flex items-center gap-3 px-4 py-3 text-sm text-left hover:bg-slate-800/50 transition-colors ${i % 2 === 1 ? 'bg-slate-900/30' : ''}`}
+                onClick={() => navigate('pilot/' + encodeURIComponent(deck.pilot))}
               >
                 <span className="w-7 text-center text-slate-500 tabular-nums shrink-0">{deck.place ?? '—'}</span>
                 <span className="flex-1 font-medium text-slate-200 truncate">{deck.pilot}</span>
-                <span className="text-amber-400 text-xs w-36 text-left shrink-0 truncate">{deck.unchained_card ?? '—'}</span>
-                <span className="text-slate-400 tabular-nums w-14 text-right shrink-0">{deck.swiss_record ?? '—'}</span>
-                <span className="hidden sm:inline w-10 text-right shrink-0"><WinPct pct={parseRecord(deck.swiss_record).pct} /></span>
+                <span className="text-amber-400 text-sm w-36 text-left shrink-0 truncate">{deck.unchained_card ?? '—'}</span>
+                <span className="hidden sm:inline text-slate-400 tabular-nums w-14 text-right shrink-0">{deck.swiss_record ?? '—'}</span>
                 <span className="hidden sm:inline text-slate-500 w-12 text-right text-xs tabular-nums shrink-0">{deck.final_record ?? ''}</span>
-                <span className="text-slate-600 ml-2 text-xs shrink-0">{expanded === deck.pilot ? '▲' : '▼'}</span>
               </button>
-              {expanded === deck.pilot && <InlineDeck deck={deck} />}
             </div>
           ))}
         </div>
-        <div className="text-xs text-slate-600 mt-2">Click a player to expand their decklist</div>
+        <div className="text-xs text-slate-600 mt-2">Click a player to view their decklist</div>
+      </div>
+    );
+  }
+
+  // ── Pilot Detail View ─────────────────────────────────────────────────────
+
+  function PilotDetailView({ decks, pilot, navigate }) {
+    const deck = decks.find(d => d.pilot === pilot);
+    if (!deck) return <div className="text-slate-500">Pilot not found.</div>;
+    const rec = parseRecord(deck.swiss_record);
+    return (
+      <div>
+        <div className="mb-6">
+          <h2 className="text-2xl font-bold text-slate-100 mb-2">{deck.pilot}</h2>
+          <div className="flex flex-wrap gap-4 text-sm text-slate-400">
+            {deck.archetype && (
+              <button onClick={() => navigate('arch/' + encodeURIComponent(deck.archetype))}
+                className="text-blue-400 hover:text-blue-300 transition-colors">{deck.archetype}</button>
+            )}
+            {deck.unchained_card && (
+              <button onClick={() => navigate('card/' + encodeURIComponent(deck.unchained_card))}
+                className="text-amber-400 hover:text-amber-300 transition-colors">{deck.unchained_card}</button>
+            )}
+            {deck.swiss_record && <span>{deck.swiss_record} swiss</span>}
+            {deck.final_record && <span>{deck.final_record} final</span>}
+            {deck.place && <span>#{deck.place}</span>}
+          </div>
+        </div>
+        <InlineDeck deck={deck} />
       </div>
     );
   }
 
   // ── Players Tab ───────────────────────────────────────────────────────────
 
-  function PlayersTab({ decks, initialArch }) {
+  function PlayersTab({ decks, initialArch, navigate }) {
     const [sortKey, setSortKey] = useState('place');
     const [sortDir, setSortDir] = useState('asc');
     const [filter, setFilter] = useState('');
     const [cardFilter, setCardFilter] = useState('');
     const [archFilter, setArchFilter] = useState(initialArch || '');
-    const [expanded, setExpanded] = useState(null);
 
     const uniqueCards = useMemo(() =>
       ['', ...Array.from(new Set(decks.filter(d => d.unchained_card).map(d => d.unchained_card))).sort()],
@@ -594,8 +611,6 @@
       if (sortKey === key) setSortDir(d => d === 'asc' ? 'desc' : 'asc');
       else { setSortKey(key); setSortDir('asc'); }
     }
-
-    const toggleExpand = (pilot) => setExpanded(e => e === pilot ? null : pilot);
 
     const filteredWins  = sorted.reduce((s, d) => s + (parseRecord(d.swiss_record).w || 0), 0);
     const filteredGames = sorted.reduce((s, d) => { const r = parseRecord(d.swiss_record); return s + r.w + r.l + r.d; }, 0);
@@ -664,12 +679,10 @@
           </div>
 
           {sorted.map((deck, i) => (
-            <div key={deck.pilot} className={i < sorted.length - 1 || expanded === deck.pilot ? 'border-b border-slate-800' : ''}>
+            <div key={deck.pilot} className={i < sorted.length - 1 ? 'border-b border-slate-800' : ''}>
               <button
-                onClick={() => toggleExpand(deck.pilot)}
-                className={`w-full px-4 py-2.5 text-left hover:bg-slate-800/50 transition-colors ${
-                  expanded === deck.pilot ? 'bg-slate-800/50' : i % 2 === 1 ? 'bg-slate-900/20' : ''
-                }`}
+                onClick={() => navigate('pilot/' + encodeURIComponent(deck.pilot))}
+                className={`w-full px-4 py-2.5 text-left hover:bg-slate-800/50 transition-colors ${i % 2 === 1 ? 'bg-slate-900/20' : ''}`}
               >
                 <div className="flex items-center gap-3">
                   <span className="w-6 text-center text-slate-500 tabular-nums text-sm shrink-0">{deck.place ?? '—'}</span>
@@ -679,12 +692,11 @@
                   <span className="w-14 text-left text-slate-500 tabular-nums text-sm shrink-0 hidden sm:inline">{deck.final_record ?? deck.swiss_record ?? '—'}</span>
                 </div>
               </button>
-              {expanded === deck.pilot && <InlineDeck deck={deck} />}
             </div>
           ))}
         </div>
         <div className="text-xs text-slate-600 mt-2">
-          {sorted.length} of {decks.length} players · click row to expand decklist
+          {sorted.length} of {decks.length} players · click to view decklist
         </div>
       </div>
     );
